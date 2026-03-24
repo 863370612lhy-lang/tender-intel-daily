@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tender Archive</title>
+    <style>
+      :root { --bg:#08111a; --panel:#101b27; --line:rgba(255,255,255,.08); --text:#f6fbff; --muted:#9fb2c5; --gold:#f6cd87; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:linear-gradient(180deg,#08111a 0%,#0d1722 100%); color:var(--text); font-family:"Segoe UI","Noto Sans SC",sans-serif; }
+      .shell { width:min(1100px,calc(100% - 28px)); margin:0 auto; padding:22px 0 40px; }
+      .hero { padding:28px; border-radius:28px; background:var(--panel); border:1px solid var(--line); }
+      .hero h1 { margin:0 0 10px; font-size:40px; }
+      .hero p { margin:0; color:var(--muted); line-height:1.9; }
+      .grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:16px; margin-top:18px; }
+      .card { padding:22px; border-radius:24px; background:var(--panel); border:1px solid var(--line); }
+      .card h2 { margin:0 0 12px; font-size:22px; }
+      .links { display:grid; gap:10px; }
+      .links a { display:inline-flex; padding:10px 14px; border-radius:999px; background:linear-gradient(135deg,var(--gold),#fff0ca); color:#08111a; text-decoration:none; font-weight:700; width:max-content; }
+      .empty { margin-top:18px; padding:22px; border-radius:22px; border:1px dashed var(--line); color:var(--muted); text-align:center; }
+      @media (max-width:900px) { .grid { grid-template-columns:1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <section class="hero">
+        <h1>Archive Center</h1>
+        <p>Daily tender snapshots for leadership review, sales follow-up, and historical traceability.</p>
+      </section>
+      <section class="grid"><article class="card">
+              <h2>2026-03-24</h2>
+              <div class="links">
+                <a href="./2026-03-24/index.html">Main</a>
+                <a href="./2026-03-24/executive.html">Executive</a>
+                <a href="./2026-03-24/sales.html">Sales</a>
+                <a href="./2026-03-24/latest.json">JSON</a>
+              </div>
+            </article></section>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>老板简报 Executive Brief | 招标雷达 Tender Radar</title>
+    <style>
+      :root { --bg:#08111a; --panel:#0f1924; --panel-soft:#121f2d; --line:rgba(255,255,255,.08); --text:#f6fbff; --muted:#9db0c1; --gold:#f6cd87; --mint:#7ff1d1; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:linear-gradient(180deg,#08111a 0%,#0d1823 100%); color:var(--text); font-family:"Segoe UI","Noto Sans SC",sans-serif; }
+      .shell { width:min(1280px,calc(100% - 28px)); margin:0 auto; padding:22px 0 42px; }
+      .quick-nav { margin-bottom:16px; display:flex; flex-wrap:wrap; gap:10px; }
+      .quick-link { display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:999px; border:1px solid var(--line); background:rgba(255,255,255,.04); color:var(--text); text-decoration:none; font-size:13px; }
+      .hero { padding:28px; border:1px solid var(--line); border-radius:30px; background:radial-gradient(circle at top right, rgba(127,241,209,.16), transparent 24%), var(--panel); }
+      .hero h1 { margin:8px 0 12px; font-size:44px; line-height:1.06; }
+      .hero p { margin:0; color:var(--muted); line-height:1.9; }
+      .kpis { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:12px; margin-top:18px; }
+      .kpi { padding:16px; border-radius:20px; background:var(--panel-soft); border:1px solid var(--line); }
+      .kpi span { display:block; color:var(--muted); font-size:12px; }
+      .kpi strong { display:block; margin-top:8px; font-size:28px; }
+      .layout { display:grid; grid-template-columns:1.15fr .85fr; gap:18px; margin-top:20px; }
+      .panel { padding:24px; border-radius:28px; border:1px solid var(--line); background:var(--panel); }
+      .panel h2 { margin:0 0 14px; font-size:18px; letter-spacing:.08em; text-transform:uppercase; }
+      .lead-list, .health-list { display:grid; gap:14px; }
+      .lead-card, .health-card { padding:18px; border-radius:22px; background:var(--panel-soft); border:1px solid var(--line); }
+      .lead-top { display:flex; gap:8px; }
+      .pill { display:inline-flex; padding:6px 10px; border-radius:999px; background:#f6cd87; color:#08111a; font-size:12px; font-weight:700; }
+      .pill.soft { background:rgba(255,255,255,.08); color:var(--text); }
+      .lead-card h3 { margin:12px 0 8px; font-size:20px; line-height:1.45; }
+      .lead-card p, .health-card p { margin:0; color:var(--muted); line-height:1.8; }
+      .meta-row { display:flex; justify-content:space-between; gap:12px; margin-top:12px; color:var(--muted); font-size:12px; }
+      .cta { display:inline-flex; margin-top:14px; padding:10px 14px; border-radius:999px; background:linear-gradient(135deg,var(--gold),#fff0ca); color:#08111a; text-decoration:none; font-weight:700; }
+      table { width:100%; border-collapse:collapse; }
+      th,td { padding:12px 10px; border-bottom:1px solid var(--line); text-align:left; font-size:13px; }
+      th { color:var(--muted); }
+      .empty { padding:20px; border:1px dashed var(--line); border-radius:20px; color:var(--muted); text-align:center; }
+      @media (max-width:1000px) { .layout,.kpis { grid-template-columns:1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <div class="quick-nav">
+        <a class="quick-link" href="./index.html">总览首页 Main</a>
+        <a class="quick-link" href="./sales.html">销售页 Sales</a>
+        <a class="quick-link" href="./archive/index.html">历史归档 Archive</a>
+      </div>
+      <section class="hero">
+        <div style="font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--mint);font-weight:800;">老板简报 Executive Brief</div>
+        <h1>管理层快照 Management Snapshot</h1>
+        <p>本次共采集 8 条公开项目，优先跟进烟草系统与吸烟空间直接机会。 / 8 public notices collected; prioritize tobacco-system and smoking-space direct-fit opportunities first.</p>
+        <p style="margin-top:10px;">生成时间 Generated 2026-03-24 11:32 | 报告日期 Report date 2026-03-24</p>
+        <div class="kpis">
+          <div class="kpi"><span>项目总数 Total notices</span><strong>8</strong></div>
+          <div class="kpi"><span>直接匹配 Direct fits</span><strong>1</strong></div>
+          <div class="kpi"><span>高优先级 High priority</span><strong>0</strong></div>
+          <div class="kpi"><span>健康来源 Healthy sources</span><strong>1</strong></div>
+          <div class="kpi"><span>种子来源 Seed sources</span><strong>10</strong></div>
+          <div class="kpi"><span>回退检索 Fallback queries</span><strong>26</strong></div>
+        </div>
+      </section>
+      <section class="layout">
+        <div class="panel">
+          <h2>重点机会 Priority Leads</h2>
+          <div class="lead-list"><article class="lead-card">
+          <div class="lead-top">
+            <span class="pill">Medium</span>
+            <span class="pill soft">Direct</span>
+          </div>
+          <h3>常德烟草机械有限责任公司所需真空退火炉项目评标结果公示公告_交易公开_国家公共资源交易平台</h3>
+          <p>tobacco system notice matched keyword &#x27;site:ggzy.gov.cn 烟草公司 招标公告&#x27; on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.</p>
+          <div class="meta-row">
+            <span>发布时间 Published: 2026-02-09</span>
+            <span>地区 Region: Unknown</span>
+          </div>
+          <a class="cta" href="https://www.ggzy.gov.cn/information/deal/html/a/430000/0104/20260309/a908216ade0d42d0a02f310a4340c4d9.html" target="_blank" rel="noreferrer">查看原公告 Open notice</a>
+        </article></div>
+        </div>
+        <div class="panel">
+          <h2>来源健康 Source Health</h2>
+          <div class="health-list"><div class="health-card">
+          <strong>China Government Procurement</strong>
+          <span>状态 Status: error / 15</span>
+          <p>500 Server Error: Internal Server Error for url: https://search.ccgp.gov.cn/bxsearch?searchtype=1&amp;page_index=3&amp;bidType=7&amp;dbselect=bidx&amp;kw=%E5%B2%97%E4%BA%AD&amp;start_time=2026-03-17&amp;end_time=2026-03-24&amp;timeType=6</p>
+        </div><div class="health-card">
+          <strong>National Public Resource Trading Platform</strong>
+          <span>状态 Status: error / 39</span>
+          <p>HTTPSConnectionPool(host=&#x27;deal.ggzy.gov.cn&#x27;, port=443): Max retries exceeded with url: /ds/deal/dealList.jsp?TIMEBEGIN_SHOW=2026-03-17&amp;TIMEEND_SHOW=2026-03-24&amp;TIMEBEGIN=2026-03-17&amp;TIMEEND=2026-03-24&amp;DEAL_TIME=02&amp;FINDTXT=%E5%B2%97%E4%BA%AD&amp;currentPage=3&amp;pageNo=3 (Caused by SSLErro</p>
+        </div><div class="health-card">
+          <strong>Yahoo Search Fallback</strong>
+          <span>状态 Status: ok / 12</span>
+          <p>No result extracted for query: site:ggzy.hengyang.gov.cn 文明吸烟环境 建设 项目</p>
+        </div></div>
+        </div>
+      </section>
+      <section class="panel" style="margin-top:18px;">
+        <h2>关注池 Watchlist</h2>
+        <table>
+          <thead><tr><th>项目 Notice</th><th>发布时间 Published</th><th>类型 Type</th></tr></thead>
+          <tbody><tr>
+          <td>高新区(弋江区)44座公厕日常管养服务项目招标公告</td>
+          <td>2026-03-16</td>
+          <td>Adjacent</td>
+        </tr><tr>
+          <td>赤岸镇美丽公厕建设三标段招标公告</td>
+          <td>2026-03-13</td>
+          <td>Adjacent</td>
+        </tr><tr>
+          <td>【市政环境服务】厦门公物-公开招标-GW2025-QY594-公厕自动售卖机服务-招标公告_厦门市集美区人民政府门户网站</td>
+          <td>2026-03-11</td>
+          <td>Adjacent</td>
+        </tr><tr>
+          <td>青岛天后宫前院东厢房展柜改造提升项目招标公告_青岛政务网</td>
+          <td>2026-03-09</td>
+          <td>Adjacent</td>
+        </tr><tr>
+          <td>福州市鼓楼区环境卫生中心关于2026年度公厕改造提升项目市场询价的公告</td>
+          <td>2026-03-06</td>
+          <td>Adjacent</td>
+        </tr><tr>
+          <td>by.gov.cn www.by.gov.cn › gzbyrhz › gkmlpt 人和镇公厕保洁与维护服务（2026—2027年）采购项目招标公告</td>
+          <td>2026-03-06</td>
+          <td>Adjacent</td>
+        </tr></tbody>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>

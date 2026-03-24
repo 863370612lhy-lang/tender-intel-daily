@@ -1,0 +1,4171 @@
+{
+  "generated_at": "2026-03-23 14:59:17",
+  "workbook_name": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+  "summary": {
+    "total_items": 208,
+    "tobacco_related_items": 178,
+    "province_count": 40,
+    "source_host_count": 7,
+    "top_provinces": [
+      {
+        "name": "江苏",
+        "count": 27
+      },
+      {
+        "name": "浙江",
+        "count": 15
+      },
+      {
+        "name": "山东",
+        "count": 12
+      },
+      {
+        "name": "辽宁",
+        "count": 12
+      },
+      {
+        "name": "福建省",
+        "count": 11
+      },
+      {
+        "name": "湖南",
+        "count": 10
+      },
+      {
+        "name": "福建",
+        "count": 9
+      },
+      {
+        "name": "四川",
+        "count": 9
+      }
+    ],
+    "top_sheets": [
+      {
+        "name": "文明吸烟环境",
+        "count": 145
+      },
+      {
+        "name": "移动公厕",
+        "count": 30
+      },
+      {
+        "name": "吸烟亭",
+        "count": 29
+      },
+      {
+        "name": "吸烟室",
+        "count": 4
+      }
+    ],
+    "top_hosts": [
+      {
+        "name": "www.bidcenter.com.cn",
+        "count": 146
+      },
+      {
+        "name": "user.bidcenter.com.cn",
+        "count": 53
+      },
+      {
+        "name": "未标注来源域名",
+        "count": 4
+      },
+      {
+        "name": "bulletin.cebpubservice.com",
+        "count": 2
+      },
+      {
+        "name": "www.ccgp.gov.cn",
+        "count": 1
+      },
+      {
+        "name": "fileyun.bidcenter.com.cn",
+        "count": 1
+      }
+    ]
+  },
+  "items": [
+    {
+      "id": 149,
+      "sheet": "吸烟室",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "德州",
+      "title": "山东德州烟草有限公司2024年文明吸烟环境室内 、室外吸烟室建设工程招标公告",
+      "budget": "",
+      "buy_window": "2024年11月16日至2024年11月22日",
+      "open_time": "2024-12-06",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/322116600?mod=0&type=1,5&tag=1&keywords=%E5%AE%A4%E5%86%85%2B%E5%90%B8%E7%83%9F%E5%AE%A4",
+      "alt_urls": [
+        "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/322116600?mod=0&type=1,5&tag=1&keywords=%E5%AE%A4%E5%86%85%2B%E5%90%B8%E7%83%9F%E5%AE%A5"
+      ],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境",
+        "吸烟室"
+      ],
+      "relevance": 9,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 168,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏省",
+      "city": "盐城",
+      "title": "2024江苏省烟草公司盐城市公司文明吸烟 环境设施（吸烟亭）购置项目招标公告- 招标公告",
+      "budget": "28.26万元",
+      "buy_window": "2024年10月31日至2024年11月05日",
+      "open_time": "2024-11-22",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/318287753?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境",
+        "吸烟亭"
+      ],
+      "relevance": 9,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 167,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "扬州",
+      "title": "江苏省烟草公司扬州市公司2024扬州市公司江都分公司文明吸烟环境设施（吸烟亭、室）建设项目招标公告",
+      "budget": "15万元",
+      "buy_window": "2024年10月22日至2024年10月29日",
+      "open_time": "2024-11-12",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/316240753?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境",
+        "吸烟亭"
+      ],
+      "relevance": 9,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 100,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江西",
+      "city": "九江市",
+      "title": "江西省烟草公司九江市公司2024年文明吸烟环境建设 （吸烟室）采购项目招标公告",
+      "budget": "6.3万元",
+      "buy_window": "2024年06月11日至2024年06月17日",
+      "open_time": "2024-07-10",
+      "url": "https://www.bidcenter.com.cn/news-289794384-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境",
+        "吸烟室"
+      ],
+      "relevance": 9,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 88,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "河北",
+      "city": "沧州市",
+      "title": "河北省烟草公司沧州市公司2023年度采购文明吸烟环 境建设室外吸烟亭项目竞争性磋商公告",
+      "budget": "60000元",
+      "buy_window": "2023年11月23日至2023年11月 29日",
+      "open_time": "2023-12-05",
+      "url": "https://www.bidcenter.com.cn/news-259564200-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境",
+        "吸烟亭"
+      ],
+      "relevance": 9,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 39,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江西",
+      "city": "九江市",
+      "title": "江西省烟草公司九江市公司2023年文明吸烟环境建设 （烟立柱、吸烟室）采购项目招标公告",
+      "budget": "29.856万元",
+      "buy_window": "2023年6月25日至2023年6月 29日",
+      "open_time": "2023-07-21",
+      "url": "https://www.bidcenter.com.cn/news-234213326-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境",
+        "吸烟室"
+      ],
+      "relevance": 9,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 24,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南",
+      "city": "湘潭市",
+      "title": "湘潭市烟草专卖局（公司）文明吸烟环境建设项目 （一标段：环保吸烟亭）第二次采购公告",
+      "budget": "98.5466万元",
+      "buy_window": "2023年05月19日到2023年05月 26日",
+      "open_time": "2023-06-12",
+      "url": "https://www.bidcenter.com.cn/news-228967669-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境",
+        "吸烟亭"
+      ],
+      "relevance": 9,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 21,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "扬州市",
+      "title": "江苏省烟草公司扬州市公司2023扬州市公司文明吸 烟环境设施采购项目（吸烟亭",
+      "budget": "37.78万元",
+      "buy_window": "2023年05月04日到2023年05 月09日",
+      "open_time": "2023-05-24",
+      "url": "https://www.bidcenter.com.cn/news-226613629-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境",
+        "吸烟亭"
+      ],
+      "relevance": 9,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 144,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建",
+      "city": "厦门市",
+      "title": "福建省烟草公司厦门市公司关于2025-2026年文明吸烟环境建设相关物料定点供应商的采购项目招标公告",
+      "budget": "100万元",
+      "buy_window": "2024年11月22日至2024年12月 02日",
+      "open_time": "2024-12-17",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/323557511?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 143,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "铁岭市",
+      "title": "辽宁省烟草公司铁岭市公司2024年度文明吸烟环境建 设项目招标公告",
+      "budget": "150000.00元",
+      "buy_window": "2024年11月25日至2024年11月 29日",
+      "open_time": "2024-12-16",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/323770013?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 142,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南",
+      "city": "益阳",
+      "title": "湖南省烟草公司益阳市公司关于2024年度文明吸烟环 境建设项目",
+      "budget": "384000+390000元",
+      "buy_window": "2024年11月21日起至2024年11 月27日",
+      "open_time": "2024-12-12",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/323143869?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 141,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "威海市",
+      "title": "山东威海烟草有限公司2024 年文明吸烟环境建设项 目招标公告",
+      "budget": "752000.00 元",
+      "buy_window": "2024年11月13日至2024年11月 20日",
+      "open_time": "2024-12-05",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/321471843?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 140,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "青海",
+      "city": "",
+      "title": "中国烟草总公司青海省公司文明吸烟环境建设采购项 目标段一",
+      "budget": "526000元",
+      "buy_window": "2024年11月07日到2024年11月 26日",
+      "open_time": "2024-11-26",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/319594084?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 138,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "陕西省",
+      "city": "延安市",
+      "title": "陕西省烟草公司延安市公司2024年文明吸烟环境建设 项目招标公告",
+      "budget": "67,672万元",
+      "buy_window": "2024年10月30日到2024年11月 05日",
+      "open_time": "2024-11-20",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/317917505?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 136,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "枣庄",
+      "title": "山东枣庄烟草有限公司文明吸烟环境建设项目",
+      "budget": "",
+      "buy_window": "2024年10月25日至2024年10月 31日",
+      "open_time": "2024-11-14",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/316886789?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 134,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "西藏",
+      "city": "",
+      "title": "河北中烟工业有限责任公司“品牌宣传推广活动-西藏 工商协同开展文明吸烟环境建设活动”项目招标公告",
+      "budget": "",
+      "buy_window": "2024年10月22日至2024年10月 28日",
+      "open_time": "2024-11-12",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/316111153?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 133,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "日照",
+      "title": "日照烟草2024年文明吸烟环境建设定点供应商招标公 告",
+      "budget": "44.8万元",
+      "buy_window": "2024年10月22日至2024年10月 28日",
+      "open_time": "2024-11-12",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/315986404?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 131,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "莱芜",
+      "title": "山东莱芜烟草有限公司文明吸烟环境建设项目招标公 告",
+      "budget": "32.5万元",
+      "buy_window": "2024年09月30日至2024年10月 22日",
+      "open_time": "2024-10-23",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/312422592?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 129,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南",
+      "city": "湘潭市",
+      "title": "湘潭市烟草专卖局（公司）文明吸烟环境建设项目采 购公告",
+      "budget": "128万元",
+      "buy_window": "2024年09月24日至2024年09月 30日",
+      "open_time": "2024-10-17",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/311057443?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 126,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "重庆",
+      "city": "",
+      "title": "中国烟草总公司重庆市公司销售分公司2024年文明吸 烟环境建设维护服务采购-招标采购公告",
+      "budget": "",
+      "buy_window": "2024年09月02日至2024年09月 20日",
+      "open_time": "2024-09-20",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/306171193?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 127,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江西",
+      "city": "新余",
+      "title": "江西省烟草公司新余市公司关于2024年文明吸烟环境 建设项目（项目编号：CG020245503）的公开招标公 告",
+      "budget": "9.86万元",
+      "buy_window": "2024年8月29日至2024年9月5日",
+      "open_time": "2024-09-19",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/306134909?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 124,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南",
+      "city": "怀化",
+      "title": "湖南省烟草公司怀化市公司2024年文明吸烟环境建设 （五期）项目招标公告",
+      "budget": "",
+      "buy_window": "2024年8月21日起至2024年8月 27日",
+      "open_time": "2024-09-10",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/304580130?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 122,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南省",
+      "city": "株洲市",
+      "title": "湖南省烟草公司株洲市公司2024年文明吸烟环境建设 项目包二重新招标招标公告",
+      "budget": "454170元",
+      "buy_window": "2024年8月14日起至2024年8月 21日",
+      "open_time": "2024-09-04",
+      "url": "",
+      "alt_urls": [],
+      "host": "未标注来源域名",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 115,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建",
+      "city": "福州市",
+      "title": "福州烟草2024年文明吸烟环境建设采购项目",
+      "budget": "",
+      "buy_window": "2024年08月06日至2024年08月 13日",
+      "open_time": "2024-08-29",
+      "url": "https://www.bidcenter.com.cn/news-301803552-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 117,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建",
+      "city": "福州市",
+      "title": "福州烟草2024年文明吸烟环境建设采购项目",
+      "budget": "",
+      "buy_window": "2024年08月06日至2024年08月 13日",
+      "open_time": "2024-08-29",
+      "url": "https://www.bidcenter.com.cn/news-301803552-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 119,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "嘉兴市",
+      "title": "大地工程咨询有限公司关于2024年度嘉兴烟草全地区 文明吸烟环境建设采购项目的公开招标公告",
+      "budget": "200万元",
+      "buy_window": "2024年08月07日至2024年08月 28日",
+      "open_time": "2024-08-28",
+      "url": "https://www.bidcenter.com.cn/news-302052935-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 120,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "河南省",
+      "city": "焦作市",
+      "title": "河南省烟草公司焦作市公司文明吸烟环境建设采购项目招标公告",
+      "budget": "",
+      "buy_window": "2024年08月07日至2024年08月 14日",
+      "open_time": "2024-08-28",
+      "url": "https://www.bidcenter.com.cn/news-302190062-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 116,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "四川",
+      "city": "眉山市",
+      "title": "四川省烟草公司眉山市公司2024年文明吸烟环境建设 设施设备采购招标公告",
+      "budget": "",
+      "buy_window": "2024年08月06日至2024年08月 12日",
+      "open_time": "2024-08-27",
+      "url": "https://www.bidcenter.com.cn/news-301585944-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 114,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "河南省",
+      "city": "郑州",
+      "title": "郑州市烟草公司北城区分公司文明吸烟环境建设采购 项目招标公告",
+      "budget": "",
+      "buy_window": "2024年07月31日至2024年08月07日",
+      "open_time": "2024-08-21",
+      "url": "https://www.bidcenter.com.cn/news-300489894-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 112,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "西藏",
+      "city": "日喀则市",
+      "title": "西藏自治区烟草公司日喀则市公司2024年文明吸烟环 境建设项目（二次）",
+      "budget": "248950元",
+      "buy_window": "2024年07月25日到2024年07月 30日",
+      "open_time": "2024-08-14",
+      "url": "https://www.bidcenter.com.cn/news-299712462-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 111,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "东营市",
+      "title": "山东东营烟草有限公司选取文明吸烟环境建设供应商 项目招标公告",
+      "budget": "70万元",
+      "buy_window": "2024年07月08日至2024年07月 12日",
+      "open_time": "2024-08-01",
+      "url": "https://www.bidcenter.com.cn/news-295545878-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 109,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南省",
+      "city": "常德市",
+      "title": "湖南省烟草公司常德市公司2024年文明吸烟环境建设 项目招标公告",
+      "budget": "420万",
+      "buy_window": "2024年07月04日至2024年07月 10日",
+      "open_time": "2024-07-25",
+      "url": "https://www.bidcenter.com.cn/news-294984868-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 108,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南省",
+      "city": "张家界",
+      "title": "湖南省烟草公司张家界市公司关于2024年文明吸烟环 境建设项目施工招标公告",
+      "budget": "99.91万",
+      "buy_window": "2024年07月01日至2024年07月 08日",
+      "open_time": "2024-07-23",
+      "url": "https://www.bidcenter.com.cn/news-294307944-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 107,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "泰安市",
+      "title": "山东泰安烟草有限公司文明吸烟环境建设定点供应商 公开招标公告",
+      "budget": "",
+      "buy_window": "2024年06月21日至2024年06月 27日",
+      "open_time": "2024-07-16",
+      "url": "https://www.bidcenter.com.cn/news-292126960-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 102,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南省",
+      "city": "邵阳市",
+      "title": "湖南省烟草公司邵阳市公司2024年度全市文明吸烟环境建设采购项目招标公告",
+      "budget": "200万元",
+      "buy_window": "2024年06月13日至2024年06月 20日",
+      "open_time": "2024-07-04",
+      "url": "https://www.bidcenter.com.cn/news-290572421-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 103,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "西藏",
+      "city": "日喀则市",
+      "title": "西藏自治区烟草公司日喀则市公司2024年文明吸烟环 境建设项目",
+      "budget": "248950元",
+      "buy_window": "2024年06月13日至2024年06月 19日",
+      "open_time": "2024-07-03",
+      "url": "https://www.bidcenter.com.cn/news-290533482-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 101,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "烟台市",
+      "title": "山东烟台烟草有限公司文明吸烟环境建设供应商2024 -2026招标公告",
+      "budget": "",
+      "buy_window": "2024年06月08日至2024年06月17日",
+      "open_time": "2024-06-28",
+      "url": "https://www.bidcenter.com.cn/news-289826604-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 99,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "安徽",
+      "city": "合肥市",
+      "title": "安徽省烟草公司合肥市公司文明吸烟环境建设（2024 年）招标公告",
+      "budget": "",
+      "buy_window": "2024年05月30日至2024年06月 10日",
+      "open_time": "2024-06-20",
+      "url": "https://www.bidcenter.com.cn/news-288082171-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 98,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南",
+      "city": "吉首市",
+      "title": "[公开招标]湖南省烟草公司湘西自治州公司关于2024 年-2025年文明吸烟环境建设项目[正在下载]",
+      "budget": "786313.86元",
+      "buy_window": "2024年05月27日至2024年06月03日",
+      "open_time": "2024-06-18",
+      "url": "https://www.bidcenter.com.cn/news-287365491-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 97,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江西",
+      "city": "鹰潭市",
+      "title": "江西省机电设备招标有限公司关于江西省烟草公司鹰 潭市公司文明吸烟环境建设设备采购项目公开招标公 告",
+      "budget": "7.98 万元",
+      "buy_window": "2024年05月10日至2024年05月 15日",
+      "open_time": "2024-05-30",
+      "url": "https://www.bidcenter.com.cn/news-284049339-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 96,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建",
+      "city": "泉州",
+      "title": "福建省烟草公司泉州市公司泉州市局2024年文明吸烟 环境建设物料采购项目招标公告",
+      "budget": "149.850000万元",
+      "buy_window": "2024年04月22日至2024年05月 14日",
+      "open_time": "2024-05-14",
+      "url": "https://www.bidcenter.com.cn/news-281256958-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 93,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "西藏",
+      "city": "拉萨市",
+      "title": "西藏自治区烟草公司拉萨市公司2024年文明吸烟环境 建设项目招标公告",
+      "budget": "280572.65 元",
+      "buy_window": "2024年4月7日至2024年04月11 日",
+      "open_time": "2024-04-29",
+      "url": "https://www.bidcenter.com.cn/news-278880857-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 92,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "金华市",
+      "title": "浙江中通通信有限公司关于2024年度金华市烟草文明 吸烟环境项目的公开招标公告",
+      "budget": "315万元",
+      "buy_window": "2024年02月27日至2024年03月 18日",
+      "open_time": "2024-03-19",
+      "url": "https://www.bidcenter.com.cn/news-272786639-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 91,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "四川",
+      "city": "遂宁市",
+      "title": "遂宁市农业农村局2023年烟草销售农网示范终端及文 明吸烟环境建设(二次)招标公告",
+      "budget": "750,000.00元",
+      "buy_window": "2023年12月28日至2024年01月 04日",
+      "open_time": "2024-01-17",
+      "url": "https://www.bidcenter.com.cn/news-266283701-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 94,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建",
+      "city": "龙岩市",
+      "title": "福建省烟草公司龙岩市公司文明吸烟环境建设设施设 备及相关物料采购2024年",
+      "budget": "340 万",
+      "buy_window": "2024年04月11日至2024年05月6日",
+      "open_time": "2024 年5月6日",
+      "url": "https://www.bidcenter.com.cn/news-279640811-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 18,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建省",
+      "city": "龙岩市",
+      "title": "福建省烟草公司龙岩市公司文明吸烟环境建设采购 项目2023年招标公告",
+      "budget": "300万",
+      "buy_window": "2023年4月20至2023年5月16",
+      "open_time": "2023年5月16",
+      "url": "https://www.bidcenter.com.cn/news-224775088-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 19,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "陕西省",
+      "city": "汉中市",
+      "title": "陕西省烟草公司汉中市公司文明吸烟环境建设项目 招标公告",
+      "budget": "",
+      "buy_window": "2023年4月24至2023年4月28",
+      "open_time": "2023年5月15",
+      "url": "https://www.bidcenter.com.cn/news-225333944-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 1,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "西藏",
+      "city": "拉萨",
+      "title": "西藏自治区烟草公司拉萨市公司2022年文 明吸烟环境建设项目公开招标公告",
+      "budget": "28.888569 万元",
+      "buy_window": "2023年2月6日至2023年 2月10日",
+      "open_time": "2023年03月01日 10点00分",
+      "url": "https://www.bidcenter.com.cn/news-213928248-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 15,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "广西",
+      "city": "北海市",
+      "title": "广西壮族自治区烟草公司北海市公司 2023年文明吸烟环境建设物资采购招标公告",
+      "budget": "429,199.22元",
+      "buy_window": "2023年 04月 18日至2023年 04月 26日",
+      "open_time": "2023年 05月 09日",
+      "url": "https://www.bidcenter.com.cn/news-224291825-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 90,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "威海市",
+      "title": "山东威海烟草有限公司2023年文明吸烟环境建设项目 招标公告",
+      "budget": "390017.91元",
+      "buy_window": "2023年11月30日至2023年12月 07日",
+      "open_time": "2023-12-22",
+      "url": "https://www.bidcenter.com.cn/news-260960121-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 89,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "四川",
+      "city": "雅安市",
+      "title": "雅安烟草2023年文明吸烟环境建设项目",
+      "budget": "20万元",
+      "buy_window": "2023年11月30日至2023年12月 06日",
+      "open_time": "2023-12-21",
+      "url": "https://www.bidcenter.com.cn/news-260622152-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 87,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "四川",
+      "city": "遂宁市",
+      "title": "遂宁市农业农村局2023年烟草销售农网示范终端及文 明吸烟环境建设招标公告",
+      "budget": "750,000.00元",
+      "buy_window": "2023年11月24日至2023年11月 30日",
+      "open_time": "2023-12-14",
+      "url": "https://www.bidcenter.com.cn/news-259420704-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 86,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建",
+      "city": "莆田",
+      "title": "莆田市烟草公司文明吸烟环境建设定点供应商采购项 目",
+      "budget": "285万元",
+      "buy_window": "2023年11月08日至2023年11月 28日",
+      "open_time": "2023-11-29",
+      "url": "https://www.bidcenter.com.cn/news-256442034-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 85,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "朝阳市",
+      "title": "辽宁省烟草公司朝阳市公司2023年文明吸烟环境建设 项目公开招标公告",
+      "budget": "69.300000 万元",
+      "buy_window": "2023年11月07日至2023年11月 13日",
+      "open_time": "2023-11-28",
+      "url": "https://www.bidcenter.com.cn/news-256195853-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 84,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "铁岭市",
+      "title": "辽宁省烟草公司铁岭市公司2023年文明吸烟环境建设 招标公告",
+      "budget": "",
+      "buy_window": "2023年11月06日至2023年11月 10日",
+      "open_time": "2023-11-27",
+      "url": "https://www.bidcenter.com.cn/news-255483245-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 83,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "四川",
+      "city": "雅安市",
+      "title": "雅安烟草2023-2026年文明吸烟环境建设项目招标公 告",
+      "budget": "140万元",
+      "buy_window": "2023年10月31日至2023年11月 21日",
+      "open_time": "2023-11-23",
+      "url": "https://www.bidcenter.com.cn/news-254829599-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 82,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "威海市",
+      "title": "山东威海烟草有限公司2023-2025年文明吸烟环境设 施维保服务供应商采购公开招标公告",
+      "budget": "9.00 万元",
+      "buy_window": "2023年10月27日到2023年11月 03日",
+      "open_time": "2023-11-17",
+      "url": "https://www.bidcenter.com.cn/news-254225519-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 80,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南",
+      "city": "永州市",
+      "title": "湖南省烟草公司永州市公司2023年文明吸烟环境建设 采购项目招标公告",
+      "budget": "292440.00元",
+      "buy_window": "2023年10月25日至2023年10月31",
+      "open_time": "2023-11-14",
+      "url": "https://www.bidcenter.com.cn/news-253342724-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 81,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山西省",
+      "city": "大同市",
+      "title": "山西省烟草公司大同市公司文明吸烟环境建设设备维 护项目招标公告",
+      "budget": "",
+      "buy_window": "2023年10月23日到2023年10月 30日",
+      "open_time": "2023-11-14",
+      "url": "https://www.bidcenter.com.cn/news-253163679-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 79,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "海南",
+      "city": "海口市",
+      "title": "海南省烟草公司海口公司2023年度文明吸烟环境建设 项目",
+      "budget": "",
+      "buy_window": "2023年10月17日至2023年10月 23日",
+      "open_time": "2023-11-06",
+      "url": "https://www.bidcenter.com.cn/news-251966141-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 75,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "沈阳市",
+      "title": "辽宁省烟草公司沈阳市公司2023年文明吸烟环境建设项目（二次）公开招标",
+      "budget": "119.337万元",
+      "buy_window": "2023年10月11日到2023年10月 18日",
+      "open_time": "2023-11-03",
+      "url": "https://www.bidcenter.com.cn/news-251073038-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 74,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "嘉兴市",
+      "title": "浙江省烟草公司嘉兴市公司2023年度嘉兴烟草全地区 文明吸烟环境建设采购项目（第二批）的公开招标公 告",
+      "budget": "",
+      "buy_window": "2023年09月26日到2023年10月 09日",
+      "open_time": "2023-10-19",
+      "url": "https://www.bidcenter.com.cn/news-249142773-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 72,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "四川",
+      "city": "资阳市",
+      "title": "四川省烟草公司资阳市公司2023年文明吸烟环境建设 采购项目招标公告",
+      "budget": "",
+      "buy_window": "2023年9月21日至2023年9月27 日",
+      "open_time": "2023-10-11",
+      "url": "https://www.bidcenter.com.cn/news-247959768-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 71,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "沈阳",
+      "title": "辽宁省烟草公司沈阳市公司2023年文明吸烟环境建设 项目招标公告",
+      "budget": "119.337万元",
+      "buy_window": "2023年9月13日至2023年9月20 日",
+      "open_time": "2023-10-09",
+      "url": "https://www.bidcenter.com.cn/news-246859599-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 68,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建省",
+      "city": "福州",
+      "title": "福州烟草2023年文明吸烟环境建设采购项目招标公告",
+      "budget": "",
+      "buy_window": "2023年09月07日至2023年09月 13日",
+      "open_time": "2023-09-27",
+      "url": "https://www.bidcenter.com.cn/news-245826852-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 65,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "陕西省",
+      "city": "延安市",
+      "title": "陕西省烟草公司延安市公司 2023 年文明吸烟环境建 设采购项目招标公告",
+      "budget": "63万元",
+      "buy_window": "2023年09月05日到2023年09月 11日",
+      "open_time": "2023-09-25",
+      "url": "https://www.bidcenter.com.cn/news-245419684-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 66,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "广西",
+      "city": "贵港",
+      "title": "贵港烟草2023年文明吸烟环境建设采购项目公开招标 公告",
+      "budget": "61.3007万元",
+      "buy_window": "2023年09月06日至2023年09月 13日",
+      "open_time": "2023-09-23",
+      "url": "https://www.bidcenter.com.cn/news-245700346-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 61,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖北省",
+      "city": "荆门市",
+      "title": "湖北省烟草公司荆门市公司文明吸烟环境建设物料采 购项目招标公告",
+      "budget": "108万元",
+      "buy_window": "2023年08月25日到2023年08月 31日",
+      "open_time": "2023-09-19",
+      "url": "https://www.bidcenter.com.cn/news-243703082-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 58,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "西藏",
+      "city": "日喀则市",
+      "title": "西藏自治区烟草公司日喀则市公司2022年文明吸烟环 境建设项目公开招标公告",
+      "budget": "78.201861万元",
+      "buy_window": "2023年08月21日至2023年08月 25日",
+      "open_time": "2023-09-11",
+      "url": "https://www.bidcenter.com.cn/news-243040525-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 57,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "广西",
+      "city": "崇左市",
+      "title": "崇左烟草2023年文明吸烟环境建设采购项目招标公告",
+      "budget": "",
+      "buy_window": "2023年08月17日到2023年08月 24日",
+      "open_time": "2023-09-07",
+      "url": "https://www.bidcenter.com.cn/news-242701232-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 55,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南省",
+      "city": "丽江市",
+      "title": "云南省烟草云南省烟草公司丽江市公司2023年文明吸 烟环境建设项目招标公告",
+      "budget": "629247.04元",
+      "buy_window": "2023年8月9日至2023年8月15 日",
+      "open_time": "2023-09-01",
+      "url": "https://www.bidcenter.com.cn/news-241451892-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 53,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖北省",
+      "city": "常德市",
+      "title": "湖南省烟草公司常德市公司2023年文明吸烟环境建 设项目二标段（第二次）招标公告",
+      "budget": "41.888159万元",
+      "buy_window": "2023年08月03日到2023年08月 09日",
+      "open_time": "2023-08-23",
+      "url": "https://www.bidcenter.com.cn/news-240498369-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 50,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江西",
+      "city": "赣州市",
+      "title": "赣州市长诚工程咨询有限公司关于江西省烟草公司赣 州市公司2023年文明吸烟环境建设项目的公开招标公 告",
+      "budget": "120.000000万元（人民币）",
+      "buy_window": "2023年07月26日 至 2023年08 月01日",
+      "open_time": "2023-08-23",
+      "url": "https://www.bidcenter.com.cn/news-239437297-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 51,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "四川",
+      "city": "攀枝花市",
+      "title": "四川省烟草公司攀枝花市公司2023年文明吸烟环境 建设招标公告",
+      "budget": "",
+      "buy_window": "2023年7月26日至2023年8月1 日",
+      "open_time": "2023-08-18",
+      "url": "https://www.bidcenter.com.cn/news-239316207-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 47,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "鞍山",
+      "title": "辽宁省烟草公司鞍山市公司2023年文明吸烟环境建设 项目公开招标公告",
+      "budget": "100.000000万",
+      "buy_window": "2023年07月11日至2023年07月 17日",
+      "open_time": "2023-08-03",
+      "url": "https://www.bidcenter.com.cn/news-236990794-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 49,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "安徽",
+      "city": "安庆",
+      "title": "安徽省烟草公司安庆市公司文明吸烟环境建设设施采 购项目招标公告",
+      "budget": "860000.00元",
+      "buy_window": "2023年7月12日起至2023年7月 19",
+      "open_time": "2023-08-01",
+      "url": "https://www.bidcenter.com.cn/news-237371423-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 45,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏省",
+      "city": "苏州",
+      "title": "关于江苏省烟草公司苏州市公司 2023年苏州市公司 文明吸烟环境建设项目（工程）（重发）的 招标公告",
+      "budget": "337.243337万元",
+      "buy_window": "2023年07月04日至2023年07月10日",
+      "open_time": "2023-07-25",
+      "url": "https://www.bidcenter.com.cn/news-235766489-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 44,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "广东",
+      "city": "深圳市",
+      "title": "中国烟草总公司深圳市公司营销中心文明吸烟环境建 设配套服务建设项目招标公告",
+      "budget": "59.2万元",
+      "buy_window": "2023年6月28日至2023年7月3 日",
+      "open_time": "2023-07-20",
+      "url": "https://www.bidcenter.com.cn/news-235100716-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 42,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南省",
+      "city": "昆明市",
+      "title": "云南省烟草公司昆明市公司2023年文明吸烟环境建 设服务项目招标公告",
+      "budget": "",
+      "buy_window": "2023年6月27日至2023年7月4日",
+      "open_time": "2023-07-19",
+      "url": "https://www.bidcenter.com.cn/news-234904579-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 43,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南",
+      "city": "常德市",
+      "title": "湖南省烟草公司常德市公司2023年文明吸烟环境建 设项目招标公告",
+      "budget": "",
+      "buy_window": "2023年06月28日-2023年07月 04日",
+      "open_time": "2023-07-18",
+      "url": "https://www.bidcenter.com.cn/news-234927505-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 38,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南省",
+      "city": "芒市",
+      "title": "云南省烟草公司德宏州公司2023年文明吸烟环境建设 项目招标公告",
+      "budget": "62.00万元",
+      "buy_window": "2023年6月21日至2023年6月28 日",
+      "open_time": "2023-07-12",
+      "url": "https://www.bidcenter.com.cn/news-233878077-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 35,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "河南省",
+      "city": "焦作市",
+      "title": "焦作市烟草公司文明吸烟环境建设项目招标公告",
+      "budget": "339900元",
+      "buy_window": "2023年06月13日至2023年06月 19日",
+      "open_time": "2023-07-11",
+      "url": "https://www.bidcenter.com.cn/news-232547963-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 36,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南",
+      "city": "益州",
+      "title": "湖南省烟草公司益阳市公司关于2023年度文明吸烟 环境建设项目招标公告",
+      "budget": "210万元",
+      "buy_window": "2023年06月16日至2023年06月 25日",
+      "open_time": "2023-07-06",
+      "url": "https://www.bidcenter.com.cn/news-233183084-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 34,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "苏州",
+      "title": "关于江苏省烟草公司苏州市公司2023年苏州市公司文 明吸烟环境建设项目（工程）的招标公告-招标公告",
+      "budget": "3372433.37元",
+      "buy_window": "2023年06月09日至2023年06月 15日",
+      "open_time": "2023-06-30",
+      "url": "https://www.bidcenter.com.cn/news-232076523-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 33,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南省",
+      "city": "长沙市",
+      "title": "湖南省烟草公司长沙市公司2023年全市系统文明吸 烟环境建设项目招标公告",
+      "budget": "",
+      "buy_window": "2023年06月06日至2023年06月 13日",
+      "open_time": "2023-06-29",
+      "url": "https://www.bidcenter.com.cn/news-231566382-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 28,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "安徽",
+      "city": "合肥市",
+      "title": "安徽省烟草公司合肥市公司文明吸烟环境建设采购项 目(2023年)招标公告",
+      "budget": "",
+      "buy_window": "2023年5月25日至2023年6月9 日",
+      "open_time": "2023-06-20",
+      "url": "https://www.bidcenter.com.cn/news-229770011-5.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 30,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "广西-",
+      "city": "河池市",
+      "title": "广西壮族自治区烟草公司河池市公司2023年文明吸烟 环境建设采购项目招标公告",
+      "budget": "",
+      "buy_window": "2023年5月26日至2023年6月2 日",
+      "open_time": "2023-06-16",
+      "url": "https://www.bidcenter.com.cn/news-230378897-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 25,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "广西",
+      "city": "北海市",
+      "title": "广西壮族自治区烟草公司北海市公司2023年文明吸 烟环境建设物资采购（重）招标公告",
+      "budget": "429,199.22元",
+      "buy_window": "2023年05月22日至2023年05月 29日",
+      "open_time": "2023-06-12",
+      "url": "https://www.bidcenter.com.cn/news-229271411-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 23,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "上海",
+      "city": "上海市",
+      "title": "上海烟草贸易中心有限公司2023-2025年文明吸烟 环境建设项目招标公告",
+      "budget": "",
+      "buy_window": "2023年05月17日到2023年05月 24日",
+      "open_time": "2023-06-08",
+      "url": "https://www.bidcenter.com.cn/news-228623058-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 20,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江西",
+      "city": "鹰潭市",
+      "title": "江西省烟草公司鹰潭市公司文明吸烟环境建设设备采购项目招标公告",
+      "budget": "198000元",
+      "buy_window": "2023年4月26日至2023年5 月6日",
+      "open_time": "2023-05-16",
+      "url": "https://www.bidcenter.com.cn/news-225954009-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 17,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南",
+      "city": "湘潭市",
+      "title": "湘潭市烟草专卖局（公司）文明吸烟环境建设项目",
+      "budget": "209万",
+      "buy_window": "2023年4月19日至2023年4月 25日",
+      "open_time": "2023-05-15",
+      "url": "https://www.bidcenter.com.cn/news-224570041-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 16,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "舟山市",
+      "title": "2023年度舟山烟草文明吸烟环境建设采购包的招标 公告",
+      "budget": "100万",
+      "buy_window": "2023年4月19日至2023年4月 26日",
+      "open_time": "2023-05-09",
+      "url": "https://www.bidcenter.com.cn/news-224530498-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 13,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏省",
+      "city": "镇江市",
+      "title": "江苏省烟草公司镇江市公司2023年丹徒分公司文明 吸烟环境建设配套设施采购项目招标公告-招标公告",
+      "budget": "32万元",
+      "buy_window": "2023-04-12至 2023-04-19",
+      "open_time": "2023-05-09",
+      "url": "https://www.bidcenter.com.cn/news-223505677-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 12,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建省",
+      "city": "厦门市",
+      "title": "福建省烟草公司厦门市公司关于2023-2024年文明 吸烟环境建设相关物料定点供应商的采购项目",
+      "budget": "100万",
+      "buy_window": "2023-04-12至2023-04-20",
+      "open_time": "2023-05-05",
+      "url": "https://www.bidcenter.com.cn/news-223491843-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 10,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "仪征市",
+      "title": "江苏省烟草公司扬州市公司2023扬州市公司仪 征分公司文明吸烟环境设施（吸烟筒）购置项目 公开招标公告",
+      "budget": "18.000000万元",
+      "buy_window": "2023年03月31日至2023年04 月10日",
+      "open_time": "2023-04-25",
+      "url": "https://www.bidcenter.com.cn/news-221370526-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 14,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南省",
+      "city": "丽江市",
+      "title": "云南省烟草公司丽江市公司2023年文明吸烟环境建 设项目采购工程设计服务",
+      "budget": "￥35,000.00元 至 ￥42,000.00元",
+      "buy_window": "2023-04-14至2023-04-19",
+      "open_time": "2023-04-21",
+      "url": "https://www.bidcenter.com.cn/news-223879624-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 9,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建省",
+      "city": "建瓯市",
+      "title": "南平市烟草公司建瓯分公司2023年文明吸烟环 境建设定点供应商采购项目",
+      "budget": "80万元",
+      "buy_window": "2023年3月17日至2023年3月24",
+      "open_time": "2023-04-06",
+      "url": "https://www.bidcenter.com.cn/news-218984243-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 8,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建省",
+      "city": "南平市",
+      "title": "南平市烟草公司光泽分公司2023-2025年文 明吸烟环境建设设备采购招标公告",
+      "budget": "3.833700万元",
+      "buy_window": "2023年3月10日至2023年3月 17日",
+      "open_time": "2023-04-04",
+      "url": "https://www.bidcenter.com.cn/news-217860822-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 7,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "甘肃",
+      "city": "金昌市",
+      "title": "甘肃省烟草公司金昌市公司2023－2026年终端 建设及文明吸烟环境建设服务供应商采购项目公 开招标公告",
+      "budget": "180万（人民币）",
+      "buy_window": "2023年03月13日至2023年03月 17日",
+      "open_time": "2023-03-30",
+      "url": "https://www.bidcenter.com.cn/news-217911139-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 6,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建省",
+      "city": "南平市",
+      "title": "南平市烟草公司顺昌分公司 2023-2026 年文 明吸烟环境建设采购项目招标公告",
+      "budget": "55 万元",
+      "buy_window": "2023年03月10日至2023年03月 27日",
+      "open_time": "2023-03-30",
+      "url": "https://www.bidcenter.com.cn/news-217936165-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 5,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建省",
+      "city": "南平市",
+      "title": "南平市烟草公司松溪分公司2023年－2025年 文明吸烟环境建设采购项目",
+      "budget": "",
+      "buy_window": "2023年03月10至2023年03月 24日",
+      "open_time": "2023-03-29",
+      "url": "https://www.bidcenter.com.cn/news-217922972-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 4,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建省",
+      "city": "武夷山",
+      "title": "南平市烟草公司武夷山分公司2023-2026年 文明吸烟环境建设及物资定点采购项公开招 标公告-招标采购公告",
+      "budget": "990000.000000万元",
+      "buy_window": "2023年03月08日至2023年03 月22日",
+      "open_time": "2023-03-28",
+      "url": "https://www.bidcenter.com.cn/news-217681052-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 3,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建省",
+      "city": "南平市",
+      "title": "南平市烟草公司浦城分公司2023-2026年 度文明吸烟环境建设定点供应商采购项目 公开招标公告-招标采购公告",
+      "budget": "85.000000万元",
+      "buy_window": "2023年03月08日至2023年 03月15日",
+      "open_time": "2023-03-28",
+      "url": "https://www.bidcenter.com.cn/news-217680747-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 2,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建省",
+      "city": "南平市",
+      "title": "南平市烟草公司建阳分公司2023-2026年 文明吸烟环境建设采购项目招标公告",
+      "budget": "108万元",
+      "buy_window": "2023年03月02日 至 2023年 03月08日",
+      "open_time": "2023-03-23",
+      "url": "http://www.ccgp.gov.cn/cggg/dfgg/gkzb/202303/t20230302_19501702.htm",
+      "alt_urls": [],
+      "host": "www.ccgp.gov.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 76,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "四川",
+      "city": "遂宁市",
+      "title": "遂宁市农业农村局2023年度政府采购意向公告(第7批 )-2023年烟草销售农网示范终端及文明吸烟环境建设",
+      "budget": "75万元",
+      "buy_window": "",
+      "open_time": "",
+      "url": "https://www.bidcenter.com.cn/news-250487485-2.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "文明吸烟环境"
+      ],
+      "relevance": 7,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 147,
+      "sheet": "吸烟室",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "淄博",
+      "title": "山东淄博烟草有限公司室内吸烟室采购项目招标公告",
+      "budget": "单价8.5万",
+      "buy_window": "2024年8月20日至2024年8月26日",
+      "open_time": "2024-09-11",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/304079007?mod=0&type=1,5&tag=1&keywords=%E5%AE%A4%E5%86%85%2B%E5%90%B8%E7%83%9F%E5%AE%A4",
+      "alt_urls": [
+        "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/304079007?mod=0&type=1,5&tag=1&keywords=%E5%AE%A4%E5%86%85%2B%E5%90%B8%E7%83%9F%E5%AE%A5"
+      ],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "吸烟室"
+      ],
+      "relevance": 6,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 158,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建",
+      "city": "厦门市",
+      "title": "厦门市烟草公司湖里分公司关于2024年吸 烟点、吸烟区、吸烟亭等相关设施采购项 目招标公告",
+      "budget": "40万元",
+      "buy_window": "2024年07月15日至2024年08月05日",
+      "open_time": "2024-08-05",
+      "url": "https://www.bidcenter.com.cn/news-297558902-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "烟草",
+        "吸烟亭"
+      ],
+      "relevance": 6,
+      "primary_tag": "烟草"
+    },
+    {
+      "id": 137,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "南京",
+      "title": "2025-2026年南京市公司文明吸烟环境吸烟室维保服 务采购项目招标公告",
+      "budget": "38万元",
+      "buy_window": "2024年10月31日至2024年11月 07日",
+      "open_time": "2024-11-27",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/318386720?mod=0&tag=0&keywords=2025-2026%E5%B9%B4%E5%8D%97%E4%BA%AC%E5%B8%82%E5%85%AC%E5%8F%B8%E6%96%87%E6%98%8E%E5%90%B8%E7%83%9F%E7%8E%AF%E5%A2%83%E5%90%B8%E7%83%9F%E5%AE%A4%E7%BB%B4%E4%BF%9D%E6%9C%8D%E5%8A%A1%E9%87%87%E8%B4%AD%E9%A1%B9%E7%9B%AE%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A,2025%2B2026%2B%E5%B9%B4%2B%E5%8D%97%E4%BA%AC%2B%E5%85%AC%E5%8F%B8%2B%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%2B%E5%90%B8%E7%83%9F%E5%AE%A4%2B%E7%BB%B4%E4%BF%9D%E6%9C%8D%E5%8A%A1%2B%E9%87%87%E8%B4%AD%2B%E9%A1%B9%E7%9B%AE%2B%E6%8B%9B%E6%A0%87%2B%E5%85%AC%E5%91%8A",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境",
+        "吸烟室"
+      ],
+      "relevance": 5,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 166,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "常州",
+      "title": "2024年常州市公司全市系统文明吸烟环境 吸烟亭维保服务项目招标公告",
+      "budget": "3.5万元",
+      "buy_window": "2024年10月22日至2024年10月28日",
+      "open_time": "2024-11-11",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/316162070?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境",
+        "吸烟亭"
+      ],
+      "relevance": 5,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 63,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南省",
+      "city": "鹤庆",
+      "title": "辛屯镇2023年基础设施建设项目—文明吸烟环境建设 项目（自建型室外吸烟亭",
+      "budget": "32万元",
+      "buy_window": "2023年8月30日至2023年9月 5日",
+      "open_time": "2023-09-20",
+      "url": "https://bulletin.cebpubservice.com/biddingBulletin/2023-08-29/10717186.html#",
+      "alt_urls": [],
+      "host": "bulletin.cebpubservice.com",
+      "tags": [
+        "文明吸烟环境",
+        "吸烟亭"
+      ],
+      "relevance": 5,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 48,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "吉林",
+      "city": "南关",
+      "title": "2023年文明吸烟环境建设吸烟室、吸烟区营销中心 招标公告",
+      "budget": "357万元",
+      "buy_window": "2023年7月12日至2023年7月 18日",
+      "open_time": "2023-08-03",
+      "url": "https://www.bidcenter.com.cn/news-237110148-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境",
+        "吸烟室"
+      ],
+      "relevance": 5,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 145,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "朝阳市",
+      "title": "2024年文明吸烟环境建设服务项目",
+      "budget": "6 万元",
+      "buy_window": "2024年11月27日到2024年12月 04日",
+      "open_time": "2024-12-18",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/324877834?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 139,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁沈",
+      "city": "鞍山市",
+      "title": "2024年文明吸烟环境建设项目",
+      "budget": "35万元",
+      "buy_window": "2024年11月01日到2024年11月07日",
+      "open_time": "2024-11-21",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/318618685?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 135,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "葫芦岛",
+      "title": "文明吸烟环境建设项目招标公告",
+      "budget": "12万元",
+      "buy_window": "2024年10月23日至2024年10月 30日",
+      "open_time": "2024-11-15",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/316654813?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 132,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "海南省",
+      "city": "三亚",
+      "title": "营销中心2024年文明吸烟环境建设项目（第二次）- 招标公告",
+      "budget": "206650.00元",
+      "buy_window": "2024年10月16日至2024年10月 23日",
+      "open_time": "2024-11-06",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/314871942?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 130,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "吉林",
+      "city": "长春",
+      "title": "2024文明吸烟环境建设卷烟营销中心招标公告",
+      "budget": "1157332.00元",
+      "buy_window": "2024年09月24日至2024年09月 29日",
+      "open_time": "2024-10-15",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/310616739?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 128,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "海南",
+      "city": "三亚",
+      "title": "营销中心2024年文明吸烟环境建设项目-招标公告",
+      "budget": "206650",
+      "buy_window": "2024年09月05日至2024年09月 12日",
+      "open_time": "2024-09-27",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/307530936?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 125,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "青海",
+      "city": "",
+      "title": "文明吸烟环境建设项目（二次）招标公告",
+      "budget": "",
+      "buy_window": "2024年08月20日至2024年08月 24日",
+      "open_time": "2024-09-10",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/304120705?mod=0&type=1,5&tag=1&keywords=%E6%96%87%E6%98%8E%2B%E5%90%B8%E7%83%9F%2B%E7%8E%AF%E5%A2%83%E5%BB%BA%E8%AE%BE",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 121,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "吉林省",
+      "city": "松原市",
+      "title": "2024年文明吸烟环境建设项目招标公告",
+      "budget": "46.20万元",
+      "buy_window": "2024年08月16日到2024年08月 22日",
+      "open_time": "2024-09-05",
+      "url": "",
+      "alt_urls": [],
+      "host": "未标注来源域名",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 123,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南",
+      "city": "弥勒市",
+      "title": "弥勒市文明吸烟环境建设（2024年度）项目竞争性磋 商公告",
+      "budget": "19万元；",
+      "buy_window": "2024年8月21日起至2024年8月 27日",
+      "open_time": "2024-08-30",
+      "url": "https://fileyun.bidcenter.com.cn/bidbsyun/20240821/3e4234e3-6537-4a9d-a3cc-4546203016c6.pdf?Expires=1724293839&OSSAccessKeyId=LTAINn7YGlsE4iU6&Signature=4eVGTLrynyb8mzgSFkbu3hcu7XE%3d",
+      "alt_urls": [],
+      "host": "fileyun.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 118,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖北省",
+      "city": "武汉市",
+      "title": "武汉文明吸烟环境建设物料（吸烟区—202402/20240 3）采购项目公开招标公告",
+      "budget": "1133475.52元",
+      "buy_window": "2024年08月08日至2024年08月 12日",
+      "open_time": "2024-08-29",
+      "url": "https://www.bidcenter.com.cn/news-302164173-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 113,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南",
+      "city": "建水县",
+      "title": "建水县2024年文明吸烟环境建设项目竞争性磋商公告",
+      "budget": "20万元",
+      "buy_window": "2021年07月31日到2024年08月 06日",
+      "open_time": "2024-08-12",
+      "url": "https://www.bidcenter.com.cn/news-300700379-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 110,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南",
+      "city": "个旧市",
+      "title": "个旧市2024年文明吸烟环境建设项目竞争性磋商公告",
+      "budget": "284000.00万元",
+      "buy_window": "2024年07月05日到2024年07月 11日",
+      "open_time": "2024-07-15",
+      "url": "https://www.bidcenter.com.cn/news-295386638-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 106,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建",
+      "city": "漳州市",
+      "title": "漳州市局2024年漳州文明吸烟环境建设项目",
+      "budget": "210万元",
+      "buy_window": "2024年06月21日至2024年07月 05日",
+      "open_time": "2024-07-11",
+      "url": "https://www.bidcenter.com.cn/news-292077208-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 104,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "青海",
+      "city": "格尔木市",
+      "title": "文明吸烟环境建设项目.",
+      "budget": "45.70万元",
+      "buy_window": "2024年06月15日至2024年06月 19日",
+      "open_time": "2024-07-08",
+      "url": "https://www.bidcenter.com.cn/news-290997331-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 105,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "陕西省",
+      "city": "滑南市",
+      "title": "文明吸烟环境建设招标公告",
+      "budget": "",
+      "buy_window": "2024年06月14日至2024年06月20日",
+      "open_time": "2024-07-05",
+      "url": "https://www.bidcenter.com.cn/news-290773707-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 95,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "西藏",
+      "city": "山南",
+      "title": "2024年文明吸烟环境建设宣传项目竞争性磋商公告",
+      "budget": "32万元",
+      "buy_window": "2024年04月16日至2024年04月 22日",
+      "open_time": "2024-04-27",
+      "url": "https://www.bidcenter.com.cn/news-280344557-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 29,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南省",
+      "city": "建水县",
+      "title": "建水县2023年文明吸烟环境建设项目竞争性磋商公告",
+      "budget": "290000",
+      "buy_window": "2023年05月30日到2023年06 月05日",
+      "open_time": "2023年06月09",
+      "url": "https://www.bidcenter.com.cn/news-230587364-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 78,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "安徽",
+      "city": "芜湖市",
+      "title": "芜湖市公司文明吸烟环境建设维保费用（2023年）与 文明吸烟环境建设（建设）公开招标公告",
+      "budget": "32.525000万元",
+      "buy_window": "2023年10月14日至2023年10月20日",
+      "open_time": "2023-11-03",
+      "url": "https://www.bidcenter.com.cn/news-251579068-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 77,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "",
+      "title": "文明吸烟环境建设",
+      "budget": "50万",
+      "buy_window": "2023年10月12日至2023年10月 18日",
+      "open_time": "2023-11-02",
+      "url": "https://www.bidcenter.com.cn/news-251349396-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 73,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "",
+      "title": "文明吸烟环境建设项目",
+      "budget": "50万元",
+      "buy_window": "2023年9月21日至2023年9月27 日",
+      "open_time": "2023-10-12",
+      "url": "https://www.bidcenter.com.cn/news-248265812-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 69,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "龙港区",
+      "title": "文明吸烟环境建设项目招标公告",
+      "budget": "",
+      "buy_window": "2023年9月8日至2023年9月14 日",
+      "open_time": "2023-10-11",
+      "url": "https://www.bidcenter.com.cn/news-246111929-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 70,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山西",
+      "city": "太原市",
+      "title": "文明吸烟环境建设项目（第二包）招标公告",
+      "budget": "",
+      "buy_window": "2023年9月8日起至2023年9月 14日",
+      "open_time": "2023-09-28",
+      "url": "https://www.bidcenter.com.cn/news-246117326-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 67,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "海南",
+      "city": "",
+      "title": "2023-2024年文明吸烟环境建设-招标公告",
+      "budget": "72.876603万元",
+      "buy_window": "2023年09月06日至2023年09月 13日",
+      "open_time": "2023-09-27",
+      "url": "https://www.bidcenter.com.cn/news-245765337-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 62,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "辽宁",
+      "city": "营口市",
+      "title": "2023年文明吸烟环境建设项目-招标公告",
+      "budget": "18万元",
+      "buy_window": "2023年8月25日至2023年9月1 日",
+      "open_time": "2023-09-15",
+      "url": "https://www.bidcenter.com.cn/news-243953437-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 64,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南市",
+      "city": "弥勒市",
+      "title": "弥勒市文明吸烟环境建设项目竞争性磋商公告",
+      "budget": "38 万元",
+      "buy_window": "2023年09月04日到2023年09月 08日",
+      "open_time": "2023-09-14",
+      "url": "https://www.bidcenter.com.cn/news-245241581-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 60,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "河南省",
+      "city": "郑州",
+      "title": "北城区分公司文明吸烟环境建设采购项目招标公告",
+      "budget": "80万元",
+      "buy_window": "2023年08月23日到2023年08月 29日",
+      "open_time": "2023-09-13",
+      "url": "https://www.bidcenter.com.cn/news-243320504-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 59,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "南京",
+      "title": "2023年南京市公司文明吸烟环境建设工程采购项目（ 施工标段）招标公告",
+      "budget": "93万元",
+      "buy_window": "2023年08月22日至2023年08月 29日",
+      "open_time": "2023-09-11",
+      "url": "https://www.bidcenter.com.cn/news-243366073-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 56,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖北省",
+      "city": "",
+      "title": "吸烟区建设设施及物料（2023年第二批文明吸烟环境 建设）采购项目招标公告",
+      "budget": "146.090920万元",
+      "buy_window": "2023年08月17日到2023年08月 21日",
+      "open_time": "2023-09-06",
+      "url": "https://www.bidcenter.com.cn/news-242575391-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 54,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "陕西省",
+      "city": "渭南",
+      "title": "文明吸烟环境建设招标公告",
+      "budget": "",
+      "buy_window": "2023年08月04日至2023年08月 10日",
+      "open_time": "2023-08-25",
+      "url": "https://www.bidcenter.com.cn/news-240834492-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 52,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖北省",
+      "city": "",
+      "title": "吸烟区建设设施及物料（2023年第一批文明吸烟环 境建设）采购项目招标公告",
+      "budget": "169.020315万元",
+      "buy_window": "2023年08月03日到2023年08月 07日",
+      "open_time": "2023-08-23",
+      "url": "https://www.bidcenter.com.cn/news-240557424-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 46,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南省",
+      "city": "泸西",
+      "title": "泸西县2023年文明吸烟环境建设项目竞争性磋商公告",
+      "budget": "18.754443万",
+      "buy_window": "2023年07月11日至2023年07月 17日",
+      "open_time": "2023-07-21",
+      "url": "https://www.bidcenter.com.cn/news-236901658-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 40,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山东",
+      "city": "市南区",
+      "title": "文明吸烟环境建设和现代终端建设定点供应商采购 项目招标公告",
+      "budget": "",
+      "buy_window": "2023年6月25日起至2023年6月 29",
+      "open_time": "2023-07-18",
+      "url": "https://www.bidcenter.com.cn/news-234386259-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 41,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "广西",
+      "city": "金城江区",
+      "title": "2023年文明吸烟环境建设采购项目（项目编号：河 烟采2023-0022（重））招标公告",
+      "budget": "",
+      "buy_window": "2023年6月26日至2023年7月3 日",
+      "open_time": "2023-07-17",
+      "url": "https://www.bidcenter.com.cn/news-234762020-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 37,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "嘉兴市",
+      "title": "嘉兴市华信工程咨询有限公司关于2023年度嘉兴烟 草全地区文明吸烟环境建设采购项目的公开招标公告",
+      "budget": "150万元",
+      "buy_window": "2023年06月16日至2023年06月 26日",
+      "open_time": "2023-07-07",
+      "url": "https://www.bidcenter.com.cn/news-233525018-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 31,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "湖南",
+      "city": "湘西土家族苗 族自治州",
+      "title": "湘西土家族苗族自治州局（公司）关于2023年度文明吸烟环境建设项目",
+      "budget": "129.95万元",
+      "buy_window": "2023年5月31日起至2023年6月 7日",
+      "open_time": "2023-06-21",
+      "url": "https://www.bidcenter.com.cn/news-230743680-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 32,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "海南省",
+      "city": "海南",
+      "title": "2023年文明吸烟环境建设项目",
+      "budget": "40.35万元",
+      "buy_window": "2023年05月31日到2023年06月 07日",
+      "open_time": "2023-06-21",
+      "url": "https://www.bidcenter.com.cn/news-230831626-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 26,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "广西",
+      "city": "金城江区",
+      "title": "2023年文明吸烟环境建设采购项目（项目编号：河 烟采2023-0022）招标公告",
+      "budget": "",
+      "buy_window": "2023年5月26日至2023年6月2 日",
+      "open_time": "2023-06-16",
+      "url": "https://www.bidcenter.com.cn/news-230134653-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 27,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "海南",
+      "city": "吉阳区",
+      "title": "营销中心2023年文明吸烟环境建设项目（第二次） [ZJZB-2023-13970]-招标公告",
+      "budget": "592300.00元（含税）",
+      "buy_window": "2023年05月25日至2023年05月 30日",
+      "open_time": "2023-06-16",
+      "url": "https://www.bidcenter.com.cn/news-229863341-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 22,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南省",
+      "city": "开远市",
+      "title": "中和营镇文明吸烟环境建设项目竞争性谈判",
+      "budget": "19万元；",
+      "buy_window": "2023年5月6日至2023年5月9日",
+      "open_time": "2023-05-11",
+      "url": "https://www.bidcenter.com.cn/news-227210574-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 11,
+      "sheet": "文明吸烟环境",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建省",
+      "city": "泉州",
+      "title": "泉州市局文明吸烟环境建设物料采购项目项目公告",
+      "budget": "",
+      "buy_window": "2023年4月10日至2023年4月 17日",
+      "open_time": "2023-05-06",
+      "url": "https://bulletin.cebpubservice.com/biddingBulletin/2023-04-10/9536217.html",
+      "alt_urls": [],
+      "host": "bulletin.cebpubservice.com",
+      "tags": [
+        "文明吸烟环境"
+      ],
+      "relevance": 3,
+      "primary_tag": "文明吸烟环境"
+    },
+    {
+      "id": 174,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "靖江",
+      "title": "江苏兴旺物流有限公司观光区移动厕所采 购项目询价采购公告",
+      "budget": "",
+      "buy_window": "",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/321187834?mod=0&type=1,5&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=32",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭",
+        "移动公厕"
+      ],
+      "relevance": 3,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 148,
+      "sheet": "吸烟室",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "徐州",
+      "title": "2024年徐州市公司全市系统室内吸烟室采购项目 （睢宁分公司）招标公告-招标公告",
+      "budget": "8万元",
+      "buy_window": "2024年11月14日到2024年11月21日",
+      "open_time": "2024-12-05",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/321666261?mod=0&type=1,5&tag=1&keywords=%E5%AE%A4%E5%86%85%2B%E5%90%B8%E7%83%9F%E5%AE%A4",
+      "alt_urls": [
+        "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/321666261?mod=0&type=1,5&tag=1&keywords=%E5%AE%A4%E5%86%85%2B%E5%90%B8%E7%83%9F%E5%AE%A5"
+      ],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟室"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟室"
+    },
+    {
+      "id": 165,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山西",
+      "city": "长治",
+      "title": "2024年长治市局营销中心吸烟亭项目谈判 采购公告",
+      "budget": "16万元",
+      "buy_window": "2024年9月30日至2024年10月11日",
+      "open_time": "2024-10-23",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/312348905?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 163,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "天津",
+      "city": "西青区",
+      "title": "修建室外吸烟亭",
+      "budget": "",
+      "buy_window": "2024年08月23日到2024年08月28日",
+      "open_time": "2024-08-28",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/304672223?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 162,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南",
+      "city": "开远市",
+      "title": "开远市羊街乡室外吸烟亭建设项目磋商公 告",
+      "budget": "23万元",
+      "buy_window": "2024年08月15日到2024年08月21日",
+      "open_time": "2024-08-26",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/303640846?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 159,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "无锡市",
+      "title": "关于吸烟亭项目谈价公告",
+      "budget": "4.5万元",
+      "buy_window": "2024年08月01日至2024年08月06日",
+      "open_time": "2024-08-13",
+      "url": "https://www.bidcenter.com.cn/news-301130055-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 160,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "云南",
+      "city": "云南省",
+      "title": "云南小龙潭矿务局有限责任公司布沼坝露 天矿分公司办公楼外吸烟亭采购项目公告",
+      "budget": "10万元",
+      "buy_window": "2024年08月06日到2024年08月11日",
+      "open_time": "2024-08-12",
+      "url": "https://www.bidcenter.com.cn/news-301963790-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 157,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "福建",
+      "city": "",
+      "title": "集美分公司关于2024年吸烟点、吸烟区、 吸烟亭等相关设施的采购项目招标公告",
+      "budget": "30 万元",
+      "buy_window": "2024年07月08日到2024年07月15日",
+      "open_time": "2024-07-30",
+      "url": "https://www.bidcenter.com.cn/news-295966958-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 156,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "大丰区",
+      "title": "大丰电芯吸烟亭询价单6.13-吸烟亭",
+      "budget": "",
+      "buy_window": "2024年06月13日至2024年06月19日",
+      "open_time": "2024-06-19",
+      "url": "https://www.bidcenter.com.cn/news-290539855-5.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 155,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "内蒙古",
+      "city": "内蒙古自治区",
+      "title": "内蒙古电力建设（集团）有限公司准大电 厂煤电一体化扩建项目A标段吸烟亭、钢 丝绳等询价采购",
+      "budget": "",
+      "buy_window": "2024年05月20日至2024年05月23日",
+      "open_time": "2024-05-23",
+      "url": "https://www.bidcenter.com.cn/news-286093839-5.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 152,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "内蒙古",
+      "city": "内蒙古自治区",
+      "title": "蒙牛乳制品江苏有限公司新增吸烟亭采购项目询比价公告",
+      "budget": "",
+      "buy_window": "2024年04月03日至2024年04月16日",
+      "open_time": "2024-04-17",
+      "url": "https://zbcg.mengniu.cn/web-portal/index.html#/trade-info-detail?id=1224763465435299840&publishStatus=1&noticeType=1&systemStatus",
+      "alt_urls": [],
+      "host": "zbcg.mengniu.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 146,
+      "sheet": "吸烟室",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "四川",
+      "city": "",
+      "title": "关于《嘉陵江路园区车间南面安装吸烟亭》询价 公告",
+      "budget": "",
+      "buy_window": "2024年04月01日至2024年04月04日",
+      "open_time": "2024-04-04",
+      "url": "https://www.bidcenter.com.cn/news-277922367-1.html",
+      "alt_urls": [
+        "https://www.bidcenter.com.cn/news-277922367-2.html"
+      ],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "吸烟室",
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟室"
+    },
+    {
+      "id": 164,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "温州",
+      "city": "龙港",
+      "title": "深国际龙港现代智慧物流产业园项目非机 动车停车棚、吸烟亭及环卫用品采购安装 工程公开招标采购公告",
+      "budget": "",
+      "buy_window": "2024年9月6日10时至2024年9月13日",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/307710701?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 178,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "安徽",
+      "city": "芜湖",
+      "title": "芜湖国风吸烟亭购置采购公告(芜湖国风 塑胶科技有限公司)",
+      "budget": "",
+      "buy_window": "2024年12月02日至2024年12月07日",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/325828706?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 173,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江西",
+      "city": "丰城",
+      "title": "江西赣能股份有限公司丰城发电厂吸烟亭",
+      "budget": "",
+      "buy_window": "2024年11月11日至2024年11月15日",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/320847062?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 169,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "陕西",
+      "city": "西安",
+      "title": "ZB202410290018西安工商学院吸烟亭采 购及安装项目预审公告",
+      "budget": "",
+      "buy_window": "2024年10月30日至2024年11月5日",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/317992461?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 161,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "广东",
+      "city": "",
+      "title": "移动卫生间及吸烟亭采购",
+      "budget": "",
+      "buy_window": "2024年08月16日到2024年08月21日",
+      "open_time": "",
+      "url": "",
+      "alt_urls": [],
+      "host": "未标注来源域名",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 154,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "常熟市",
+      "title": "户外吸烟亭",
+      "budget": "",
+      "buy_window": "2024年05月06日至2024年05月09日",
+      "open_time": "",
+      "url": "https://www.bidcenter.com.cn/news-283217303-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 153,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "安徽",
+      "city": "镜湖区",
+      "title": "2024年得壹能源枞阳基地吸烟亭采购项目 公告",
+      "budget": "",
+      "buy_window": "2024年04月20日至2024年04月29日",
+      "open_time": "",
+      "url": "https://www.bidcenter.com.cn/news-281115379-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 151,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "",
+      "title": "【宁夏枣电公司2024-03吸烟亭（详见附 件参考图片）询价】采购公告",
+      "budget": "",
+      "buy_window": "2024年03月21日至2024年03月26日",
+      "open_time": "",
+      "url": "https://www.bidcenter.com.cn/news-276363500-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 150,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "上城区",
+      "title": "浙江浙商文化发展有限公司新昌服务区吸烟亭设备直接采购采购项目直采公示",
+      "budget": "33000元",
+      "buy_window": "2024年03月08日至2024年03月11日",
+      "open_time": "",
+      "url": "https://www.bidcenter.com.cn/news-274325450-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 176,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "山西",
+      "city": "",
+      "title": "采购定做吸烟亭",
+      "budget": "",
+      "buy_window": "",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/325180164?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 172,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "杭州",
+      "title": "深国际杭州物流港二期吸烟亭安装采购项 目其他采购公告",
+      "budget": "",
+      "buy_window": "",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/320978279?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 171,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "广东",
+      "city": "佛山",
+      "title": "深国际佛山南海项目非机动车棚及吸烟亭 安装工程询价采购公告",
+      "budget": "",
+      "buy_window": "",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/318658882?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 175,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "江阴",
+      "title": "江阴周北热电有限公司---不锈钢吸烟亭",
+      "budget": "",
+      "buy_window": "",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/325273649?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 170,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "上海",
+      "city": "崇明区",
+      "title": "上海振华重工-长兴分公司-吸烟亭维修基 建日常项目",
+      "budget": "",
+      "buy_window": "",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/319056300?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 177,
+      "sheet": "吸烟亭",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "宁夏",
+      "city": "枣泉",
+      "title": "【宁夏枣泉电厂2024-11吸烟亭（详见附 件现场图片）询价】采购公告",
+      "budget": "",
+      "buy_window": "",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/324324086?mod=0&type=1,5&tag=1&keywords=%E5%90%B8%E7%83%9F%E4%BA%AD",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "吸烟亭"
+      ],
+      "relevance": 2,
+      "primary_tag": "吸烟亭"
+    },
+    {
+      "id": 208,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "苏州",
+      "title": "苏州工业园区市政服务集团有限公司关于202 4年园区移动公厕及配套服务的竞争性谈判采 购公告",
+      "budget": "490000.00元",
+      "buy_window": "2024年12月3日至2024年12月6日",
+      "open_time": "2024-12-09",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/326278750?mod=0&type=1,5&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=32",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 207,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "上海",
+      "city": "南汇",
+      "title": "南汇新城镇移动公厕运行管理服务项目的竞争 性磋商公告",
+      "budget": "2665000元",
+      "buy_window": "2024年11月21日至2024年11月28日",
+      "open_time": "2024-12-03",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/323355118?mod=0&type=1,5&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=31",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 206,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "南京",
+      "title": "江苏金陵移动厕所项目-竞争性谈判公告",
+      "budget": "",
+      "buy_window": "2024年11月15日至2024年11月19日",
+      "open_time": "2024-11-19",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/321878828?mod=0&type=1,5&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=32",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 205,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "苏州",
+      "title": "苏州工业园区市政服务集团有限公司关于2024 年园区移动公厕及配套服务的竞争性谈判采购 公告",
+      "budget": "490000.00元",
+      "buy_window": "2024年11月11日至2024年11月14日",
+      "open_time": "2024-11-19",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/320875383?mod=0&type=1,5&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=32",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 203,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "",
+      "title": "中国石油化工股份有限公司华东油气分公司中石化华东油气分公司2024年度19大类移动厕所框架协议公开招标采购移动厕所招标公告",
+      "budget": "",
+      "buy_window": "2024年11月7日至2024年11月12日",
+      "open_time": "2024-11-18",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/319981455?mod=0&type=1,5&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=32",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 201,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "南京",
+      "title": "南京市城市管理局采购车载移动公厕采购公告 (二)",
+      "budget": "117.000000万元",
+      "buy_window": "2024年09月30日至2024年10月10日",
+      "open_time": "2024-10-21",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/312444123?mod=0&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=32",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 200,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "上海",
+      "city": "",
+      "title": "移动公厕购置经费的竞争性磋商公告",
+      "budget": "1500000元",
+      "buy_window": "2024年09月03日至2024年09月10日",
+      "open_time": "2024-09-18",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/307119676?mod=0&type=1,5&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=31",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 199,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "连云港",
+      "title": "基础设施事业部四通项目不锈钢移动厕所采购 文件采购公告",
+      "budget": "",
+      "buy_window": "2024年8月28日起至2024年9月6日",
+      "open_time": "2024-09-06",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/305983556?mod=0&type=1,5&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=32",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 198,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "太仓",
+      "title": "太仓鑫海港口开发有限公司移动厕所采购项目",
+      "budget": "100000 元",
+      "buy_window": "2024年08月09日至2024年08月22日",
+      "open_time": "2024-08-22",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/304079734?mod=0&type=1,5&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=32",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 196,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "上海",
+      "city": "松江区",
+      "title": "洞泾镇蔡家浜路移动公厕购买的磋商公告",
+      "budget": "500000元",
+      "buy_window": "2024年08月09日至2024年08月15日",
+      "open_time": "2024-08-19",
+      "url": "https://www.bidcenter.com.cn/news-302345690-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 194,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "海陵区",
+      "title": "夏庄村18组和马家网桥两座移动公厕购买及安 装工程",
+      "budget": "42000.00元",
+      "buy_window": "2024年07月09日至2024年07月13日",
+      "open_time": "2024-07-13",
+      "url": "https://www.bidcenter.com.cn/news-296137782-32.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 195,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "宁海县",
+      "title": "宁海县力洋镇初级中学移动厕所采购",
+      "budget": "28.8万元",
+      "buy_window": "2024年07月08日至2024年07月10日",
+      "open_time": "2024-07-10",
+      "url": "https://www.bidcenter.com.cn/news-295865829-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 193,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "内蒙古",
+      "city": "包头",
+      "title": "采购拖挂式环保移动公厕项目竞争性磋商公告",
+      "budget": "33.13万元",
+      "buy_window": "2024年06月13日至2024年06月20日",
+      "open_time": "2024-06-26",
+      "url": "https://www.bidcenter.com.cn/news-290565024-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 191,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "青海",
+      "city": "城北区",
+      "title": "移动公厕项目的竞争性磋商公告-采购/资审公告",
+      "budget": "730000.00元",
+      "buy_window": "2024年06月13日至2024年06月20日",
+      "open_time": "2024-06-24",
+      "url": "https://www.bidcenter.com.cn/news-290360612-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 190,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "连云区",
+      "title": "连云区环境卫生管理处拉臂式移动公厕采购项目",
+      "budget": "49.36万元",
+      "buy_window": "2024年06月06日至2024年06月13日",
+      "open_time": "2024-06-18",
+      "url": "https://www.bidcenter.com.cn/news-289411866-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 189,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "舟山市",
+      "title": "宁波舟山港股份有限公司北仑矿石码头分公司 中宅码头移动厕所采购项目招标公告",
+      "budget": "20万元",
+      "buy_window": "2024年05月23日至2024年05月30日",
+      "open_time": "2024-06-04",
+      "url": "https://www.bidcenter.com.cn/news-286826765-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 186,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "海州区",
+      "title": "海州区环境卫生管理处2座拼装式移动公厕采 购采购公告",
+      "budget": "100.000000万元",
+      "buy_window": "2024年05月14日至2024年05月21日",
+      "open_time": "2024-06-04",
+      "url": "https://www.bidcenter.com.cn/news-284876257-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 183,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "上海",
+      "city": "上海市",
+      "title": "本部整体搬迁工程一阶段项目移动厕所和休息 棚（临时就餐点）-公开招标公告",
+      "budget": "",
+      "buy_window": "2024年05月08日至2024年05月13日",
+      "open_time": "2024-05-30",
+      "url": "https://www.bidcenter.com.cn/news-283527348-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 188,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "温州市",
+      "title": "浙江建工温州公司苍南104国道项目移动厕所 采购-金属雕花板移动厕所",
+      "budget": "",
+      "buy_window": "2024年05月21日至2024年05月25日",
+      "open_time": "2024-05-25",
+      "url": "https://www.bidcenter.com.cn/news-286211227-5.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 185,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "上海",
+      "city": "浦东新区",
+      "title": "2024浦东新区移动公厕更新的竞争性磋商公告 -采购/资审公告",
+      "budget": "2485000元",
+      "buy_window": "2024年05月11日至2024年05月18日",
+      "open_time": "2024-05-24",
+      "url": "https://www.bidcenter.com.cn/news-284579902-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 182,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "栖霞区",
+      "title": "燕子矶广场、滨江主题广场、紫藤廊架改造及移动厕所安装招标公告",
+      "budget": "141.373572万元",
+      "buy_window": "2024年05月01日至2024年05月10日",
+      "open_time": "2024-05-21",
+      "url": "https://www.bidcenter.com.cn/news-283019902-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 184,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "南通市",
+      "title": "固定资产-PR061196-行政部蔡韩欣-移动厕所 6套-竞争性谈判公告",
+      "budget": "",
+      "buy_window": "2024年05月09日至2024年05月13日",
+      "open_time": "2024-05-13",
+      "url": "https://www.bidcenter.com.cn/news-283844696-5.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 181,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "上海",
+      "city": "松江区",
+      "title": "人民南路59号旁移动公厕采购竞争性磋商公告",
+      "budget": "30.8000万元",
+      "buy_window": "2024年04月11日至2024年04月17日",
+      "open_time": "2024-04-24",
+      "url": "https://www.bidcenter.com.cn/news-279533286-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 179,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "平湖市",
+      "title": "关于平湖山海几千重移动厕所采购项目 （重新招标）的竞争性磋商公告[杭州信 达投资咨询估价监理有限公司]",
+      "budget": "19.5万元",
+      "buy_window": "2024年03月13日至2024年03月18日",
+      "open_time": "2024-03-25",
+      "url": "https://www.bidcenter.com.cn/news-275099188-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 202,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "南京",
+      "title": "中铁十四局集团大盾构工程有限公司南京地铁4号线二期工程D.004.2-TA01标土建三工区项目分部关于移动厕所询价采购公告",
+      "budget": "",
+      "buy_window": "2024年10月28日至2024年10月31日",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/317369420?mod=0&type=1,5&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=32",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 197,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "绍兴",
+      "title": "浙江交科供应链管理有限公司采购移动厕所、 化粪池桶一批（诸永1标）项目公告",
+      "budget": "1.8万元",
+      "buy_window": "2024年08月09日至2024年08月19日",
+      "open_time": "",
+      "url": "",
+      "alt_urls": [],
+      "host": "未标注来源域名",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 187,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "江苏",
+      "city": "",
+      "title": "采购移动厕所租赁",
+      "budget": "",
+      "buy_window": "2024年05月21日至2024年06月18日",
+      "open_time": "",
+      "url": "https://www.bidcenter.com.cn/news-286262076-5.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 180,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "浦江县",
+      "title": "浙江三建半导体大直径硅单晶抛光片生产线项目采购移动厕所-移动厕所",
+      "budget": "",
+      "buy_window": "2024年04月09日至2024年04月12日",
+      "open_time": "",
+      "url": "https://www.bidcenter.com.cn/news-279281080-5.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 204,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "浙江",
+      "city": "",
+      "title": "采购移动厕所",
+      "budget": "",
+      "buy_window": "",
+      "open_time": "",
+      "url": "https://user.bidcenter.com.cn/v2023/#/des/customDesSearch/320786485?mod=0&type=1,5&tag=1&keywords=%E7%A7%BB%E5%8A%A8%E5%8E%95%E6%89%80,%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95&diqu=33",
+      "alt_urls": [],
+      "host": "user.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    },
+    {
+      "id": 192,
+      "sheet": "移动公厕",
+      "workbook": "文明吸烟环境招标信息汇总2023-2024年度(3).xlsx",
+      "province": "河南",
+      "city": "浚县",
+      "title": "浚县城市管理局移动公厕采购项目",
+      "budget": "360000",
+      "buy_window": "",
+      "open_time": "",
+      "url": "https://www.bidcenter.com.cn/news-290577861-1.html",
+      "alt_urls": [],
+      "host": "www.bidcenter.com.cn",
+      "tags": [
+        "移动公厕"
+      ],
+      "relevance": 1,
+      "primary_tag": "移动公厕"
+    }
+  ]
+}

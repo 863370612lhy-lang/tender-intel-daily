@@ -1,0 +1,178 @@
+{
+  "active_sources": [
+    {
+      "name": "China Government Procurement",
+      "kind": "official",
+      "homepage": "https://www.ccgp.gov.cn/",
+      "search_url": "https://search.ccgp.gov.cn/bxsearch",
+      "notes": "Public procurement search endpoint used by the current pipeline."
+    },
+    {
+      "name": "National Public Resource Trading Platform",
+      "kind": "official",
+      "homepage": "https://deal.ggzy.gov.cn/ds/deal/dealList.jsp",
+      "search_url": "https://deal.ggzy.gov.cn/ds/deal/dealList.jsp",
+      "notes": "National public resource trading search endpoint used by the current pipeline."
+    }
+  ],
+  "next_sources_to_add": [
+    {
+      "name": "Electronic Tendering and Bidding Public Service Platform",
+      "kind": "official",
+      "homepage": "https://www.cebpubservice.com/",
+      "notes": "Recommended next official source for broad public tender coverage."
+    },
+    {
+      "name": "State Tobacco Monopoly Administration",
+      "kind": "official",
+      "homepage": "https://www.tobacco.gov.cn/",
+      "notes": "Use as a seed for tobacco-system public notices and entity discovery."
+    },
+    {
+      "name": "Yahoo Search Fallback",
+      "kind": "search-fallback",
+      "homepage": "https://search.yahoo.com/",
+      "notes": "Current production fallback when some official sites block direct scraping. Keeps original public notice URLs."
+    }
+  ],
+  "seed_sources": [
+    {
+      "name": "State Tobacco Monopoly Administration",
+      "domain": "tobacco.gov.cn",
+      "homepage": "https://www.tobacco.gov.cn/",
+      "queries": [
+        {
+          "terms": "烟草公司 招标公告",
+          "required_terms": ["烟草", "中烟"]
+        },
+        {
+          "terms": "中国烟草 招标公告",
+          "required_terms": ["烟草", "中烟"]
+        }
+      ]
+    },
+    {
+      "name": "Hengyang Public Resource Trading Center",
+      "domain": "hyggzyjy.hengyang.gov.cn",
+      "homepage": "http://hyggzyjy.hengyang.gov.cn/",
+      "queries": [
+        {
+          "terms": "文明吸烟环境 招标",
+          "required_terms": ["文明吸烟环境", "吸烟"]
+        },
+        {
+          "terms": "吸烟亭 招标",
+          "required_terms": ["吸烟亭"]
+        }
+      ]
+    },
+    {
+      "name": "Huaihua Public Resource Trading Center",
+      "domain": "ggzy.huaihua.gov.cn",
+      "homepage": "https://ggzy.huaihua.gov.cn/",
+      "queries": [
+        {
+          "terms": "文明吸烟环境 建设 项目",
+          "required_terms": ["文明吸烟环境", "吸烟"]
+        }
+      ]
+    },
+    {
+      "name": "Wuhu Public Resource Trading Center",
+      "domain": "whsggzy.wuhu.gov.cn",
+      "homepage": "https://whsggzy.wuhu.gov.cn/",
+      "queries": [
+        {
+          "terms": "移动公厕 招标 公告",
+          "required_terms": ["移动公厕", "公厕"]
+        },
+        {
+          "terms": "垃圾房 招标 公告",
+          "required_terms": ["垃圾房"]
+        }
+      ]
+    },
+    {
+      "name": "National Public Resource Trading Platform",
+      "domain": "ggzy.gov.cn",
+      "homepage": "https://ggzy.gov.cn/",
+      "queries": [
+        {
+          "terms": "烟草公司 招标公告",
+          "required_terms": ["烟草", "中烟"]
+        },
+        {
+          "terms": "集装箱厢房 招标 公告",
+          "required_terms": ["集装箱", "厢房", "箱房"]
+        }
+      ]
+    },
+    {
+      "name": "China Tendering Public Service Platform",
+      "domain": "cebpubservice.com",
+      "homepage": "https://www.cebpubservice.com/",
+      "queries": [
+        {
+          "terms": "烟草公司 招标公告",
+          "required_terms": ["烟草", "中烟"]
+        },
+        {
+          "terms": "文明吸烟环境 招标",
+          "required_terms": ["文明吸烟环境", "吸烟"]
+        }
+      ]
+    },
+    {
+      "name": "Qingdao Government Portal",
+      "domain": "qingdao.gov.cn",
+      "homepage": "http://www.qingdao.gov.cn/",
+      "queries": [
+        {
+          "terms": "厢房 招标公告",
+          "required_terms": ["厢房"]
+        },
+        {
+          "terms": "垃圾房 招标公告",
+          "required_terms": ["垃圾房"]
+        }
+      ]
+    },
+    {
+      "name": "Fuzhou Gulou Government Portal",
+      "domain": "gl.gov.cn",
+      "homepage": "https://www.gl.gov.cn/",
+      "queries": [
+        {
+          "terms": "公厕 改造 提升 项目",
+          "required_terms": ["公厕", "改造"]
+        },
+        {
+          "terms": "移动公厕 招标 公告",
+          "required_terms": ["移动公厕", "公厕"]
+        }
+      ]
+    },
+    {
+      "name": "Shenzhen Nanshan Government Portal",
+      "domain": "szns.gov.cn",
+      "homepage": "https://www.szns.gov.cn/",
+      "queries": [
+        {
+          "terms": "临时移动公厕 租赁 服务",
+          "required_terms": ["移动公厕", "公厕"]
+        }
+      ]
+    },
+    {
+      "name": "Hengyang Public Resource Trading Portal",
+      "domain": "ggzy.hengyang.gov.cn",
+      "homepage": "https://ggzy.hengyang.gov.cn/",
+      "queries": [
+        {
+          "terms": "文明吸烟环境 建设 项目",
+          "required_terms": ["文明吸烟环境", "吸烟"]
+        }
+      ]
+    }
+  ]
+}
