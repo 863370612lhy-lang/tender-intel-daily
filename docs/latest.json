@@ -1,18 +1,18 @@
 {
-  "generated_at": "2026-03-25 01:37 UTC",
-  "generated_at_local": "2026-03-25 09:37",
+  "generated_at": "2026-03-25 05:45 UTC",
+  "generated_at_local": "2026-03-25 13:45",
   "report_date": "2026-03-25",
   "lookback_days": 7,
   "summary": {
     "page_title": "招标雷达 Tender Radar",
     "page_subtitle": "烟草吸烟空间与相邻模块化空间公开项目监测 / Public-source feed for smoking-space and adjacent-space projects.",
-    "overview": "本次共采集 7 条公开项目，优先跟进烟草系统与吸烟空间直接机会。 / 7 public notices collected; prioritize tobacco-system and smoking-space direct-fit opportunities first."
+    "overview": "本次共采集 8 条公开项目，优先跟进烟草系统与吸烟空间直接机会。 / 8 public notices collected; prioritize tobacco-system and smoking-space direct-fit opportunities first."
   },
   "stats": {
-    "total_items": 7,
+    "total_items": 8,
     "high_priority": 0,
-    "medium_priority": 2,
-    "direct_opportunities": 2,
+    "medium_priority": 1,
+    "direct_opportunities": 1,
     "source_count": 1
   },
   "coverage": {
@@ -24,7 +24,7 @@
     "fallback_query_count": 26
   },
   "source_counts": {
-    "Yahoo Search Fallback": 7
+    "Yahoo Search Fallback": 8
   },
   "source_health": [
     {
@@ -50,42 +50,20 @@
       "kind": "search-fallback",
       "homepage": "https://search.yahoo.com/",
       "status": "ok",
-      "success_count": 9,
-      "failure_count": 19,
+      "success_count": 12,
+      "failure_count": 18,
       "last_error": "No result extracted for query: site:ggzy.hengyang.gov.cn 文明吸烟环境 建设 项目"
     }
   ],
   "top_direct_items": [
-    {
-      "id": 100001,
-      "title": "宽城满族自治县人民政府 公告公示 宽城满族自治县烟草专卖局公告",
-      "source_name": "Yahoo Search Fallback",
-      "source_kind": "search-fallback",
-      "source_url": "https://www.hbkc.gov.cn/art/2026/3/16/art_5989_1107857.html",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:gov.cn 烟草公司 招标公告",
-      "published": "2026-03-16",
-      "region": "宽城满族自治县",
-      "amount": "",
-      "snippet": "宽城满族自治县人民政府 公告公示 宽城满族自治县烟草专卖局公告 38 政府信息公开平台 /col/col5957/index.html 法定主动公开内容 /col/col5961/index.html 工作动态 /col/col5976/index.html?number=C40007 公告公示 /col/col5989/index.html?number=C40007C00011 首页 > 政府信息公开平台 > 法定主动公开内容 > 工作动态 > 公告公示 索引号： 13566026/2026-00643 主题分类： 其他 发布机构： 宽城县烟草公司 成文日期： 2026-03-16 文件编号： 有 效 性： 有效 宽城满族自治县烟草专卖局公告 2026-03-16 17时20分 浏览次数： 抽样物品取证清单",
-      "tags": [
-        "tobacco"
-      ],
-      "score": 4,
-      "priority": "Medium",
-      "opportunity_type": "Direct",
-      "summary": "tobacco system notice matched keyword 'site:gov.cn 烟草公司 招标公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
-    },
     {
       "id": 100000,
       "title": "常德烟草机械有限责任公司所需真空退火炉项目评标结果公示公告_交易公开_国家公共资源交易平台",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
       "source_url": "https://www.ggzy.gov.cn/information/deal/html/a/430000/0104/20260309/a908216ade0d42d0a02f310a4340c4d9.html",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:gov.cn 烟草公司 招标公告",
+      "search_url": "https://search.yahoo.com/search?p=site%3Aggzy.gov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:ggzy.gov.cn 烟草公司 招标公告",
       "published": "2026-02-09",
       "region": "",
       "amount": "",
@@ -96,7 +74,7 @@
       "score": 4,
       "priority": "Medium",
       "opportunity_type": "Direct",
-      "summary": "tobacco system notice matched keyword 'site:gov.cn 烟草公司 招标公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
+      "summary": "tobacco system notice matched keyword 'site:ggzy.gov.cn 烟草公司 招标公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
       "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
       "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
     }
@@ -104,16 +82,60 @@
   "watch_items": [
     {
       "id": 100003,
-      "title": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告",
+      "title": "2026重庆垫江马拉松安保护栏、铁马及移动公厕租赁采购项目_垫江县人民政府",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
-      "source_url": "https://weda.wuhu.gov.cn/zfcg/zbgg/18530622.html",
+      "source_url": "http://www.cqsdj.gov.cn/zwgk_157/zfxxgkml/zfcg/ssqk/xeyx/zbgg_new/202603/t20260323_15558521.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
+      "published": "2026-03-23",
+      "region": "垫江县",
+      "amount": "26.2075 万元",
+      "snippet": "2026重庆垫江马拉松安保护栏、铁马及移动公厕租赁采购项目_垫江县人民政府 中国政府网 | 重庆市人民政府网 | 登录 | 注销 注册 | 关怀版 | 无障碍 | 智能机器人 | 便民地图 | 支持IPV6 部门街镇 首页 政务公开 政务服务 互动交流 走进垫江 政府采购 部门 发展和改革委员会 教育委员会 科学技术局 经济和信息化委员会 公安局 民政局 司法局 财政局 人力资源和社会保障局 规划和自然资源局 住房和城乡建设委员会 生态环境局 交通运输委员会 水利局 农业农村委员会 商务委员会 文化和旅游发展委员会 卫生健康委员会 退役军人事务局 应急管理局 审计局 市场监督管理局 统计局 医疗保障局 林业局 信访办公室 街镇 桂阳街道 桂溪街道 澄溪街道 桂东街道 新民镇 沙坪镇 曹回镇 周嘉镇 普顺镇 永安",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
+      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
+      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+    },
+    {
+      "id": 100002,
+      "title": "高新区(弋江区)44座公厕日常管养服务项目招标公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://whsggzy.wuhu.gov.cn/whggzyjy/005/005002/005002001/20260316/d1d70c1d-cb9d-45df-9e02-939214c081d8.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
+      "published": "2026-03-16",
+      "region": "芜湖市",
+      "amount": "3158801元",
+      "snippet": "芜湖公共资源交易中心--高新区(弋江区)44座公厕日常管养服务项目招标公告 首页-交易详情 当前位置： 首页 > 交易信息 > 政府采购 > 采购公告 高新区(弋江区)44座公厕日常管养服务项目招标公告 采购意向公开 标前公示 项目登记 采购公告 开标信息 更正公告 中标结果公告 中标通知书 合同信息 单一来源采购公示 履约信息 项目异常 信息来源：弋江区 信息时间：2026-03-16 15:40 阅读次数： 次 区块链已存证 存证时间： 2026-03-16 15:50:54 存证哈希值： 73C45CFCE7E111BD4D76CFCD27090D2DE81BFE4FF9ED9E57989ABD71E7DA2B2A 区块高度： 19529677 投标 办理流程公开 办理流程公开 累计提交时间： 0天1小时",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
+      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
+      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+    },
+    {
+      "id": 100006,
+      "title": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://weda.wuhu.gov.cn/zfcg/zbgg/18528856.html",
       "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E5%9E%83%E5%9C%BE%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
       "query_keyword": "site:gov.cn 垃圾房 招标 公告",
-      "published": "2026-03-18",
+      "published": "2026-03-06",
       "region": "芜湖经济技术开发区",
       "amount": "149500 元",
-      "snippet": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告_芜湖经济技术开发区 简体 繁体 | 导航 网站首页 首页 走进经开区 政府信息公开 新闻中心 网上办事 互动交流 党群工作 AI+政务问答 您当前的位置是： 首页 > 政府采购 > 招标公告 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告 发布日期：2026-03-18 16:34 来源：芜湖经济技术开发区 阅读： 字号： 大 中 小 项目概况 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次） 的潜在供应商 应在本项目采购代理机构处获取招标文件 ，并于 2026 年 03 月 31 日 09 点 15 分（北京时间）前提交响应文件。 一、项目基本情况 项目编号： ZTSD-2026-FW004 项目名称： 芜",
+      "snippet": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告_芜湖经济技术开发区 简体 繁体 | 导航 网站首页 首页 走进经开区 政府信息公开 新闻中心 网上办事 互动交流 党群工作 AI+政务问答 您当前的位置是： 首页 > 政府采购 > 招标公告 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告 发布日期：2026-03-06 14:44 来源：芜湖经济技术开发区 阅读： 字号： 大 中 小 项目概况 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计的潜在供应商 应在本项目采购代理机构处获取招标文件 ，并于 2026 年 03 月 17 日 09 点 15 分（北京时间）前提交响应文件。 一、项目基本情况 项目编号： ZTSD-2026-FW004 项目名称：芜湖凤鸣研创中心升级改造项目（",
       "tags": [
         "adjacent-space"
       ],
@@ -125,35 +147,13 @@
       "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
     },
     {
-      "id": 100006,
-      "title": "高新区(弋江区)44座公厕日常管养服务项目招标公告",
-      "source_name": "Yahoo Search Fallback",
-      "source_kind": "search-fallback",
-      "source_url": "https://whsggzy.wuhu.gov.cn/whggzyjy/005/005002/005002001/20260316/d1d70c1d-cb9d-45df-9e02-939214c081d8.html",
-      "search_url": "https://search.yahoo.com/search?p=site%3Awhsggzy.wuhu.gov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:whsggzy.wuhu.gov.cn 移动公厕 招标 公告",
-      "published": "2026-03-16",
-      "region": "芜湖市",
-      "amount": "3158801元",
-      "snippet": "芜湖公共资源交易中心--高新区(弋江区)44座公厕日常管养服务项目招标公告 首页-交易详情 当前位置： 首页 > 交易信息 > 政府采购 > 采购公告 高新区(弋江区)44座公厕日常管养服务项目招标公告 采购意向公开 标前公示 项目登记 采购公告 开标信息 更正公告 中标结果公告 中标通知书 合同信息 单一来源采购公示 履约信息 项目异常 信息来源：弋江区 信息时间：2026-03-16 15:40 阅读次数： 次 区块链已存证 存证时间： 2026-03-16 15:50:54 存证哈希值： 73C45CFCE7E111BD4D76CFCD27090D2DE81BFE4FF9ED9E57989ABD71E7DA2B2A 区块高度： 19529677 投标 办理流程公开 办理流程公开 累计提交时间： 0天1小时",
-      "tags": [
-        "adjacent-space"
-      ],
-      "score": 1,
-      "priority": "Watch",
-      "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:whsggzy.wuhu.gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
-    },
-    {
-      "id": 100007,
+      "id": 100004,
       "title": "福州市鼓楼区环境卫生中心关于2026年度公厕改造提升项目市场询价的公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
       "source_url": "https://www.gl.gov.cn/xjwz/zwgkml/zdlyxxgk/zfcg/zbgg/zbgg_csglj_40860/202603/t20260306_5292496.htm",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agl.gov.cn+%E5%85%AC%E5%8E%95+%E6%94%B9%E9%80%A0+%E6%8F%90%E5%8D%87+%E9%A1%B9%E7%9B%AE&btf=m&nojs=1",
-      "query_keyword": "site:gl.gov.cn 公厕 改造 提升 项目",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
       "published": "2026-03-06",
       "region": "福州市鼓楼区",
       "amount": "213万元",
@@ -164,12 +164,34 @@
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gl.gov.cn 公厕 改造 提升 项目' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
+      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
       "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
       "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
     },
     {
       "id": 100005,
+      "title": "by.gov.cn www.by.gov.cn › gzbyrhz › gkmlpt 人和镇公厕保洁与维护服务（2026—2027年）采购项目招标公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.by.gov.cn/gzbyrhz/gkmlpt/content/10/10713/post_10713418.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
+      "published": "2026-03-06",
+      "region": "广州市白云区",
+      "amount": "3,981,600.00元",
+      "snippet": "人和镇公厕保洁与维护服务（2026—2027年）采购项目招标公告 广州市白云区人和镇人民政府  无障碍  长者助手 我的收藏  收藏 政府信息公开 规章库    高级搜索 搜索位置 标题 全文 排序方式 按时间 按相关度 搜索位置 标题 全文 文件状态 不限 现行有效 已失效 高级搜索 收起 搜索以下关键词 搜索位置 标题 全文 排序方式 按时间 按相关度 文件状态 不限 现行有效 已失效 搜索 广州市白云区人和镇人民政府信息公开 规章 下载文字版 下载图片版 索引号： 11440111007486269N/2026-00017 分类： 发布机构： 广州市白云区人和镇人民政府 成文日期： 2026-03-06 名称： 人和镇公厕保洁与维护服务（2026—2027年）采购项目招标公告 文号： 发布日期",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
+      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
+      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+    },
+    {
+      "id": 100008,
       "title": "河南省公共资源交易中心 hnsggzyjy.henan.gov.cn › jyxx › 002003 哈密市伊州区凤凰台大营内西区7号集装箱式房屋拍租交易公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -191,7 +213,7 @@
       "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
     },
     {
-      "id": 100004,
+      "id": 100007,
       "title": "射阳县人民政府 www.sheyang.gov.cn › art › 2026/3/18 射阳县人民政府 招标公告 2026年-2028年麦芽集装箱运输服务项目招标公...",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -215,35 +237,13 @@
   ],
   "items": [
     {
-      "id": 100001,
-      "title": "宽城满族自治县人民政府 公告公示 宽城满族自治县烟草专卖局公告",
-      "source_name": "Yahoo Search Fallback",
-      "source_kind": "search-fallback",
-      "source_url": "https://www.hbkc.gov.cn/art/2026/3/16/art_5989_1107857.html",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:gov.cn 烟草公司 招标公告",
-      "published": "2026-03-16",
-      "region": "宽城满族自治县",
-      "amount": "",
-      "snippet": "宽城满族自治县人民政府 公告公示 宽城满族自治县烟草专卖局公告 38 政府信息公开平台 /col/col5957/index.html 法定主动公开内容 /col/col5961/index.html 工作动态 /col/col5976/index.html?number=C40007 公告公示 /col/col5989/index.html?number=C40007C00011 首页 > 政府信息公开平台 > 法定主动公开内容 > 工作动态 > 公告公示 索引号： 13566026/2026-00643 主题分类： 其他 发布机构： 宽城县烟草公司 成文日期： 2026-03-16 文件编号： 有 效 性： 有效 宽城满族自治县烟草专卖局公告 2026-03-16 17时20分 浏览次数： 抽样物品取证清单",
-      "tags": [
-        "tobacco"
-      ],
-      "score": 4,
-      "priority": "Medium",
-      "opportunity_type": "Direct",
-      "summary": "tobacco system notice matched keyword 'site:gov.cn 烟草公司 招标公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
-    },
-    {
       "id": 100000,
       "title": "常德烟草机械有限责任公司所需真空退火炉项目评标结果公示公告_交易公开_国家公共资源交易平台",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
       "source_url": "https://www.ggzy.gov.cn/information/deal/html/a/430000/0104/20260309/a908216ade0d42d0a02f310a4340c4d9.html",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:gov.cn 烟草公司 招标公告",
+      "search_url": "https://search.yahoo.com/search?p=site%3Aggzy.gov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:ggzy.gov.cn 烟草公司 招标公告",
       "published": "2026-02-09",
       "region": "",
       "amount": "",
@@ -254,22 +254,22 @@
       "score": 4,
       "priority": "Medium",
       "opportunity_type": "Direct",
-      "summary": "tobacco system notice matched keyword 'site:gov.cn 烟草公司 招标公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
+      "summary": "tobacco system notice matched keyword 'site:ggzy.gov.cn 烟草公司 招标公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
       "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
       "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
     },
     {
-      "id": 100003,
-      "title": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告",
+      "id": 100006,
+      "title": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
-      "source_url": "https://weda.wuhu.gov.cn/zfcg/zbgg/18530622.html",
+      "source_url": "https://weda.wuhu.gov.cn/zfcg/zbgg/18528856.html",
       "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E5%9E%83%E5%9C%BE%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
       "query_keyword": "site:gov.cn 垃圾房 招标 公告",
-      "published": "2026-03-18",
+      "published": "2026-03-06",
       "region": "芜湖经济技术开发区",
       "amount": "149500 元",
-      "snippet": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告_芜湖经济技术开发区 简体 繁体 | 导航 网站首页 首页 走进经开区 政府信息公开 新闻中心 网上办事 互动交流 党群工作 AI+政务问答 您当前的位置是： 首页 > 政府采购 > 招标公告 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告 发布日期：2026-03-18 16:34 来源：芜湖经济技术开发区 阅读： 字号： 大 中 小 项目概况 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次） 的潜在供应商 应在本项目采购代理机构处获取招标文件 ，并于 2026 年 03 月 31 日 09 点 15 分（北京时间）前提交响应文件。 一、项目基本情况 项目编号： ZTSD-2026-FW004 项目名称： 芜",
+      "snippet": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告_芜湖经济技术开发区 简体 繁体 | 导航 网站首页 首页 走进经开区 政府信息公开 新闻中心 网上办事 互动交流 党群工作 AI+政务问答 您当前的位置是： 首页 > 政府采购 > 招标公告 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告 发布日期：2026-03-06 14:44 来源：芜湖经济技术开发区 阅读： 字号： 大 中 小 项目概况 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计的潜在供应商 应在本项目采购代理机构处获取招标文件 ，并于 2026 年 03 月 17 日 09 点 15 分（北京时间）前提交响应文件。 一、项目基本情况 项目编号： ZTSD-2026-FW004 项目名称：芜湖凤鸣研创中心升级改造项目（",
       "tags": [
         "adjacent-space"
       ],
@@ -281,13 +281,13 @@
       "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
     },
     {
-      "id": 100006,
+      "id": 100002,
       "title": "高新区(弋江区)44座公厕日常管养服务项目招标公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
       "source_url": "https://whsggzy.wuhu.gov.cn/whggzyjy/005/005002/005002001/20260316/d1d70c1d-cb9d-45df-9e02-939214c081d8.html",
-      "search_url": "https://search.yahoo.com/search?p=site%3Awhsggzy.wuhu.gov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:whsggzy.wuhu.gov.cn 移动公厕 招标 公告",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
       "published": "2026-03-16",
       "region": "芜湖市",
       "amount": "3158801元",
@@ -298,18 +298,18 @@
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:whsggzy.wuhu.gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
+      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
       "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
       "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
     },
     {
-      "id": 100007,
+      "id": 100004,
       "title": "福州市鼓楼区环境卫生中心关于2026年度公厕改造提升项目市场询价的公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
       "source_url": "https://www.gl.gov.cn/xjwz/zwgkml/zdlyxxgk/zfcg/zbgg/zbgg_csglj_40860/202603/t20260306_5292496.htm",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agl.gov.cn+%E5%85%AC%E5%8E%95+%E6%94%B9%E9%80%A0+%E6%8F%90%E5%8D%87+%E9%A1%B9%E7%9B%AE&btf=m&nojs=1",
-      "query_keyword": "site:gl.gov.cn 公厕 改造 提升 项目",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
       "published": "2026-03-06",
       "region": "福州市鼓楼区",
       "amount": "213万元",
@@ -320,12 +320,12 @@
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gl.gov.cn 公厕 改造 提升 项目' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
+      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
       "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
       "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
     },
     {
-      "id": 100005,
+      "id": 100008,
       "title": "河南省公共资源交易中心 hnsggzyjy.henan.gov.cn › jyxx › 002003 哈密市伊州区凤凰台大营内西区7号集装箱式房屋拍租交易公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -347,7 +347,7 @@
       "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
     },
     {
-      "id": 100004,
+      "id": 100007,
       "title": "射阳县人民政府 www.sheyang.gov.cn › art › 2026/3/18 射阳县人民政府 招标公告 2026年-2028年麦芽集装箱运输服务项目招标公...",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -365,6 +365,50 @@
       "priority": "Watch",
       "opportunity_type": "Adjacent",
       "summary": "public procurement notice matched keyword 'site:gov.cn 集装箱厢房 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
+      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
+      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+    },
+    {
+      "id": 100003,
+      "title": "2026重庆垫江马拉松安保护栏、铁马及移动公厕租赁采购项目_垫江县人民政府",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "http://www.cqsdj.gov.cn/zwgk_157/zfxxgkml/zfcg/ssqk/xeyx/zbgg_new/202603/t20260323_15558521.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
+      "published": "2026-03-23",
+      "region": "垫江县",
+      "amount": "26.2075 万元",
+      "snippet": "2026重庆垫江马拉松安保护栏、铁马及移动公厕租赁采购项目_垫江县人民政府 中国政府网 | 重庆市人民政府网 | 登录 | 注销 注册 | 关怀版 | 无障碍 | 智能机器人 | 便民地图 | 支持IPV6 部门街镇 首页 政务公开 政务服务 互动交流 走进垫江 政府采购 部门 发展和改革委员会 教育委员会 科学技术局 经济和信息化委员会 公安局 民政局 司法局 财政局 人力资源和社会保障局 规划和自然资源局 住房和城乡建设委员会 生态环境局 交通运输委员会 水利局 农业农村委员会 商务委员会 文化和旅游发展委员会 卫生健康委员会 退役军人事务局 应急管理局 审计局 市场监督管理局 统计局 医疗保障局 林业局 信访办公室 街镇 桂阳街道 桂溪街道 澄溪街道 桂东街道 新民镇 沙坪镇 曹回镇 周嘉镇 普顺镇 永安",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
+      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
+      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+    },
+    {
+      "id": 100005,
+      "title": "by.gov.cn www.by.gov.cn › gzbyrhz › gkmlpt 人和镇公厕保洁与维护服务（2026—2027年）采购项目招标公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.by.gov.cn/gzbyrhz/gkmlpt/content/10/10713/post_10713418.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
+      "published": "2026-03-06",
+      "region": "广州市白云区",
+      "amount": "3,981,600.00元",
+      "snippet": "人和镇公厕保洁与维护服务（2026—2027年）采购项目招标公告 广州市白云区人和镇人民政府  无障碍  长者助手 我的收藏  收藏 政府信息公开 规章库    高级搜索 搜索位置 标题 全文 排序方式 按时间 按相关度 搜索位置 标题 全文 文件状态 不限 现行有效 已失效 高级搜索 收起 搜索以下关键词 搜索位置 标题 全文 排序方式 按时间 按相关度 文件状态 不限 现行有效 已失效 搜索 广州市白云区人和镇人民政府信息公开 规章 下载文字版 下载图片版 索引号： 11440111007486269N/2026-00017 分类： 发布机构： 广州市白云区人和镇人民政府 成文日期： 2026-03-06 名称： 人和镇公厕保洁与维护服务（2026—2027年）采购项目招标公告 文号： 发布日期",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
       "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
       "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
     }
