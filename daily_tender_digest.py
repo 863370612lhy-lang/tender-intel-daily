@@ -45,13 +45,14 @@ DEFAULT_MODEL = "gemini-2.5-flash-lite"
 DEFAULT_TIMEZONE = "Asia/Shanghai"
 DEFAULT_TIMEOUT = 20
 DEFAULT_LOOKBACK_DAYS = 7
-DEFAULT_PAGE_LIMIT = 3
-DEFAULT_MAX_ITEMS = 120
+DEFAULT_PAGE_LIMIT = 5
+DEFAULT_MAX_ITEMS = 160
 DEFAULT_SEARCH_RECENCY = "m"
 DEFAULT_EMAIL_ITEM_LIMIT = 20
 DEFAULT_EMAIL_TO = "863370612lhy@gmail.com"
 DEFAULT_SMTP_HOST = "smtp.gmail.com"
 DEFAULT_SMTP_PORT = 465
+DEFAULT_BING_MARKET = "zh-CN"
 
 NOTICE_TERMS = [
     "招标",
@@ -105,6 +106,36 @@ SEARCH_KEYWORDS = [
     "岗亭",
 ]
 
+PROCUREMENT_TERMS = [
+    "招标",
+    "采购",
+    "采购公告",
+    "招标公告",
+    "中标",
+    "中标候选人",
+    "成交",
+    "结果公告",
+    "结果公示",
+    "评标结果",
+    "竞争性磋商",
+    "竞争性谈判",
+    "询价",
+    "比选",
+    "竞价",
+    "遴选",
+    "公开招标",
+]
+EXCLUDED_NOTICE_TERMS = [
+    "行政许可",
+    "监督管理情况",
+    "零售许可证",
+    "双随机",
+    "考试",
+    "待遇",
+    "招聘",
+    "报名时间",
+]
+
 OFFICIAL_SOURCES = [
     {
         "name": "China Government Procurement",
@@ -127,6 +158,37 @@ SEARCH_FALLBACK_SOURCE = {
     "name": "Yahoo Search Fallback",
     "kind": "search-fallback",
     "homepage": "https://search.yahoo.com/",
+}
+SEARCH_FALLBACK_SOURCES = [
+    {
+        "name": "Yahoo Search Fallback",
+        "kind": "search-fallback",
+        "homepage": "https://search.yahoo.com/",
+        "search_url": "https://search.yahoo.com/search",
+        "engine": "yahoo",
+    },
+    {
+        "name": "Bing Search Fallback",
+        "kind": "search-fallback",
+        "homepage": "https://www.bing.com/",
+        "search_url": "https://www.bing.com/search",
+        "engine": "bing",
+    },
+]
+SOURCE_NAME_ZH = {
+    "China Government Procurement": "中国政府采购网",
+    "National Public Resource Trading Platform": "全国公共资源交易平台",
+    "Yahoo Search Fallback": "Yahoo 公开检索补充源",
+    "Bing Search Fallback": "Bing 公开检索补充源",
+}
+PRIORITY_LABELS = {"High": "高优先", "Medium": "中优先", "Watch": "观察"}
+TYPE_LABELS = {"Direct": "直接匹配", "Adjacent": "邻近机会", "Monitor": "持续跟踪"}
+TAG_LABELS = {
+    "tobacco": "烟草系统",
+    "smoking-environment": "文明吸烟环境",
+    "smoking-space": "吸烟室/吸烟亭",
+    "adjacent-space": "邻近空间",
+    "official-source": "官方源",
 }
 YAHOO_SITE_QUERIES = [
     ("site:ggzy.gov.cn", "烟草公司 招标公告", ["烟草", "中烟"]),
@@ -169,6 +231,42 @@ DEFAULT_SEARCH_SITE_SEEDS = [
         ],
     },
 ]
+
+YAHOO_SITE_QUERIES.extend(
+    [
+        ("site:gov.cn", "烟草专卖局 招标公告", ["烟草", "专卖局"]),
+        ("site:gov.cn", "烟草机械 招标公告", ["烟草", "机械"]),
+        ("site:gov.cn", "文明吸烟环境 建设 项目", ["文明吸烟环境", "吸烟"]),
+        ("site:gov.cn", "吸烟室 建设 项目", ["吸烟室"]),
+        ("site:gov.cn", "吸烟亭 建设 项目", ["吸烟亭"]),
+        ("site:ggzy.gov.cn", "垃圾房 招标 公告", ["垃圾房"]),
+        ("site:ggzy.gov.cn", "集装箱厢房 招标 公告", ["集装箱", "厢房"]),
+    ]
+)
+
+DEFAULT_SEARCH_SITE_SEEDS.extend(
+    [
+        {
+            "name": "Government Portals Tobacco",
+            "domain": "gov.cn",
+            "queries": [
+                ("烟草专卖局 招标公告", ["烟草", "专卖局"]),
+                ("烟草机械 招标公告", ["烟草", "机械"]),
+                ("文明吸烟环境 建设 项目", ["文明吸烟环境", "吸烟"]),
+                ("吸烟室 建设 项目", ["吸烟室"]),
+                ("吸烟亭 建设 项目", ["吸烟亭"]),
+            ],
+        },
+        {
+            "name": "National Public Resource Trading Platform Extended",
+            "domain": "ggzy.gov.cn",
+            "queries": [
+                ("垃圾房 招标 公告", ["垃圾房"]),
+                ("集装箱厢房 招标 公告", ["集装箱", "厢房"]),
+            ],
+        },
+    ]
+)
 
 
 @dataclass
@@ -268,6 +366,89 @@ def require_env(name: str) -> str:
     return value
 
 
+def localize_source_name(name: str) -> str:
+    return SOURCE_NAME_ZH.get(name, name)
+
+
+def localize_priority(priority: str) -> str:
+    return PRIORITY_LABELS.get(priority, priority)
+
+
+def localize_type(opportunity_type: str) -> str:
+    return TYPE_LABELS.get(opportunity_type, opportunity_type)
+
+
+def localize_tags(tags: list[str]) -> list[str]:
+    return [TAG_LABELS.get(tag, tag) for tag in tags]
+
+
+def summarize_source_error(error: str) -> str:
+    text = clean_text(error)
+    lowered = text.lower()
+    if not text:
+        return ""
+    if "500" in lowered or "502" in lowered or "503" in lowered:
+        return "官方检索接口返回服务器异常，疑似站点临时波动或触发访问限制，系统已自动切换补充检索。"
+    if "ssl" in lowered or "unexpected_eof" in lowered:
+        return "目标站点 SSL 握手异常，当前环境与对方站点连接不稳定，系统已自动切换补充检索。"
+    if "timed out" in lowered or "timeout" in lowered:
+        return "目标站点访问超时，当前轮次未能稳定返回结果，系统已自动切换补充检索。"
+    if "no result extracted" in lowered:
+        return "该检索词本轮未从补充搜索源提取到有效公告，可继续扩大关键词和站点范围。"
+    if "forbidden" in lowered or "captcha" in lowered:
+        return "目标站点存在访问限制，当前轮次无法稳定抓取公开结果。"
+    return f"站点访问存在异常：{text[:80]}"
+
+
+def build_default_copy(item: TenderItem) -> tuple[str, str, str]:
+    if "tobacco" in item.tags:
+        summary = (
+            f"该项目与烟草系统采购直接相关，命中检索词“{item.query_keyword}”。"
+            "建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。"
+        )
+        sales_angle = "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。"
+    elif "smoking-environment" in item.tags or "smoking-space" in item.tags:
+        summary = (
+            f"该项目与文明吸烟环境、吸烟室或吸烟亭建设高度相关，命中检索词“{item.query_keyword}”。"
+            "建议重点确认建设点位数量、交付形式、安装条件和项目周期。"
+        )
+        sales_angle = "建议优先联系采购代理、总包单位或甲方后勤部门，判断是否适合吸烟室或吸烟亭方案切入。"
+    elif "adjacent-space" in item.tags:
+        summary = (
+            f"该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“{item.query_keyword}”。"
+            "虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。"
+        )
+        sales_angle = "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。"
+    else:
+        summary = (
+            f"该公告已命中业务监测关键词“{item.query_keyword}”，建议复核原公告中的采购范围、时间节点和资格条件。"
+        )
+        sales_angle = "建议先做快速甄别，再决定是否进入销售重点池。"
+    next_action = "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。"
+    return summary, sales_angle, next_action
+
+
+def serialize_item(item: TenderItem) -> dict[str, Any]:
+    data = asdict(item)
+    data["source_name_zh"] = localize_source_name(item.source_name)
+    data["priority_zh"] = localize_priority(item.priority)
+    data["opportunity_type_zh"] = localize_type(item.opportunity_type)
+    data["tags_zh"] = localize_tags(item.tags)
+    return data
+
+
+def serialize_source_health(item: dict[str, Any]) -> dict[str, Any]:
+    data = dict(item)
+    data["name_zh"] = localize_source_name(item.get("name", ""))
+    if item.get("status") == "ok" and item.get("failure_count", 0):
+        data["display_error"] = "本轮已成功提取部分结果，个别检索词未返回有效公告，系统已保留可用线索。"
+    elif item.get("status") == "ok":
+        data["display_error"] = ""
+    else:
+        data["display_error"] = summarize_source_error(item.get("last_error", ""))
+    return data
+
+
 def init_source_health() -> None:
     SOURCE_HEALTH.clear()
     for source in OFFICIAL_SOURCES:
@@ -280,15 +461,16 @@ def init_source_health() -> None:
             "failure_count": 0,
             "last_error": "",
         }
-    SOURCE_HEALTH[SEARCH_FALLBACK_SOURCE["name"]] = {
-        "name": SEARCH_FALLBACK_SOURCE["name"],
-        "kind": SEARCH_FALLBACK_SOURCE["kind"],
-        "homepage": SEARCH_FALLBACK_SOURCE["homepage"],
-        "status": "unknown",
-        "success_count": 0,
-        "failure_count": 0,
-        "last_error": "",
-    }
+    for source in SEARCH_FALLBACK_SOURCES:
+        SOURCE_HEALTH[source["name"]] = {
+            "name": source["name"],
+            "kind": source["kind"],
+            "homepage": source["homepage"],
+            "status": "unknown",
+            "success_count": 0,
+            "failure_count": 0,
+            "last_error": "",
+        }
 
 
 def record_source_success(source_name: str, increment: int = 1) -> None:
@@ -302,7 +484,7 @@ def record_source_failure(source_name: str, error: str) -> None:
     item["failure_count"] += 1
     if item["status"] != "ok":
         item["status"] = "error"
-    item["last_error"] = error[:280]
+    item["last_error"] = summarize_source_error(error)[:280]
 
 
 def clean_text(value: Any) -> str:
@@ -350,6 +532,8 @@ def classify_item(item: TenderItem) -> TenderItem:
     blob = " ".join([item.title, item.snippet])
     tags: list[str] = []
     score = 0
+    procurement_signal = has_procurement_signal(blob)
+    excluded_signal = is_excluded_notice(blob)
 
     if contains_any(blob, KEYWORD_GROUPS["Direct Tobacco"]):
         tags.append("tobacco")
@@ -370,6 +554,19 @@ def classify_item(item: TenderItem) -> TenderItem:
     item.score = score
     item.tags = list(dict.fromkeys(tags))
 
+    if ("tobacco" in item.tags or "smoking-environment" in item.tags or "smoking-space" in item.tags) and (
+        excluded_signal or not procurement_signal
+    ):
+        item.priority = "Watch"
+        item.opportunity_type = "Monitor"
+        item.summary = (
+            f"该公告命中业务关键词“{item.query_keyword}”，但当前页面未明确体现招标、采购、中标或成交等采购动作词，"
+            "暂列为监测情报，不建议直接购买标书。"
+        )
+        item.sales_angle = "建议仅做关系线索跟踪，重点核实是否另有对应的采购公告、招标公告或中标结果页。"
+        item.next_action = "打开原文确认是否存在关联采购项目编号、采购代理机构或同步发布的招标结果页。"
+        return item
+
     if score >= 7:
         item.priority = "High"
         item.opportunity_type = "Direct"
@@ -383,17 +580,7 @@ def classify_item(item: TenderItem) -> TenderItem:
         item.priority = "Watch"
         item.opportunity_type = "Monitor"
 
-    buyer_hint = "tobacco system" if "tobacco" in item.tags else "public procurement"
-    item.summary = (
-        f"{buyer_hint} notice matched keyword '{item.query_keyword}' on {item.source_name}. "
-        "Review the source page for scope, deadline, and bid-book purchase instructions."
-    )
-    item.sales_angle = (
-        "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces."
-    )
-    item.next_action = (
-        "Open the source notice, verify the buyer, purchase window, and required qualification documents."
-    )
+    item.summary, item.sales_angle, item.next_action = build_default_copy(item)
     return item
 
 
@@ -535,19 +722,29 @@ def has_required_terms(text: str, terms: list[str]) -> bool:
     return any(term in text for term in terms)
 
 
-def collect_yahoo_fallback_items() -> list[TenderItem]:
+def has_procurement_signal(text: str) -> bool:
+    return contains_any(text, PROCUREMENT_TERMS)
+
+
+def is_excluded_notice(text: str) -> bool:
+    return contains_any(text, EXCLUDED_NOTICE_TERMS)
+
+
+def build_fallback_queries() -> list[tuple[str, str, list[str]]]:
+    return [*YAHOO_SITE_QUERIES, *build_seed_site_queries()]
+
+
+def collect_yahoo_fallback_items(counter_start: int = 100000) -> list[TenderItem]:
     headers = {
         "User-Agent": "Mozilla/5.0",
         "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
     }
     items: list[TenderItem] = []
-    counter = 100000
+    counter = counter_start
     recency = os.getenv("SEARCH_RECENCY", DEFAULT_SEARCH_RECENCY)
-
-    all_queries = [*YAHOO_SITE_QUERIES, *build_seed_site_queries()]
     seen_queries: set[str] = set()
 
-    for site_scope, terms, required_terms in all_queries:
+    for site_scope, terms, required_terms in build_fallback_queries():
         query = f"{site_scope} {terms}"
         if query in seen_queries:
             continue
@@ -561,7 +758,7 @@ def collect_yahoo_fallback_items() -> list[TenderItem]:
             )
             response.raise_for_status()
         except Exception as exc:  # noqa: BLE001
-            record_source_failure(SEARCH_FALLBACK_SOURCE["name"], str(exc))
+            record_source_failure("Yahoo Search Fallback", str(exc))
             print(f"[warn] Failed Yahoo fallback query={query}: {exc}", file=sys.stderr)
             continue
 
@@ -573,11 +770,9 @@ def collect_yahoo_fallback_items() -> list[TenderItem]:
             title = clean_text(anchor.get_text(" ", strip=True))
             if not looks_like_notice(title):
                 continue
-
             source_url = decode_yahoo_redirect(anchor["href"])
             if not source_url.startswith("http") or not is_official_notice_url(source_url):
                 continue
-
             context = clean_text(anchor.parent.get_text(" ", strip=True) if anchor.parent else title)
             evidence = f"{title} {context}"
             if not has_required_terms(evidence, required_terms):
@@ -585,8 +780,8 @@ def collect_yahoo_fallback_items() -> list[TenderItem]:
             item = TenderItem(
                 id=counter,
                 title=title,
-                source_name=SEARCH_FALLBACK_SOURCE["name"],
-                source_kind=SEARCH_FALLBACK_SOURCE["kind"],
+                source_name="Yahoo Search Fallback",
+                source_kind="search-fallback",
                 source_url=source_url,
                 search_url=response.url,
                 query_keyword=query,
@@ -600,10 +795,86 @@ def collect_yahoo_fallback_items() -> list[TenderItem]:
             found += 1
 
         if found:
-            record_source_success(SEARCH_FALLBACK_SOURCE["name"], found)
+            record_source_success("Yahoo Search Fallback", found)
         else:
-            record_source_failure(SEARCH_FALLBACK_SOURCE["name"], f"No result extracted for query: {query}")
+            record_source_failure("Yahoo Search Fallback", f"No result extracted for query: {query}")
 
+    return items
+
+
+def collect_bing_fallback_items(counter_start: int = 200000) -> list[TenderItem]:
+    headers = {
+        "User-Agent": "Mozilla/5.0",
+        "Accept-Language": "zh-CN,zh;q=0.9,en;q=0.8",
+    }
+    items: list[TenderItem] = []
+    counter = counter_start
+    seen_queries: set[str] = set()
+
+    for site_scope, terms, required_terms in build_fallback_queries():
+        query = f"{site_scope} {terms}"
+        if query in seen_queries:
+            continue
+        seen_queries.add(query)
+        try:
+            response = requests.get(
+                "https://www.bing.com/search",
+                params={"q": query, "setlang": "zh-Hans", "cc": "cn", "mkt": DEFAULT_BING_MARKET},
+                headers=headers,
+                timeout=getenv_int("REQUEST_TIMEOUT_SECONDS", DEFAULT_TIMEOUT),
+            )
+            response.raise_for_status()
+        except Exception as exc:  # noqa: BLE001
+            record_source_failure("Bing Search Fallback", str(exc))
+            print(f"[warn] Failed Bing fallback query={query}: {exc}", file=sys.stderr)
+            continue
+
+        response.encoding = response.apparent_encoding or response.encoding
+        soup = BeautifulSoup(response.text, "html.parser")
+        found = 0
+
+        for result in soup.select("li.b_algo"):
+            anchor = result.select_one("h2 a[href]")
+            if not anchor:
+                continue
+            title = clean_text(anchor.get_text(" ", strip=True))
+            if not looks_like_notice(title):
+                continue
+            source_url = clean_text(anchor.get("href", ""))
+            if not source_url.startswith("http") or not is_official_notice_url(source_url):
+                continue
+            caption = result.select_one(".b_caption")
+            context = clean_text(caption.get_text(" ", strip=True) if caption else title)
+            evidence = f"{title} {context}"
+            if not has_required_terms(evidence, required_terms):
+                continue
+            item = TenderItem(
+                id=counter,
+                title=title,
+                source_name="Bing Search Fallback",
+                source_kind="search-fallback",
+                source_url=source_url,
+                search_url=response.url,
+                query_keyword=query,
+                published=extract_date(context),
+                region=extract_region(context or title),
+                amount=extract_amount(context),
+                snippet=context[:360],
+            )
+            items.append(classify_item(item))
+            counter += 1
+            found += 1
+
+        if found:
+            record_source_success("Bing Search Fallback", found)
+        else:
+            record_source_failure("Bing Search Fallback", f"No result extracted for query: {query}")
+
+    return items
+
+
+def collect_fallback_items() -> list[TenderItem]:
+    items = [*collect_yahoo_fallback_items(), *collect_bing_fallback_items()]
     deduped = dedupe_items(items)
     deduped.sort(key=lambda item: (item.score, item.published, item.title), reverse=True)
     return deduped[: getenv_int("MAX_ITEMS", DEFAULT_MAX_ITEMS)]
@@ -876,7 +1147,7 @@ def enrich_with_gemini(items: list[TenderItem]) -> tuple[dict[str, str], list[Te
 def build_payload(items: list[TenderItem], ai_summary: dict[str, str]) -> dict[str, Any]:
     priority_counts: dict[str, int] = {"High": 0, "Medium": 0, "Watch": 0}
     source_counts: dict[str, int] = {}
-    source_health = list(SOURCE_HEALTH.values())
+    source_health = [serialize_source_health(item) for item in SOURCE_HEALTH.values()]
     catalog = load_source_catalog()
 
     for item in items:
@@ -909,13 +1180,13 @@ def build_payload(items: list[TenderItem], ai_summary: dict[str, str]) -> dict[s
             "healthy_source_count": sum(1 for item in source_health if item.get("status") == "ok"),
             "error_source_count": sum(1 for item in source_health if item.get("status") == "error"),
             "official_query_count": official_query_count,
-            "fallback_query_count": len(build_yahoo_queries()),
+            "fallback_query_count": len(build_fallback_queries()) * len(SEARCH_FALLBACK_SOURCES),
         },
         "source_counts": source_counts,
         "source_health": source_health,
-        "top_direct_items": [asdict(item) for item in direct_items[:6]],
-        "watch_items": [asdict(item) for item in adjacent_items[:8]],
-        "items": [asdict(item) for item in items],
+        "top_direct_items": [serialize_item(item) for item in direct_items[:6]],
+        "watch_items": [serialize_item(item) for item in adjacent_items[:8]],
+        "items": [serialize_item(item) for item in items],
     }
 
 
@@ -1024,7 +1295,7 @@ def render_html(payload: dict[str, Any]) -> str:
   <body>
     <div class="shell">
       <nav class="nav">
-        <div class="brand"><span class="brand-dot"></span><span>Tender Signal Atlas</span></div>
+        <div class="brand"><span class="brand-dot"></span><span>招标信号图谱 Tender Signal Atlas</span></div>
         <div class="nav-meta">Generated {generated_at} | Lookback {lookback_days} days</div>
       </nav>
       <section class="hero">
@@ -1411,10 +1682,20 @@ def render_html_v2(payload: dict[str, Any]) -> str:
         document.getElementById("empty-state").textContent = t("emptyState");
         document.getElementById("footer-note").textContent = t("footer");
       }
+      function displaySourceName(item) {
+        return currentLang === "zh" ? (item.source_name_zh || item.source_name) : item.source_name;
+      }
+      function displayTags(item) {
+        return currentLang === "zh" ? (item.tags_zh || item.tags || []) : (item.tags || []);
+      }
       function buildSourceFilter() {
         const currentValue = sourceFilter.value;
         const entries = Object.entries(DATA.source_counts || {}).sort((a, b) => b[1] - a[1]);
-        sourceFilter.innerHTML = `<option value="">${t("sourceAll")}</option>` + entries.map(([name, count]) => `<option value="${name}">${name} (${count})</option>`).join("");
+        sourceFilter.innerHTML = `<option value="">${t("sourceAll")}</option>` + entries.map(([name, count]) => {
+          const health = (DATA.source_health || []).find(item => item.name === name);
+          const label = currentLang === "zh" ? ((health && health.name_zh) || name) : name;
+          return `<option value="${name}">${label} (${count})</option>`;
+        }).join("");
         sourceFilter.value = currentValue;
       }
       function renderHealthList() {
@@ -1679,6 +1960,666 @@ def render_sales_html(payload: dict[str, Any]) -> str:
     <div class="shell">
       <div class="quick-nav">
         <a class="quick-link" href="./index.html">总览首页 Main</a>
+        <a class="quick-link" href="./executive.html">老板页 Executive</a>
+        <a class="quick-link" href="./archive/index.html">历史归档 Archive</a>
+      </div>
+      <section class="hero">
+        <div style="font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#7ff1d1;font-weight:800;">销售视图 Sales View</div>
+        <h1>销售直跟线索板 Direct-Fit Lead Board</h1>
+        <p>{escape(payload["summary"]["overview"])}</p>
+        <p style="margin-top:10px;">生成时间 Generated {escape(payload.get("generated_at_local", payload["generated_at"]))} | 报告日期 Report date {escape(payload["report_date"])}</p>
+      </section>
+      <section class="grid">{sales_markup}</section>
+    </div>
+  </body>
+</html>"""
+
+
+def render_html_v2(payload: dict[str, Any]) -> str:
+    data_json = json.dumps(payload, ensure_ascii=False)
+    template = """<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>{title}</title>
+    <meta name="description" content="{subtitle}" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@500;600;700&family=Manrope:wght@400;500;600;700;800&family=Noto+Sans+SC:wght@400;500;700;900&display=swap"
+      rel="stylesheet"
+    />
+    <style>
+      :root { --bg:#071019; --panel:rgba(9,19,29,.84); --panel-strong:rgba(8,15,23,.96); --line:rgba(170,206,235,.12); --text:#f6fbff; --muted:#97abbe; --mint:#7ff1d1; --gold:#f6cd87; --blue:#8ec2ff; --danger:#ffb4b4; --shadow:0 30px 80px rgba(0,0,0,.34); }
+      * { box-sizing:border-box; }
+      body { margin:0; color:var(--text); background:radial-gradient(circle at 10% 12%, rgba(127,241,209,.15), transparent 24%), radial-gradient(circle at 88% 14%, rgba(246,205,135,.14), transparent 22%), radial-gradient(circle at 40% 100%, rgba(142,194,255,.12), transparent 22%), linear-gradient(180deg, #08111a 0%, #0b1722 48%, #060c13 100%); font-family:"Noto Sans SC","Manrope",sans-serif; }
+      .shell { width:min(1460px, calc(100% - 28px)); margin:0 auto; padding:22px 0 56px; }
+      .nav { display:flex; justify-content:space-between; align-items:center; gap:16px; padding:16px 18px; border:1px solid var(--line); border-radius:24px; background:rgba(9,16,24,.68); box-shadow:var(--shadow); backdrop-filter:blur(18px); }
+      .brand { display:flex; align-items:center; gap:12px; font-size:12px; font-weight:800; letter-spacing:.16em; text-transform:uppercase; }
+      .brand-dot { width:12px; height:12px; border-radius:999px; background:linear-gradient(135deg, var(--gold), var(--mint)); box-shadow:0 0 18px rgba(127,241,209,.52); }
+      .nav-right { display:flex; align-items:center; gap:10px; flex-wrap:wrap; }
+      .nav-meta { color:var(--muted); font-size:13px; }
+      .lang-switch { display:flex; gap:8px; padding:4px; border:1px solid rgba(255,255,255,.08); border-radius:999px; background:rgba(255,255,255,.03); }
+      .lang-btn { border:none; border-radius:999px; background:transparent; color:var(--muted); padding:8px 14px; cursor:pointer; font-size:12px; font-weight:800; letter-spacing:.08em; }
+      .lang-btn.active { color:#08111a; background:linear-gradient(135deg, var(--gold), #fff0ca); }
+      .quick-nav { margin-top:18px; display:flex; flex-wrap:wrap; gap:10px; }
+      .quick-link { display:inline-flex; align-items:center; justify-content:center; padding:10px 14px; border-radius:999px; text-decoration:none; font-size:13px; font-weight:800; background:rgba(255,255,255,.06); color:var(--text); border:1px solid rgba(255,255,255,.08); }
+      .hero { margin-top:24px; display:grid; grid-template-columns:1.08fr .92fr; gap:20px; }
+      .hero-main,.hero-side,.section-panel,.filter-box,.card,.focus-card,.health-card { border:1px solid var(--line); border-radius:32px; box-shadow:var(--shadow); backdrop-filter:blur(18px); }
+      .hero-main { padding:32px; position:relative; overflow:hidden; background:linear-gradient(160deg, rgba(12,24,36,.92), rgba(8,16,24,.88)); }
+      .hero-main::before { content:""; position:absolute; inset:auto -8% -26% auto; width:360px; height:360px; border-radius:999px; background:radial-gradient(circle, rgba(127,241,209,.22), transparent 64%); }
+      .eyebrow { margin:0; color:var(--mint); font-size:12px; font-weight:800; letter-spacing:.2em; text-transform:uppercase; }
+      h1 { margin:16px 0 12px; max-width:820px; font-family:"Cormorant Garamond",serif; font-size:clamp(46px, 5.6vw, 82px); line-height:.94; font-weight:600; }
+      .hero-subtitle { margin:0; max-width:780px; font-size:clamp(17px, 2vw, 24px); line-height:1.8; }
+      .hero-overview { margin-top:16px; max-width:780px; color:var(--muted); font-size:14px; line-height:1.95; }
+      .metric-grid { margin-top:24px; display:grid; grid-template-columns:repeat(6, minmax(0,1fr)); gap:12px; }
+      .metric-card { padding:16px; border-radius:22px; border:1px solid rgba(255,255,255,.06); background:rgba(255,255,255,.03); }
+      .metric-label { display:block; color:var(--muted); font-size:11px; font-weight:800; letter-spacing:.12em; text-transform:uppercase; }
+      .metric-value { display:block; margin-top:10px; font-size:28px; font-family:"Manrope",sans-serif; font-weight:800; }
+      .hero-side { padding:24px; background:linear-gradient(180deg, rgba(9,19,29,.88), rgba(8,14,22,.92)); }
+      .panel-title { margin:0 0 14px; color:var(--muted); font-size:12px; font-weight:800; letter-spacing:.14em; text-transform:uppercase; }
+      .coverage-grid { display:grid; grid-template-columns:repeat(2, minmax(0,1fr)); gap:12px; margin-top:14px; }
+      .coverage-card { padding:14px 16px; border-radius:20px; background:rgba(255,255,255,.04); border:1px solid rgba(255,255,255,.05); }
+      .coverage-card strong { display:block; margin-top:6px; font-size:22px; }
+      .health-list,.focus-grid,.grid { display:grid; gap:14px; }
+      .health-card { padding:16px; background:rgba(255,255,255,.03); border-radius:22px; }
+      .health-top { display:flex; justify-content:space-between; gap:12px; align-items:flex-start; }
+      .health-name { font-size:14px; font-weight:800; }
+      .health-status { font-size:12px; color:var(--gold); font-weight:800; letter-spacing:.06em; }
+      .health-status.error { color:var(--danger); }
+      .health-status.ok { color:var(--mint); }
+      .health-error { margin-top:8px; color:var(--muted); font-size:12px; line-height:1.75; }
+      .section-panel { margin-top:22px; padding:24px; background:rgba(8,15,23,.72); }
+      .section-head { display:flex; justify-content:space-between; align-items:baseline; gap:16px; margin-bottom:16px; }
+      .section-head h2 { margin:0; font-size:18px; letter-spacing:.12em; text-transform:uppercase; }
+      .section-head span { color:var(--muted); font-size:13px; }
+      .focus-grid { grid-template-columns:repeat(3, minmax(0,1fr)); }
+      .focus-card { padding:20px; background:linear-gradient(180deg, rgba(255,255,255,.04), rgba(255,255,255,.02)); border-radius:26px; }
+      .focus-badges,.badge-row,.tag-list,.control-row { display:flex; flex-wrap:wrap; gap:8px; }
+      .mini-badge,.badge,.tag { display:inline-flex; align-items:center; justify-content:center; padding:7px 10px; border-radius:999px; font-size:12px; }
+      .mini-badge,.badge { background:rgba(255,255,255,.06); }
+      .focus-card h3,.card h3 { margin:14px 0 0; font-size:22px; line-height:1.5; }
+      .focus-card p { margin:12px 0 0; color:var(--muted); font-size:13px; line-height:1.85; }
+      .focus-link,.link-btn { display:inline-flex; align-items:center; justify-content:center; border-radius:999px; padding:12px 16px; text-decoration:none; font-size:13px; font-weight:800; }
+      .focus-link { margin-top:16px; color:#08111a; background:linear-gradient(135deg, var(--gold), #fff2cb); }
+      .filters { margin-top:22px; display:grid; grid-template-columns:1.3fr .85fr .85fr .95fr; gap:12px; }
+      .filter-box { padding:14px 16px; background:rgba(8,15,23,.74); }
+      .filter-box label { display:block; margin-bottom:8px; color:var(--muted); font-size:12px; }
+      .filter-box input,.filter-box select { width:100%; border:none; outline:none; background:transparent; color:var(--text); font-size:15px; }
+      .filter-box option { color:#08111a; }
+      .grid { margin-top:18px; grid-template-columns:repeat(3, minmax(0,1fr)); }
+      .card { overflow:hidden; background:linear-gradient(180deg, rgba(10,18,28,.94), rgba(8,14,22,.96)); }
+      .card-top { position:relative; padding:20px; background:radial-gradient(circle at 85% 18%, rgba(255,255,255,.08), transparent 18%), linear-gradient(135deg, rgba(255,255,255,.02), rgba(255,255,255,.08)); }
+      .accent { position:absolute; inset:0 auto auto 0; width:100%; height:4px; background:var(--accent, var(--mint)); }
+      .card-body { padding:20px; }
+      .meta { display:grid; gap:10px; }
+      .meta-item { display:flex; justify-content:space-between; gap:12px; padding-bottom:10px; border-bottom:1px solid rgba(255,255,255,.06); }
+      .meta-item:last-child { border-bottom:none; padding-bottom:0; }
+      .meta-item span { color:var(--muted); font-size:12px; }
+      .meta-item strong { flex:1; text-align:right; font-size:13px; line-height:1.6; }
+      .summary,.sales-angle { margin-top:16px; color:var(--muted); font-size:14px; line-height:1.85; }
+      .sales-angle strong { color:var(--text); }
+      .tag { background:rgba(127,241,209,.12); }
+      .actions { display:flex; gap:10px; margin-top:18px; }
+      .link-primary { color:#08111a; background:linear-gradient(135deg, var(--gold), #fff0cb); }
+      .link-secondary { color:var(--text); border:1px solid rgba(255,255,255,.08); background:rgba(255,255,255,.03); }
+      .empty { margin-top:18px; padding:28px; border:1px dashed rgba(255,255,255,.14); border-radius:24px; color:var(--muted); text-align:center; }
+      .footer { margin-top:30px; color:var(--muted); font-size:13px; line-height:1.9; text-align:center; }
+      @media (max-width:1220px) { .hero,.filters,.focus-grid,.grid { grid-template-columns:1fr 1fr; } .metric-grid { grid-template-columns:repeat(3, minmax(0,1fr)); } }
+      @media (max-width:860px) { .hero,.filters,.focus-grid,.grid,.coverage-grid,.metric-grid { grid-template-columns:1fr; } .nav { flex-direction:column; align-items:flex-start; } .hero-main,.hero-side,.section-panel,.card,.focus-card,.health-card,.filter-box { border-radius:24px; } .actions { flex-direction:column; } }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <nav class="nav">
+        <div class="brand"><span class="brand-dot"></span><span>招标信号图谱 Tender Signal Atlas</span></div>
+        <div class="nav-right">
+          <div class="nav-meta" id="nav-meta">{generated_at_local}</div>
+          <div class="lang-switch">
+            <button class="lang-btn active" id="lang-zh" type="button">中文</button>
+            <button class="lang-btn" id="lang-en" type="button">EN</button>
+          </div>
+        </div>
+      </nav>
+      <div class="quick-nav">
+        <a class="quick-link" href="./index.html">总站 Main</a>
+        <a class="quick-link" href="./executive.html">老板页 Executive</a>
+        <a class="quick-link" href="./sales.html">销售页 Sales</a>
+        <a class="quick-link" href="./archive/index.html">历史归档 Archive</a>
+      </div>
+      <section class="hero">
+        <div class="hero-main">
+          <p class="eyebrow" id="eyebrow">每日商机监测</p>
+          <h1>{title}</h1>
+          <p class="hero-subtitle">{subtitle}</p>
+          <p class="hero-overview">{overview}</p>
+          <div class="metric-grid">
+            <div class="metric-card"><span class="metric-label" id="metric-total-label">项目总数</span><strong class="metric-value">{total_items}</strong></div>
+            <div class="metric-card"><span class="metric-label" id="metric-high-label">高优先级</span><strong class="metric-value">{high_priority}</strong></div>
+            <div class="metric-card"><span class="metric-label" id="metric-direct-label">直接匹配</span><strong class="metric-value">{direct_opportunities}</strong></div>
+            <div class="metric-card"><span class="metric-label" id="metric-sources-label">命中来源</span><strong class="metric-value">{source_count}</strong></div>
+            <div class="metric-card"><span class="metric-label" id="metric-seeds-label">种子来源</span><strong class="metric-value">{seed_source_count}</strong></div>
+            <div class="metric-card"><span class="metric-label" id="metric-fallback-label">补充检索</span><strong class="metric-value">{fallback_query_count}</strong></div>
+          </div>
+        </div>
+        <aside class="hero-side">
+          <p class="panel-title" id="coverage-title">覆盖健康度</p>
+          <div class="coverage-grid">
+            <div class="coverage-card"><span id="coverage-active-label">官方源集合</span><strong>{active_source_count}</strong></div>
+            <div class="coverage-card"><span id="coverage-healthy-label">健康源</span><strong>{healthy_source_count}</strong></div>
+            <div class="coverage-card"><span id="coverage-error-label">异常源</span><strong>{error_source_count}</strong></div>
+            <div class="coverage-card"><span id="coverage-query-label">官方查询次数</span><strong>{official_query_count}</strong></div>
+          </div>
+          <div class="section-head" style="margin-top:22px;margin-bottom:12px;">
+            <h2 id="source-health-title">来源健康状态</h2>
+          </div>
+          <div class="health-list" id="health-list"></div>
+        </aside>
+      </section>
+      <section class="section-panel">
+        <div class="section-head">
+          <h2 id="focus-title">销售重点线索</h2>
+          <span id="focus-subtitle">建议老板和销售先看这里</span>
+        </div>
+        <div class="focus-grid" id="focus-grid"></div>
+      </section>
+      <section class="filters">
+        <div class="filter-box">
+          <label for="search-input" id="search-label">搜索项目名称、地区、关键词</label>
+          <input id="search-input" type="text" placeholder="请输入项目名称、地区、关键词" />
+        </div>
+        <div class="filter-box">
+          <label for="priority-filter" id="priority-label">优先级</label>
+          <select id="priority-filter">
+            <option value="" id="priority-all">全部优先级</option>
+            <option value="High">高优先级</option>
+            <option value="Medium">中优先级</option>
+            <option value="Watch">观察</option>
+          </select>
+        </div>
+        <div class="filter-box">
+          <label for="type-filter" id="type-label">项目类型</label>
+          <select id="type-filter">
+            <option value="" id="type-all">全部类型</option>
+            <option value="Direct">直接匹配</option>
+            <option value="Adjacent">邻近机会</option>
+            <option value="Monitor">持续观察</option>
+          </select>
+        </div>
+        <div class="filter-box">
+          <label for="source-filter" id="source-filter-label">来源站点</label>
+          <select id="source-filter">
+            <option value="" id="source-all">全部来源</option>
+          </select>
+        </div>
+      </section>
+      <section class="section-panel">
+        <div class="section-head">
+          <h2 id="stream-title">全量项目流</h2>
+          <span id="result-count"></span>
+        </div>
+        <div class="grid" id="card-grid"></div>
+        <div class="empty" id="empty-state" hidden>当前筛选条件下没有匹配项目。</div>
+      </section>
+      <div class="footer" id="footer-note">本站仅监测公开来源并保留原始链接，不绕过登录、会员墙、验证码或反爬限制。</div>
+    </div>
+    <script>
+      const DATA = {data_json};
+      const I18N = {
+        zh: {
+          navMeta: "本地生成时间 {time} | 回溯 {days} 天",
+          eyebrow: "每日商机监测",
+          totalNotices: "项目总数",
+          highPriority: "高优先级",
+          directFits: "直接匹配",
+          liveSources: "命中来源",
+          seedSources: "种子来源",
+          fallbackQueries: "补充检索",
+          coverageHealth: "覆盖健康度",
+          officialSet: "官方源集合",
+          healthySources: "健康源",
+          errorSources: "异常源",
+          officialQueries: "官方查询次数",
+          sourceHealth: "来源健康状态",
+          salesFocus: "销售重点线索",
+          focusSubtitle: "建议老板和销售先看这里",
+          searchLabel: "搜索项目名称、地区、关键词",
+          searchPlaceholder: "请输入项目名称、地区、关键词",
+          priorityLabel: "优先级",
+          priorityAll: "全部优先级",
+          typeLabel: "项目类型",
+          typeAll: "全部类型",
+          sourceLabel: "来源站点",
+          sourceAll: "全部来源",
+          streamTitle: "全量项目流",
+          resultCount: "显示 {shown} / {total} 条项目",
+          emptyState: "当前筛选条件下没有匹配项目。",
+          footer: "本站仅监测公开来源并保留原始链接，不绕过登录、会员墙、验证码或反爬限制。",
+          keyword: "关键词",
+          published: "发布日期",
+          region: "地区",
+          amount: "金额",
+          salesAngle: "销售建议",
+          nextAction: "下一步动作",
+          openNotice: "查看原文",
+          openSearch: "查看搜索页",
+          focusOpen: "打开项目",
+          noDate: "未标注",
+          noRegion: "未标注",
+          noAmount: "未标注",
+          noError: "本轮无异常记录。",
+          noFocus: "本轮没有高优先级或中优先级的直接匹配项目。",
+          statusMap: { ok: "正常", error: "异常", unknown: "待检查" }
+        },
+        en: {
+          navMeta: "Generated {time} | Lookback {days} days",
+          eyebrow: "Daily Opportunity Feed",
+          totalNotices: "Total notices",
+          highPriority: "High priority",
+          directFits: "Direct fits",
+          liveSources: "Hit sources",
+          seedSources: "Seed sources",
+          fallbackQueries: "Fallback queries",
+          coverageHealth: "Coverage health",
+          officialSet: "Official source set",
+          healthySources: "Healthy sources",
+          errorSources: "Error sources",
+          officialQueries: "Official query count",
+          sourceHealth: "Source health",
+          salesFocus: "Sales focus",
+          focusSubtitle: "Suggested first-read section for leadership and sales",
+          searchLabel: "Search title, region, keyword",
+          searchPlaceholder: "Search by title, region, keyword",
+          priorityLabel: "Priority",
+          priorityAll: "All priorities",
+          typeLabel: "Opportunity type",
+          typeAll: "All types",
+          sourceLabel: "Source",
+          sourceAll: "All sources",
+          streamTitle: "Opportunity stream",
+          resultCount: "Showing {shown} / {total} notices",
+          emptyState: "No notices matched the current filters.",
+          footer: "This site monitors public sources only and keeps original links without bypassing paywalls, logins, CAPTCHA, or anti-bot controls.",
+          keyword: "Keyword",
+          published: "Published",
+          region: "Region",
+          amount: "Amount",
+          salesAngle: "Sales angle",
+          nextAction: "Next action",
+          openNotice: "Open notice",
+          openSearch: "Open search",
+          focusOpen: "Open lead",
+          noDate: "Unknown",
+          noRegion: "Unknown",
+          noAmount: "Not listed",
+          noError: "No issue recorded in this run.",
+          noFocus: "No direct High or Medium opportunities in this run.",
+          statusMap: { ok: "OK", error: "Error", unknown: "Unknown" }
+        }
+      };
+      const cardGrid = document.getElementById("card-grid");
+      const resultCount = document.getElementById("result-count");
+      const searchInput = document.getElementById("search-input");
+      const priorityFilter = document.getElementById("priority-filter");
+      const typeFilter = document.getElementById("type-filter");
+      const sourceFilter = document.getElementById("source-filter");
+      const emptyState = document.getElementById("empty-state");
+      const focusGrid = document.getElementById("focus-grid");
+      const healthList = document.getElementById("health-list");
+      let currentLang = "zh";
+
+      function t(key) { return I18N[currentLang][key]; }
+      function fmt(template, values) {
+        let output = template;
+        Object.entries(values).forEach(([key, value]) => {
+          output = output.replace(`{${key}}`, String(value));
+        });
+        return output;
+      }
+      function priorityLabel(item) {
+        return currentLang === "zh" ? (item.priority_zh || item.priority) : item.priority;
+      }
+      function typeLabel(item) {
+        return currentLang === "zh" ? (item.opportunity_type_zh || item.opportunity_type) : item.opportunity_type;
+      }
+      function sourceLabel(item) {
+        return currentLang === "zh" ? (item.source_name_zh || item.source_name) : item.source_name;
+      }
+      function tagLabels(item) {
+        return currentLang === "zh" ? (item.tags_zh || item.tags || []) : (item.tags || []);
+      }
+      function healthName(item) {
+        return currentLang === "zh" ? (item.name_zh || item.name) : item.name;
+      }
+      function healthError(item) {
+        const message = currentLang === "zh" ? (item.display_error || "") : (item.display_error || item.last_error || "");
+        return message || t("noError");
+      }
+      function statusLabel(status) {
+        return t("statusMap")[status] || status;
+      }
+      function accentFor(priority) {
+        if (priority === "High") return "var(--mint)";
+        if (priority === "Medium") return "var(--gold)";
+        return "var(--blue)";
+      }
+      function escapeHtml(value) {
+        return String(value || "")
+          .replaceAll("&", "&amp;")
+          .replaceAll("<", "&lt;")
+          .replaceAll(">", "&gt;")
+          .replaceAll('"', "&quot;");
+      }
+      function applyStaticText() {
+        document.getElementById("nav-meta").textContent = fmt(t("navMeta"), { time: DATA.generated_at_local || DATA.generated_at, days: DATA.lookback_days });
+        document.getElementById("eyebrow").textContent = t("eyebrow");
+        document.getElementById("metric-total-label").textContent = t("totalNotices");
+        document.getElementById("metric-high-label").textContent = t("highPriority");
+        document.getElementById("metric-direct-label").textContent = t("directFits");
+        document.getElementById("metric-sources-label").textContent = t("liveSources");
+        document.getElementById("metric-seeds-label").textContent = t("seedSources");
+        document.getElementById("metric-fallback-label").textContent = t("fallbackQueries");
+        document.getElementById("coverage-title").textContent = t("coverageHealth");
+        document.getElementById("coverage-active-label").textContent = t("officialSet");
+        document.getElementById("coverage-healthy-label").textContent = t("healthySources");
+        document.getElementById("coverage-error-label").textContent = t("errorSources");
+        document.getElementById("coverage-query-label").textContent = t("officialQueries");
+        document.getElementById("source-health-title").textContent = t("sourceHealth");
+        document.getElementById("focus-title").textContent = t("salesFocus");
+        document.getElementById("focus-subtitle").textContent = t("focusSubtitle");
+        document.getElementById("search-label").textContent = t("searchLabel");
+        document.getElementById("search-input").placeholder = t("searchPlaceholder");
+        document.getElementById("priority-label").textContent = t("priorityLabel");
+        document.getElementById("priority-all").textContent = t("priorityAll");
+        document.getElementById("type-label").textContent = t("typeLabel");
+        document.getElementById("type-all").textContent = t("typeAll");
+        document.getElementById("source-filter-label").textContent = t("sourceLabel");
+        document.getElementById("source-all").textContent = t("sourceAll");
+        document.getElementById("stream-title").textContent = t("streamTitle");
+        document.getElementById("empty-state").textContent = t("emptyState");
+        document.getElementById("footer-note").textContent = t("footer");
+      }
+      function buildSourceFilter() {
+        const currentValue = sourceFilter.value;
+        const entries = Object.entries(DATA.source_counts || {}).sort((a, b) => b[1] - a[1]);
+        sourceFilter.innerHTML = `<option value="">${t("sourceAll")}</option>` + entries.map(([name, count]) => {
+          const item = (DATA.items || []).find(entry => entry.source_name === name);
+          const label = currentLang === "zh" ? ((item && item.source_name_zh) || name) : name;
+          return `<option value="${escapeHtml(name)}">${escapeHtml(label)} (${count})</option>`;
+        }).join("");
+        sourceFilter.value = currentValue;
+      }
+      function renderHealthList() {
+        const items = DATA.source_health || [];
+        healthList.innerHTML = items.map(item => {
+          const statusClass = item.status === "ok" ? "ok" : (item.status === "error" ? "error" : "");
+          return `<article class="health-card"><div class="health-top"><div class="health-name">${escapeHtml(healthName(item))}</div><div class="health-status ${statusClass}">${escapeHtml(statusLabel(item.status))} · ${item.success_count || 0}/${item.failure_count || 0}</div></div><div class="health-error">${escapeHtml(healthError(item))}</div></article>`;
+        }).join("");
+      }
+      function renderFocusCards() {
+        const items = DATA.top_direct_items || [];
+        if (!items.length) {
+          focusGrid.innerHTML = `<div class="empty">${t("noFocus")}</div>`;
+          return;
+        }
+        focusGrid.innerHTML = items.map(item => `<article class="focus-card"><div class="focus-badges"><span class="mini-badge">${escapeHtml(priorityLabel(item))}</span><span class="mini-badge">${escapeHtml(typeLabel(item))}</span><span class="mini-badge">${escapeHtml(sourceLabel(item))}</span></div><h3>${escapeHtml(item.title)}</h3><p>${escapeHtml(item.summary)}</p><div class="control-row" style="margin-top:14px;"><span class="mini-badge">${t("published")} · ${escapeHtml(item.published || t("noDate"))}</span><span class="mini-badge">${t("region")} · ${escapeHtml(item.region || t("noRegion"))}</span></div><a class="focus-link" href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">${t("focusOpen")}</a></article>`).join("");
+      }
+      function cardTemplate(item) {
+        return `<article class="card"><div class="card-top" style="--accent:${accentFor(item.priority)};"><div class="accent"></div><div class="badge-row"><span class="badge">${escapeHtml(priorityLabel(item))}</span><span class="badge">${escapeHtml(typeLabel(item))}</span><span class="badge">${escapeHtml(sourceLabel(item))}</span></div><h3>${escapeHtml(item.title)}</h3></div><div class="card-body"><div class="meta"><div class="meta-item"><span>${t("keyword")}</span><strong>${escapeHtml(item.query_keyword)}</strong></div><div class="meta-item"><span>${t("published")}</span><strong>${escapeHtml(item.published || t("noDate"))}</strong></div><div class="meta-item"><span>${t("region")}</span><strong>${escapeHtml(item.region || t("noRegion"))}</strong></div><div class="meta-item"><span>${t("amount")}</span><strong>${escapeHtml(item.amount || t("noAmount"))}</strong></div></div><div class="summary">${escapeHtml(item.summary)}</div><div class="sales-angle"><strong>${t("salesAngle")}:</strong> ${escapeHtml(item.sales_angle)}</div><div class="sales-angle"><strong>${t("nextAction")}:</strong> ${escapeHtml(item.next_action)}</div><div class="tag-list">${tagLabels(item).map(tag => `<span class="tag">${escapeHtml(tag)}</span>`).join("")}</div><div class="actions"><a class="link-btn link-primary" href="${escapeHtml(item.source_url)}" target="_blank" rel="noreferrer">${t("openNotice")}</a><a class="link-btn link-secondary" href="${escapeHtml(item.search_url)}" target="_blank" rel="noreferrer">${t("openSearch")}</a></div></div></article>`;
+      }
+      function renderCards() {
+        const query = searchInput.value.trim().toLowerCase();
+        const priority = priorityFilter.value;
+        const type = typeFilter.value;
+        const source = sourceFilter.value;
+        const filtered = DATA.items.filter(item => {
+          const blob = [item.title, item.region, item.query_keyword, item.source_name, item.source_name_zh, item.summary, item.sales_angle, item.next_action, ...(item.tags || []), ...(item.tags_zh || [])].join(" ").toLowerCase();
+          return (!query || blob.includes(query)) && (!priority || item.priority === priority) && (!type || item.opportunity_type === type) && (!source || item.source_name === source);
+        });
+        resultCount.textContent = fmt(t("resultCount"), { shown: filtered.length, total: DATA.items.length });
+        cardGrid.innerHTML = filtered.map(cardTemplate).join("");
+        emptyState.hidden = filtered.length !== 0;
+      }
+      function setLanguage(lang) {
+        currentLang = lang;
+        document.documentElement.lang = lang === "zh" ? "zh-CN" : "en";
+        document.getElementById("lang-zh").classList.toggle("active", lang === "zh");
+        document.getElementById("lang-en").classList.toggle("active", lang === "en");
+        applyStaticText();
+        buildSourceFilter();
+        renderHealthList();
+        renderFocusCards();
+        renderCards();
+      }
+      document.getElementById("lang-zh").addEventListener("click", () => setLanguage("zh"));
+      document.getElementById("lang-en").addEventListener("click", () => setLanguage("en"));
+      searchInput.addEventListener("input", renderCards);
+      priorityFilter.addEventListener("change", renderCards);
+      typeFilter.addEventListener("change", renderCards);
+      sourceFilter.addEventListener("change", renderCards);
+      setLanguage("zh");
+    </script>
+  </body>
+</html>
+"""
+    return (
+        template.replace("{title}", escape(payload["summary"]["page_title"]))
+        .replace("{subtitle}", escape(payload["summary"]["page_subtitle"]))
+        .replace("{generated_at_local}", escape(payload.get("generated_at_local", payload["generated_at"])))
+        .replace("{lookback_days}", str(payload["lookback_days"]))
+        .replace("{overview}", escape(payload["summary"]["overview"]))
+        .replace("{total_items}", str(payload["stats"]["total_items"]))
+        .replace("{high_priority}", str(payload["stats"]["high_priority"]))
+        .replace("{direct_opportunities}", str(payload["stats"]["direct_opportunities"]))
+        .replace("{source_count}", str(payload["stats"]["source_count"]))
+        .replace("{seed_source_count}", str(payload["coverage"]["seed_source_count"]))
+        .replace("{fallback_query_count}", str(payload["coverage"]["fallback_query_count"]))
+        .replace("{active_source_count}", str(payload["coverage"]["active_source_count"]))
+        .replace("{healthy_source_count}", str(payload["coverage"]["healthy_source_count"]))
+        .replace("{error_source_count}", str(payload["coverage"]["error_source_count"]))
+        .replace("{official_query_count}", str(payload["coverage"]["official_query_count"]))
+        .replace("{data_json}", data_json)
+    )
+
+
+def render_executive_html(payload: dict[str, Any]) -> str:
+    top_items = payload.get("top_direct_items", [])[:5]
+    watch_items = payload.get("watch_items", [])[:6]
+    source_health = payload.get("source_health", [])
+
+    top_markup = "".join(
+        f"""
+        <article class="lead-card">
+          <div class="lead-top">
+            <span class="pill">{escape(item.get("priority_zh") or item.get("priority", ""))}</span>
+            <span class="pill soft">{escape(item.get("opportunity_type_zh") or item.get("opportunity_type", ""))}</span>
+            <span class="source">{escape(item.get("source_name_zh") or item.get("source_name", ""))}</span>
+          </div>
+          <h3>{escape(item.get("title", ""))}</h3>
+          <p>{escape(item.get("summary", ""))}</p>
+          <div class="meta-row">
+            <span>发布日期 Published: {escape(item.get("published") or "未标注")}</span>
+            <span>地区 Region: {escape(item.get("region") or "未标注")}</span>
+          </div>
+          <a class="cta" href="{escape(item.get("source_url", ""))}" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+        </article>
+        """.strip()
+        for item in top_items
+    ) or '<div class="empty">本轮没有直接优先线索。No direct priority opportunities in this run.</div>'
+
+    watch_markup = "".join(
+        f"""
+        <tr>
+          <td>{escape(item.get("title", ""))}</td>
+          <td>{escape(item.get("published") or "未标注")}</td>
+          <td>{escape(item.get("opportunity_type_zh") or item.get("opportunity_type", ""))}</td>
+        </tr>
+        """.strip()
+        for item in watch_items
+    ) or '<tr><td colspan="3">本轮没有关注池项目。No adjacent watch items in this run.</td></tr>'
+
+    source_markup = "".join(
+        f"""
+        <div class="health-card">
+          <strong>{escape(item.get("name_zh") or item.get("name", ""))}</strong>
+          <span>状态 Status: {escape(source_health_label(item))}</span>
+          <p>{escape(item.get("display_error", "") or "本轮无异常记录。")}</p>
+        </div>
+        """.strip()
+        for item in source_health
+    )
+
+    return f"""<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>老板简报 Executive Brief | {escape(payload["summary"]["page_title"])}</title>
+    <style>
+      :root {{ --bg:#08111a; --panel:#0f1924; --panel-soft:#121f2d; --line:rgba(255,255,255,.08); --text:#f6fbff; --muted:#9db0c1; --gold:#f6cd87; --mint:#7ff1d1; }}
+      * {{ box-sizing:border-box; }}
+      body {{ margin:0; background:linear-gradient(180deg,#08111a 0%,#0d1823 100%); color:var(--text); font-family:"Segoe UI","Noto Sans SC",sans-serif; }}
+      .shell {{ width:min(1280px,calc(100% - 28px)); margin:0 auto; padding:22px 0 42px; }}
+      .quick-nav {{ margin-bottom:16px; display:flex; flex-wrap:wrap; gap:10px; }}
+      .quick-link {{ display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:999px; border:1px solid var(--line); background:rgba(255,255,255,.04); color:var(--text); text-decoration:none; font-size:13px; }}
+      .hero {{ padding:28px; border:1px solid var(--line); border-radius:30px; background:radial-gradient(circle at top right, rgba(127,241,209,.16), transparent 24%), var(--panel); }}
+      .hero h1 {{ margin:8px 0 12px; font-size:44px; line-height:1.06; }}
+      .hero p {{ margin:0; color:var(--muted); line-height:1.9; }}
+      .kpis {{ display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:12px; margin-top:18px; }}
+      .kpi {{ padding:16px; border-radius:20px; background:var(--panel-soft); border:1px solid var(--line); }}
+      .kpi span {{ display:block; color:var(--muted); font-size:12px; }}
+      .kpi strong {{ display:block; margin-top:8px; font-size:28px; }}
+      .layout {{ display:grid; grid-template-columns:1.15fr .85fr; gap:18px; margin-top:20px; }}
+      .panel {{ padding:24px; border-radius:28px; border:1px solid var(--line); background:var(--panel); }}
+      .panel h2 {{ margin:0 0 14px; font-size:18px; letter-spacing:.08em; text-transform:uppercase; }}
+      .lead-list, .health-list {{ display:grid; gap:14px; }}
+      .lead-card, .health-card {{ padding:18px; border-radius:22px; background:var(--panel-soft); border:1px solid var(--line); }}
+      .lead-top {{ display:flex; gap:8px; flex-wrap:wrap; align-items:center; }}
+      .pill {{ display:inline-flex; padding:6px 10px; border-radius:999px; background:#f6cd87; color:#08111a; font-size:12px; font-weight:700; }}
+      .pill.soft {{ background:rgba(255,255,255,.08); color:var(--text); }}
+      .source {{ color:var(--muted); font-size:12px; }}
+      .lead-card h3 {{ margin:12px 0 8px; font-size:20px; line-height:1.45; }}
+      .lead-card p, .health-card p {{ margin:0; color:var(--muted); line-height:1.8; }}
+      .meta-row {{ display:flex; justify-content:space-between; gap:12px; margin-top:12px; color:var(--muted); font-size:12px; }}
+      .cta {{ display:inline-flex; margin-top:14px; padding:10px 14px; border-radius:999px; background:linear-gradient(135deg,var(--gold),#fff0ca); color:#08111a; text-decoration:none; font-weight:700; }}
+      table {{ width:100%; border-collapse:collapse; }}
+      th,td {{ padding:12px 10px; border-bottom:1px solid var(--line); text-align:left; font-size:13px; }}
+      th {{ color:var(--muted); }}
+      .empty {{ padding:20px; border:1px dashed var(--line); border-radius:20px; color:var(--muted); text-align:center; }}
+      @media (max-width:1000px) {{ .layout,.kpis {{ grid-template-columns:1fr; }} }}
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <div class="quick-nav">
+        <a class="quick-link" href="./index.html">总站 Main</a>
+        <a class="quick-link" href="./sales.html">销售页 Sales</a>
+        <a class="quick-link" href="./archive/index.html">历史归档 Archive</a>
+      </div>
+      <section class="hero">
+        <div style="font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--mint);font-weight:800;">老板简报 Executive Brief</div>
+        <h1>管理层快照 Management Snapshot</h1>
+        <p>{escape(payload["summary"]["overview"])}</p>
+        <p style="margin-top:10px;">生成时间 Generated {escape(payload.get("generated_at_local", payload["generated_at"]))} | 报告日期 Report date {escape(payload["report_date"])}</p>
+        <div class="kpis">
+          <div class="kpi"><span>项目总数 Total notices</span><strong>{payload["stats"]["total_items"]}</strong></div>
+          <div class="kpi"><span>直接匹配 Direct fits</span><strong>{payload["stats"]["direct_opportunities"]}</strong></div>
+          <div class="kpi"><span>高优先级 High priority</span><strong>{payload["stats"]["high_priority"]}</strong></div>
+          <div class="kpi"><span>健康来源 Healthy sources</span><strong>{payload["coverage"]["healthy_source_count"]}</strong></div>
+          <div class="kpi"><span>种子来源 Seed sources</span><strong>{payload["coverage"]["seed_source_count"]}</strong></div>
+          <div class="kpi"><span>补充检索 Fallback queries</span><strong>{payload["coverage"]["fallback_query_count"]}</strong></div>
+        </div>
+      </section>
+      <section class="layout">
+        <div class="panel">
+          <h2>重点线索 Priority Leads</h2>
+          <div class="lead-list">{top_markup}</div>
+        </div>
+        <div class="panel">
+          <h2>来源健康 Source Health</h2>
+          <div class="health-list">{source_markup}</div>
+        </div>
+      </section>
+      <section class="panel" style="margin-top:18px;">
+        <h2>关注池 Watchlist</h2>
+        <table>
+          <thead><tr><th>项目 Notice</th><th>发布日期 Published</th><th>类型 Type</th></tr></thead>
+          <tbody>{watch_markup}</tbody>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>"""
+
+
+def render_sales_html(payload: dict[str, Any]) -> str:
+    sales_items = build_sales_payload(payload)["items"]
+    sales_markup = "".join(
+        f"""
+        <article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">{escape(item.get("priority_zh") or item.get("priority", ""))}</span>
+            <span class="badge soft">{escape(item.get("opportunity_type_zh") or item.get("opportunity_type", ""))}</span>
+            <span class="source">{escape(item.get("source_name_zh") or item.get("source_name", ""))}</span>
+          </div>
+          <h3>{escape(item.get("title", ""))}</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>{escape(item.get("query_keyword", ""))}</strong></div>
+            <div><span>发布日期 Published</span><strong>{escape(item.get("published") or "未标注")}</strong></div>
+            <div><span>地区 Region</span><strong>{escape(item.get("region") or "未标注")}</strong></div>
+            <div><span>金额 Amount</span><strong>{escape(item.get("amount") or "未标注")}</strong></div>
+          </div>
+          <p>{escape(item.get("summary", ""))}</p>
+          <p><strong>销售建议 Sales angle:</strong> {escape(item.get("sales_angle", ""))}</p>
+          <p><strong>下一步动作 Next action:</strong> {escape(item.get("next_action", ""))}</p>
+          <div class="actions">
+            <a class="cta" href="{escape(item.get("source_url", ""))}" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article>
+        """.strip()
+        for item in sales_items
+    ) or '<div class="empty">本轮暂无可直接跟进的销售线索。No direct sales-ready leads in this run.</div>'
+
+    return f"""<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>销售视图 Sales View | {escape(payload["summary"]["page_title"])}</title>
+    <style>
+      :root {{ --bg:#f5f7fb; --panel:#ffffff; --line:#e4ebf3; --text:#112031; --muted:#637488; --gold:#f6cd87; --mint:#cffff0; }}
+      * {{ box-sizing:border-box; }}
+      body {{ margin:0; background:linear-gradient(180deg,#eef3f8 0%,#f8fbff 100%); color:var(--text); font-family:"Segoe UI","Noto Sans SC",sans-serif; }}
+      .shell {{ width:min(1180px,calc(100% - 28px)); margin:0 auto; padding:22px 0 42px; }}
+      .quick-nav {{ margin-bottom:16px; display:flex; flex-wrap:wrap; gap:10px; }}
+      .quick-link {{ display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:999px; border:1px solid var(--line); background:#fff; color:var(--text); text-decoration:none; font-size:13px; box-shadow:0 10px 24px rgba(15,24,36,.05); }}
+      .hero {{ padding:28px; border-radius:28px; background:linear-gradient(140deg,#0c1520 0%,#132030 100%); color:#f7fbff; }}
+      .hero h1 {{ margin:10px 0 10px; font-size:42px; }}
+      .hero p {{ margin:0; color:#c8d3df; line-height:1.9; }}
+      .grid {{ display:grid; gap:16px; margin-top:18px; }}
+      .sales-card {{ padding:22px; border-radius:26px; background:var(--panel); border:1px solid var(--line); box-shadow:0 20px 50px rgba(15,24,36,.08); }}
+      .sales-top {{ display:flex; gap:8px; align-items:center; flex-wrap:wrap; }}
+      .badge {{ display:inline-flex; padding:7px 10px; border-radius:999px; background:var(--gold); color:#08111a; font-size:12px; font-weight:700; }}
+      .badge.soft {{ background:#eef3f8; color:var(--text); }}
+      .source {{ color:var(--muted); font-size:12px; }}
+      .sales-card h3 {{ margin:12px 0 10px; font-size:24px; line-height:1.45; }}
+      .info-grid {{ display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; margin-top:12px; }}
+      .info-grid div {{ padding:12px 14px; border-radius:16px; background:#f5f8fc; }}
+      .info-grid span {{ display:block; color:var(--muted); font-size:12px; }}
+      .info-grid strong {{ display:block; margin-top:6px; }}
+      .sales-card p {{ color:var(--muted); line-height:1.85; }}
+      .actions {{ margin-top:14px; }}
+      .cta {{ display:inline-flex; padding:12px 16px; border-radius:999px; background:linear-gradient(135deg,#f6cd87,#fff0ca); color:#08111a; text-decoration:none; font-weight:700; }}
+      .empty {{ padding:24px; border-radius:22px; border:1px dashed var(--line); color:var(--muted); text-align:center; background:#fff; }}
+      @media (max-width:900px) {{ .info-grid {{ grid-template-columns:1fr 1fr; }} }}
+      @media (max-width:640px) {{ .info-grid {{ grid-template-columns:1fr; }} }}
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <div class="quick-nav">
+        <a class="quick-link" href="./index.html">总站 Main</a>
         <a class="quick-link" href="./executive.html">老板页 Executive</a>
         <a class="quick-link" href="./archive/index.html">历史归档 Archive</a>
       </div>
@@ -2088,10 +3029,10 @@ def collect_items() -> list[TenderItem]:
     if demo_workbook:
         return load_items_from_workbook(Path(demo_workbook))
     live_items = collect_live_items()
-    if live_items:
-        return live_items
-    fallback_items = collect_yahoo_fallback_items()
-    return [enrich_source_page(item) for item in fallback_items]
+    fallback_items = collect_fallback_items()
+    merged_items = dedupe_items([*live_items, *fallback_items])
+    merged_items.sort(key=lambda item: (item.score, item.published, item.title), reverse=True)
+    return [enrich_source_page(item) for item in merged_items[: getenv_int("MAX_ITEMS", DEFAULT_MAX_ITEMS)]]
 
 
 def main() -> int:

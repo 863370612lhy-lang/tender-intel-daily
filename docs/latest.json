@@ -1,15 +1,15 @@
 {
-  "generated_at": "2026-03-25 05:45 UTC",
-  "generated_at_local": "2026-03-25 13:45",
+  "generated_at": "2026-03-25 05:33 UTC",
+  "generated_at_local": "2026-03-25 13:33",
   "report_date": "2026-03-25",
   "lookback_days": 7,
   "summary": {
     "page_title": "招标雷达 Tender Radar",
     "page_subtitle": "烟草吸烟空间与相邻模块化空间公开项目监测 / Public-source feed for smoking-space and adjacent-space projects.",
-    "overview": "本次共采集 8 条公开项目，优先跟进烟草系统与吸烟空间直接机会。 / 8 public notices collected; prioritize tobacco-system and smoking-space direct-fit opportunities first."
+    "overview": "本次共采集 10 条公开项目，优先跟进烟草系统与吸烟空间直接机会。 / 10 public notices collected; prioritize tobacco-system and smoking-space direct-fit opportunities first."
   },
   "stats": {
-    "total_items": 8,
+    "total_items": 10,
     "high_priority": 0,
     "medium_priority": 1,
     "direct_opportunities": 1,
@@ -19,12 +19,12 @@
     "active_source_count": 2,
     "seed_source_count": 10,
     "healthy_source_count": 1,
-    "error_source_count": 2,
-    "official_query_count": 78,
-    "fallback_query_count": 26
+    "error_source_count": 3,
+    "official_query_count": 130,
+    "fallback_query_count": 98
   },
   "source_counts": {
-    "Yahoo Search Fallback": 8
+    "Yahoo Search Fallback": 10
   },
   "source_health": [
     {
@@ -34,7 +34,9 @@
       "status": "error",
       "success_count": 0,
       "failure_count": 39,
-      "last_error": "500 Server Error: Internal Server Error for url: https://search.ccgp.gov.cn/bxsearch?searchtype=1&page_index=3&bidType=7&dbselect=bidx&kw=%E5%B2%97%E4%BA%AD&start_time=2026-03-18&end_time=2026-03-25&timeType=6"
+      "last_error": "目标站点访问超时，当前轮次未能稳定返回结果，系统已自动切换补充检索。",
+      "name_zh": "中国政府采购网",
+      "display_error": "站点访问存在异常：目标站点访问超时，当前轮次未能稳定返回结果，系统已自动切换补充检索。"
     },
     {
       "name": "National Public Resource Trading Platform",
@@ -42,17 +44,32 @@
       "homepage": "https://deal.ggzy.gov.cn/ds/deal/dealList.jsp",
       "status": "error",
       "success_count": 0,
-      "failure_count": 39,
-      "last_error": "HTTPSConnectionPool(host='deal.ggzy.gov.cn', port=443): Max retries exceeded with url: /ds/deal/dealList.jsp?TIMEBEGIN_SHOW=2026-03-18&TIMEEND_SHOW=2026-03-25&TIMEBEGIN=2026-03-18&TIMEEND=2026-03-25&DEAL_TIME=02&FINDTXT=%E5%B2%97%E4%BA%AD&currentPage=3&pageNo=3 (Caused by NameRes"
+      "failure_count": 65,
+      "last_error": "目标站点 SSL 握手异常，当前环境与对方站点连接不稳定，系统已自动切换补充检索。",
+      "name_zh": "全国公共资源交易平台",
+      "display_error": "目标站点 SSL 握手异常，当前环境与对方站点连接不稳定，系统已自动切换补充检索。"
     },
     {
       "name": "Yahoo Search Fallback",
       "kind": "search-fallback",
       "homepage": "https://search.yahoo.com/",
       "status": "ok",
-      "success_count": 12,
-      "failure_count": 18,
-      "last_error": "No result extracted for query: site:ggzy.hengyang.gov.cn 文明吸烟环境 建设 项目"
+      "success_count": 18,
+      "failure_count": 22,
+      "last_error": "该检索词本轮未从补充搜索源提取到有效公告，可继续扩大关键词和站点范围。",
+      "name_zh": "Yahoo 公开检索补充源",
+      "display_error": "本轮已成功提取部分结果，个别检索词未返回有效公告，系统已保留可用线索。"
+    },
+    {
+      "name": "Bing Search Fallback",
+      "kind": "search-fallback",
+      "homepage": "https://www.bing.com/",
+      "status": "error",
+      "success_count": 0,
+      "failure_count": 32,
+      "last_error": "该检索词本轮未从补充搜索源提取到有效公告，可继续扩大关键词和站点范围。",
+      "name_zh": "Bing 公开检索补充源",
+      "display_error": "站点访问存在异常：该检索词本轮未从补充搜索源提取到有效公告，可继续扩大关键词和站点范围。"
     }
   ],
   "top_direct_items": [
@@ -74,14 +91,20 @@
       "score": 4,
       "priority": "Medium",
       "opportunity_type": "Direct",
-      "summary": "tobacco system notice matched keyword 'site:ggzy.gov.cn 烟草公司 招标公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
     }
   ],
   "watch_items": [
     {
-      "id": 100003,
+      "id": 100005,
       "title": "2026重庆垫江马拉松安保护栏、铁马及移动公厕租赁采购项目_垫江县人民政府",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -98,12 +121,46 @@
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
     },
     {
-      "id": 100002,
+      "id": 100008,
+      "title": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://weda.wuhu.gov.cn/zfcg/zbgg/18530622.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E5%9E%83%E5%9C%BE%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 垃圾房 招标 公告",
+      "published": "2026-03-18",
+      "region": "芜湖经济技术开发区",
+      "amount": "149500 元",
+      "snippet": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告_芜湖经济技术开发区 简体 繁体 | 导航 网站首页 首页 走进经开区 政府信息公开 新闻中心 网上办事 互动交流 党群工作 AI+政务问答 您当前的位置是： 首页 > 政府采购 > 招标公告 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告 发布日期：2026-03-18 16:34 来源：芜湖经济技术开发区 阅读： 字号： 大 中 小 项目概况 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次） 的潜在供应商 应在本项目采购代理机构处获取招标文件 ，并于 2026 年 03 月 31 日 09 点 15 分（北京时间）前提交响应文件。 一、项目基本情况 项目编号： ZTSD-2026-FW004 项目名称： 芜",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 垃圾房 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
+    },
+    {
+      "id": 100004,
       "title": "高新区(弋江区)44座公厕日常管养服务项目招标公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -120,34 +177,18 @@
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
     },
     {
       "id": 100006,
-      "title": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告",
-      "source_name": "Yahoo Search Fallback",
-      "source_kind": "search-fallback",
-      "source_url": "https://weda.wuhu.gov.cn/zfcg/zbgg/18528856.html",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E5%9E%83%E5%9C%BE%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:gov.cn 垃圾房 招标 公告",
-      "published": "2026-03-06",
-      "region": "芜湖经济技术开发区",
-      "amount": "149500 元",
-      "snippet": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告_芜湖经济技术开发区 简体 繁体 | 导航 网站首页 首页 走进经开区 政府信息公开 新闻中心 网上办事 互动交流 党群工作 AI+政务问答 您当前的位置是： 首页 > 政府采购 > 招标公告 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告 发布日期：2026-03-06 14:44 来源：芜湖经济技术开发区 阅读： 字号： 大 中 小 项目概况 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计的潜在供应商 应在本项目采购代理机构处获取招标文件 ，并于 2026 年 03 月 17 日 09 点 15 分（北京时间）前提交响应文件。 一、项目基本情况 项目编号： ZTSD-2026-FW004 项目名称：芜湖凤鸣研创中心升级改造项目（",
-      "tags": [
-        "adjacent-space"
-      ],
-      "score": 1,
-      "priority": "Watch",
-      "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 垃圾房 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
-    },
-    {
-      "id": 100004,
       "title": "福州市鼓楼区环境卫生中心关于2026年度公厕改造提升项目市场询价的公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -164,12 +205,18 @@
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
     },
     {
-      "id": 100005,
+      "id": 100007,
       "title": "by.gov.cn www.by.gov.cn › gzbyrhz › gkmlpt 人和镇公厕保洁与维护服务（2026—2027年）采购项目招标公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -186,56 +233,74 @@
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
-    },
-    {
-      "id": 100008,
-      "title": "河南省公共资源交易中心 hnsggzyjy.henan.gov.cn › jyxx › 002003 哈密市伊州区凤凰台大营内西区7号集装箱式房屋拍租交易公告",
-      "source_name": "Yahoo Search Fallback",
-      "source_kind": "search-fallback",
-      "source_url": "https://hnsggzyjy.henan.gov.cn/jyxx/002003/002003001/20260305/42e2feaf-be04-47f6-8765-7a7681bd24f1.html",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E9%9B%86%E8%A3%85%E7%AE%B1%E5%8E%A2%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:gov.cn 集装箱厢房 招标 公告",
-      "published": "",
-      "region": "河南省",
-      "amount": "",
-      "snippet": "河南省公共资源交易中心 hnsggzyjy.henan.gov.cn › jyxx › 002003 哈密市伊州区凤凰台大营内西区7号集装箱式房屋拍租交易公告",
-      "tags": [
-        "adjacent-space"
-      ],
-      "score": 1,
-      "priority": "Watch",
-      "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 集装箱厢房 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
-    },
-    {
-      "id": 100007,
-      "title": "射阳县人民政府 www.sheyang.gov.cn › art › 2026/3/18 射阳县人民政府 招标公告 2026年-2028年麦芽集装箱运输服务项目招标公...",
-      "source_name": "Yahoo Search Fallback",
-      "source_kind": "search-fallback",
-      "source_url": "https://www.sheyang.gov.cn/art/2026/3/18/art_30516_4410953.html",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E9%9B%86%E8%A3%85%E7%AE%B1%E5%8E%A2%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:gov.cn 集装箱厢房 招标 公告",
-      "published": "",
-      "region": "射阳县",
-      "amount": "",
-      "snippet": "射阳县人民政府 www.sheyang.gov.cn › art › 2026/3/18 射阳县人民政府 招标公告 2026年-2028年麦芽集装箱运输服务项目招标公...",
-      "tags": [
-        "adjacent-space"
-      ],
-      "score": 1,
-      "priority": "Watch",
-      "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 集装箱厢房 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
     }
   ],
   "items": [
+    {
+      "id": 100010,
+      "title": "永安市烟草专卖局关于办理烟草专卖零售许可证的公告(永烟专证公告〔2026〕9号) _ 烟草专卖 _ 永安市人民政府门户网站",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.ya.gov.cn/zwgk/tzgg/yczm/202603/t20260310_2193606.htm",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E4%B8%93%E5%8D%96%E5%B1%80+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草专卖局 招标公告",
+      "published": "2026-03-10",
+      "region": "永安市",
+      "amount": "",
+      "snippet": "永安市烟草专卖局关于办理烟草专卖零售许可证的公告(永烟专证公告〔2026〕9号) _ 烟草专卖 _ 永安市人民政府门户网站 繁体版 你好，{{loginInfo.showname|truncate(12)}} 注销 注册 登录 国务院 省政府 三明市 网站支持IPV6 首页 政务公开 政府信息公开 工作报告 人事信息 重点项目建设 统计信息 专题专栏 重点领域 政策文件库 解读回应 办事服务 网上办事大厅 便民服务 闽政通APP 政务地图 互动交流 智能/政策问答 互动交流知识库 在线访谈 网上调查 意见征集 魅力永安   热门搜索： 历史搜索： 长者模式 退出长者模式 无障碍浏览 当前位置： 首页 > 政务公开 > 通知公告 > 烟草专卖 永安市烟草专卖局关于办理烟草专卖零售许可证的公告(永烟专证公告〔2",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Watch",
+      "opportunity_type": "Monitor",
+      "summary": "该公告命中业务关键词“site:gov.cn 烟草专卖局 招标公告”，但当前页面未明确体现招标、采购、中标或成交等采购动作词，暂列为监测情报，不建议直接购买标书。",
+      "sales_angle": "建议仅做关系线索跟踪，重点核实是否另有对应的采购公告、招标公告或中标结果页。",
+      "next_action": "打开原文确认是否存在关联采购项目编号、采购代理机构或同步发布的招标结果页。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "持续跟踪",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100002,
+      "title": "宽城满族自治县人民政府 公告公示 宽城满族自治县烟草专卖局公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.hbkc.gov.cn/art/2026/3/16/art_5989_1107857.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草公司 招标公告",
+      "published": "2026-03-16",
+      "region": "宽城满族自治县",
+      "amount": "",
+      "snippet": "宽城满族自治县人民政府 公告公示 宽城满族自治县烟草专卖局公告 38 政府信息公开平台 /col/col5957/index.html 法定主动公开内容 /col/col5961/index.html 工作动态 /col/col5976/index.html?number=C40007 公告公示 /col/col5989/index.html?number=C40007C00011 首页 > 政府信息公开平台 > 法定主动公开内容 > 工作动态 > 公告公示 索引号： 13566026/2026-00643 主题分类： 其他 发布机构： 宽城县烟草公司 成文日期： 2026-03-16 文件编号： 有 效 性： 有效 宽城满族自治县烟草专卖局公告 2026-03-16 17时20分 浏览次数： 抽样物品取证清单",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Watch",
+      "opportunity_type": "Monitor",
+      "summary": "该公告命中业务关键词“site:gov.cn 烟草公司 招标公告”，但当前页面未明确体现招标、采购、中标或成交等采购动作词，暂列为监测情报，不建议直接购买标书。",
+      "sales_angle": "建议仅做关系线索跟踪，重点核实是否另有对应的采购公告、招标公告或中标结果页。",
+      "next_action": "打开原文确认是否存在关联采购项目编号、采购代理机构或同步发布的招标结果页。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "持续跟踪",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
     {
       "id": 100000,
       "title": "常德烟草机械有限责任公司所需真空退火炉项目评标结果公示公告_交易公开_国家公共资源交易平台",
@@ -254,34 +319,102 @@
       "score": 4,
       "priority": "Medium",
       "opportunity_type": "Direct",
-      "summary": "tobacco system notice matched keyword 'site:ggzy.gov.cn 烟草公司 招标公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
     },
     {
-      "id": 100006,
-      "title": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告",
+      "id": 100011,
+      "title": "丰宁满族自治县人民政府 公告公示 2026年丰宁满族自治县烟草专卖局“双随机、一公开”监管工作实施方案",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
-      "source_url": "https://weda.wuhu.gov.cn/zfcg/zbgg/18528856.html",
+      "source_url": "https://www.fengning.gov.cn/art/2026/3/19/art_4511_1108423.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E4%B8%93%E5%8D%96%E5%B1%80+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草专卖局 招标公告",
+      "published": "2026-03-19",
+      "region": "丰宁满族自治县",
+      "amount": "",
+      "snippet": "丰宁满族自治县人民政府 公告公示 2026年丰宁满族自治县烟草专卖局“双随机、一公开”监管工作实施方案 33 政府信息公开平台 /col/col4476/index.html 法定主动公开内容 /col/col4480/index.html 工作动态 /col/col4483/index.html?number=C20007 公告公示 /col/col4511/index.html?number=C20007C00011 首页 > 政府信息公开平台 > 法定主动公开内容 > 工作动态 > 公告公示 2026年丰宁满族自治县烟草专卖局“双随机、一公开”监管工作实施方案 2026-03-19 11时33分 浏览次数： 2026年丰宁县烟草专卖局“双随机、一公开”监管实施方案.pdf 关闭 打印",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Watch",
+      "opportunity_type": "Monitor",
+      "summary": "该公告命中业务关键词“site:gov.cn 烟草专卖局 招标公告”，但当前页面未明确体现招标、采购、中标或成交等采购动作词，暂列为监测情报，不建议直接购买标书。",
+      "sales_angle": "建议仅做关系线索跟踪，重点核实是否另有对应的采购公告、招标公告或中标结果页。",
+      "next_action": "打开原文确认是否存在关联采购项目编号、采购代理机构或同步发布的招标结果页。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "持续跟踪",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100012,
+      "title": "海珠区烟草专卖局2025年度行政许可实施和监督管理情况公告 广州市海珠区人民政府门户网站",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.haizhu.gov.cn/zwgk/xzxksshjdglqk/content/post_10725921.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E4%B8%93%E5%8D%96%E5%B1%80+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草专卖局 招标公告",
+      "published": "2026-03-13",
+      "region": "海珠区",
+      "amount": "",
+      "snippet": "海珠区烟草专卖局2025年度行政许可实施和监督管理情况公告 广州市海珠区人民政府门户网站 千人千页 · 登录 | 无障碍 | 长者助手 | 网站支持IPv6 首页 资讯要闻 营商环境 政务服务 政务公开 互动交流 工作机构 您当前所在的位置： 首页 > 政务公开 > 行政许可实施和监督管理情况 海珠区烟草专卖局2025年度行政许可实施和监督管理情况公告 发布日期：2026-03-13 15:47:35 来源：海珠区烟草专卖局 分享到： 浏览量： - 根据《广东省行政许可监督管理条例》规定和有关要求，现公告本单位2025年度行政许可实施和监督管理情况。欢迎您客观、真实地对是否存在以下问题进行反映： 1. 没有依照法定权限、程序、条件进行审批，或以备案、登记、年检、监制、认定、认证、审定等形式变相设定或实施行政许可",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Watch",
+      "opportunity_type": "Monitor",
+      "summary": "该公告命中业务关键词“site:gov.cn 烟草专卖局 招标公告”，但当前页面未明确体现招标、采购、中标或成交等采购动作词，暂列为监测情报，不建议直接购买标书。",
+      "sales_angle": "建议仅做关系线索跟踪，重点核实是否另有对应的采购公告、招标公告或中标结果页。",
+      "next_action": "打开原文确认是否存在关联采购项目编号、采购代理机构或同步发布的招标结果页。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "持续跟踪",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100008,
+      "title": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://weda.wuhu.gov.cn/zfcg/zbgg/18530622.html",
       "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E5%9E%83%E5%9C%BE%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
       "query_keyword": "site:gov.cn 垃圾房 招标 公告",
-      "published": "2026-03-06",
+      "published": "2026-03-18",
       "region": "芜湖经济技术开发区",
       "amount": "149500 元",
-      "snippet": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告_芜湖经济技术开发区 简体 繁体 | 导航 网站首页 首页 走进经开区 政府信息公开 新闻中心 网上办事 互动交流 党群工作 AI+政务问答 您当前的位置是： 首页 > 政府采购 > 招标公告 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计竞争性磋商公告 发布日期：2026-03-06 14:44 来源：芜湖经济技术开发区 阅读： 字号： 大 中 小 项目概况 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计的潜在供应商 应在本项目采购代理机构处获取招标文件 ，并于 2026 年 03 月 17 日 09 点 15 分（北京时间）前提交响应文件。 一、项目基本情况 项目编号： ZTSD-2026-FW004 项目名称：芜湖凤鸣研创中心升级改造项目（",
+      "snippet": "芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告_芜湖经济技术开发区 简体 繁体 | 导航 网站首页 首页 走进经开区 政府信息公开 新闻中心 网上办事 互动交流 党群工作 AI+政务问答 您当前的位置是： 首页 > 政府采购 > 招标公告 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次）竞争性磋商公告 发布日期：2026-03-18 16:34 来源：芜湖经济技术开发区 阅读： 字号： 大 中 小 项目概况 芜湖凤鸣研创中心升级改造项目（新增垃圾房等）设计（二次） 的潜在供应商 应在本项目采购代理机构处获取招标文件 ，并于 2026 年 03 月 31 日 09 点 15 分（北京时间）前提交响应文件。 一、项目基本情况 项目编号： ZTSD-2026-FW004 项目名称： 芜",
       "tags": [
         "adjacent-space"
       ],
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 垃圾房 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 垃圾房 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
     },
     {
-      "id": 100002,
+      "id": 100004,
       "title": "高新区(弋江区)44座公厕日常管养服务项目招标公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -298,12 +431,18 @@
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
     },
     {
-      "id": 100004,
+      "id": 100006,
       "title": "福州市鼓楼区环境卫生中心关于2026年度公厕改造提升项目市场询价的公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -320,56 +459,18 @@
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
     },
     {
-      "id": 100008,
-      "title": "河南省公共资源交易中心 hnsggzyjy.henan.gov.cn › jyxx › 002003 哈密市伊州区凤凰台大营内西区7号集装箱式房屋拍租交易公告",
-      "source_name": "Yahoo Search Fallback",
-      "source_kind": "search-fallback",
-      "source_url": "https://hnsggzyjy.henan.gov.cn/jyxx/002003/002003001/20260305/42e2feaf-be04-47f6-8765-7a7681bd24f1.html",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E9%9B%86%E8%A3%85%E7%AE%B1%E5%8E%A2%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:gov.cn 集装箱厢房 招标 公告",
-      "published": "",
-      "region": "河南省",
-      "amount": "",
-      "snippet": "河南省公共资源交易中心 hnsggzyjy.henan.gov.cn › jyxx › 002003 哈密市伊州区凤凰台大营内西区7号集装箱式房屋拍租交易公告",
-      "tags": [
-        "adjacent-space"
-      ],
-      "score": 1,
-      "priority": "Watch",
-      "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 集装箱厢房 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
-    },
-    {
-      "id": 100007,
-      "title": "射阳县人民政府 www.sheyang.gov.cn › art › 2026/3/18 射阳县人民政府 招标公告 2026年-2028年麦芽集装箱运输服务项目招标公...",
-      "source_name": "Yahoo Search Fallback",
-      "source_kind": "search-fallback",
-      "source_url": "https://www.sheyang.gov.cn/art/2026/3/18/art_30516_4410953.html",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E9%9B%86%E8%A3%85%E7%AE%B1%E5%8E%A2%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:gov.cn 集装箱厢房 招标 公告",
-      "published": "",
-      "region": "射阳县",
-      "amount": "",
-      "snippet": "射阳县人民政府 www.sheyang.gov.cn › art › 2026/3/18 射阳县人民政府 招标公告 2026年-2028年麦芽集装箱运输服务项目招标公...",
-      "tags": [
-        "adjacent-space"
-      ],
-      "score": 1,
-      "priority": "Watch",
-      "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 集装箱厢房 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
-    },
-    {
-      "id": 100003,
+      "id": 100005,
       "title": "2026重庆垫江马拉松安保护栏、铁马及移动公厕租赁采购项目_垫江县人民政府",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -386,12 +487,18 @@
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
     },
     {
-      "id": 100005,
+      "id": 100007,
       "title": "by.gov.cn www.by.gov.cn › gzbyrhz › gkmlpt 人和镇公厕保洁与维护服务（2026—2027年）采购项目招标公告",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
@@ -408,9 +515,15 @@
       "score": 1,
       "priority": "Watch",
       "opportunity_type": "Adjacent",
-      "summary": "public procurement notice matched keyword 'site:gov.cn 移动公厕 招标 公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
     }
   ]
 }

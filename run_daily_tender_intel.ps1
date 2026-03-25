@@ -19,8 +19,8 @@ if (-not $env:SMTP_USERNAME -or -not $env:SMTP_PASSWORD) {
 
 $env:SEND_EMAIL = "1"
 $env:LOOKBACK_DAYS = "7"
-$env:SOURCE_PAGE_LIMIT = "3"
-$env:MAX_ITEMS = "80"
+$env:SOURCE_PAGE_LIMIT = "5"
+$env:MAX_ITEMS = "160"
 Remove-Item Env:DEMO_WORKBOOK -ErrorAction SilentlyContinue
 
 Push-Location $projectRoot

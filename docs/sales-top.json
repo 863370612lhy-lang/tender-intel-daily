@@ -1,5 +1,5 @@
 {
-  "generated_at": "2026-03-25 05:45 UTC",
+  "generated_at": "2026-03-25 05:33 UTC",
   "report_date": "2026-03-25",
   "summary": {
     "title": "销售优先线索 Sales Priority Leads",
@@ -25,9 +25,15 @@
       "score": 4,
       "priority": "Medium",
       "opportunity_type": "Direct",
-      "summary": "tobacco system notice matched keyword 'site:ggzy.gov.cn 烟草公司 招标公告' on Yahoo Search Fallback. Review the source page for scope, deadline, and bid-book purchase instructions.",
-      "sales_angle": "Prioritize direct contact when the notice is tobacco-related or explicitly mentions smoking spaces.",
-      "next_action": "Open the source notice, verify the buyer, purchase window, and required qualification documents."
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
     }
   ]
 }
