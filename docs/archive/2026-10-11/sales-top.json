@@ -1,0 +1,69 @@
+{
+  "generated_at": "2026-10-11 07:15 UTC",
+  "report_date": "2026-10-11",
+  "summary": {
+    "title": "销售优先线索 Sales Priority Leads",
+    "subtitle": "适合销售立即跟进的直接匹配公开项目 / Direct-fit public tender leads for immediate follow-up.",
+    "lead_count": 2
+  },
+  "items": [
+    {
+      "id": 100002,
+      "title": "Search again for site:cebpubservice.com 文明吸烟环境 招标",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://search.yahoo.com/search?nojs=1&p=site%3Acebpubservice.com+%E6%96%87%E6%98%8E%E5%90%B8%E7%83%9F%E7%8E%AF%E5%A2%83+%E6%8B%9B%E6%A0%87",
+      "search_url": "https://search.yahoo.com/search?p=site%3Acebpubservice.com+%E6%96%87%E6%98%8E%E5%90%B8%E7%83%9F%E7%8E%AF%E5%A2%83+%E6%8B%9B%E6%A0%87&btf=m&nojs=1",
+      "query_keyword": "site:cebpubservice.com 文明吸烟环境 招标",
+      "published": "",
+      "region": "",
+      "amount": "",
+      "snippet": "We had temporary problems searching for web pages. Search again for site:cebpubservice.com 文明吸烟环境 招标 or type a new query above.",
+      "tags": [
+        "tobacco",
+        "smoking-environment"
+      ],
+      "score": 7,
+      "priority": "High",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:cebpubservice.com 文明吸烟环境 招标”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "高优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统",
+        "文明吸烟环境"
+      ]
+    },
+    {
+      "id": 100001,
+      "title": "Search again for site:gov.cn 烟草专卖局 招标公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://search.yahoo.com/search?nojs=1&p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E4%B8%93%E5%8D%96%E5%B1%80+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E4%B8%93%E5%8D%96%E5%B1%80+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草专卖局 招标公告",
+      "published": "",
+      "region": "",
+      "amount": "",
+      "snippet": "We had temporary problems searching for web pages. Search again for site:gov.cn 烟草专卖局 招标公告 or type a new query above.",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草专卖局 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    }
+  ]
+}
