@@ -1,61 +1,171 @@
 {
-  "generated_at": "2026-10-11 07:15 UTC",
-  "report_date": "2026-10-11",
+  "generated_at": "2026-10-12 07:27 UTC",
+  "report_date": "2026-10-12",
   "summary": {
     "title": "销售优先线索 Sales Priority Leads",
     "subtitle": "适合销售立即跟进的直接匹配公开项目 / Direct-fit public tender leads for immediate follow-up.",
-    "lead_count": 2
+    "lead_count": 6
   },
   "items": [
     {
-      "id": 100002,
-      "title": "Search again for site:cebpubservice.com 文明吸烟环境 招标",
+      "id": 100000,
+      "title": "中国烟草总公司陕西省公司久其报表运维服务项目-竞争谈判公告_交易公开_国家公共资源交易平台",
       "source_name": "Yahoo Search Fallback",
       "source_kind": "search-fallback",
-      "source_url": "https://search.yahoo.com/search?nojs=1&p=site%3Acebpubservice.com+%E6%96%87%E6%98%8E%E5%90%B8%E7%83%9F%E7%8E%AF%E5%A2%83+%E6%8B%9B%E6%A0%87",
-      "search_url": "https://search.yahoo.com/search?p=site%3Acebpubservice.com+%E6%96%87%E6%98%8E%E5%90%B8%E7%83%9F%E7%8E%AF%E5%A2%83+%E6%8B%9B%E6%A0%87&btf=m&nojs=1",
-      "query_keyword": "site:cebpubservice.com 文明吸烟环境 招标",
-      "published": "",
-      "region": "",
+      "source_url": "https://www.ggzy.gov.cn/information/deal/html/a/0067/0101/20261007/0067f7e2e91e462841e1a101748f7da75fe3.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Aggzy.gov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:ggzy.gov.cn 烟草公司 招标公告",
+      "published": "2026-10-07",
+      "region": "中国烟草总公司陕西省",
       "amount": "",
-      "snippet": "We had temporary problems searching for web pages. Search again for site:cebpubservice.com 文明吸烟环境 招标 or type a new query above.",
-      "tags": [
-        "tobacco",
-        "smoking-environment"
-      ],
-      "score": 7,
-      "priority": "High",
-      "opportunity_type": "Direct",
-      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:cebpubservice.com 文明吸烟环境 招标”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
-      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
-      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
-      "source_name_zh": "Yahoo 公开检索补充源",
-      "priority_zh": "高优先",
-      "opportunity_type_zh": "直接匹配",
-      "tags_zh": [
-        "烟草系统",
-        "文明吸烟环境"
-      ]
-    },
-    {
-      "id": 100001,
-      "title": "Search again for site:gov.cn 烟草专卖局 招标公告",
-      "source_name": "Yahoo Search Fallback",
-      "source_kind": "search-fallback",
-      "source_url": "https://search.yahoo.com/search?nojs=1&p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E4%B8%93%E5%8D%96%E5%B1%80+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A",
-      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E4%B8%93%E5%8D%96%E5%B1%80+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
-      "query_keyword": "site:gov.cn 烟草专卖局 招标公告",
-      "published": "",
-      "region": "",
-      "amount": "",
-      "snippet": "We had temporary problems searching for web pages. Search again for site:gov.cn 烟草专卖局 招标公告 or type a new query above.",
+      "snippet": "中国烟草总公司陕西省公司久其报表运维服务项目-竞争谈判公告_交易公开_国家公共资源交易平台 首页 > 交易公开 > 工程建设 中国烟草总公司陕西省公司久其报表运维服务项目-竞争谈判公告 招标项目编号：C1100005528012751001 信息来源： 中国烟草总公司采购交易平台 招标/资审公告 开标记录 交易结果公示 招标/资审文件澄清 中国烟草总公司陕西省公司久其报表运维服务项目-竞争谈判公告 2026-10-07 暂无数据 暂无数据 暂无数据",
       "tags": [
         "tobacco"
       ],
       "score": 4,
       "priority": "Medium",
       "opportunity_type": "Direct",
-      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草专卖局 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100001,
+      "title": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/30 山东省公共资源交易中心 采购公告 [招标计划]将军烟草集团有限公司202...",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://ggzyjyzx.shandong.gov.cn/art/2026/9/30/art_209903_11476245.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草公司 招标公告",
+      "published": "",
+      "region": "山东省",
+      "amount": "",
+      "snippet": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/30 山东省公共资源交易中心 采购公告 [招标计划]将军烟草集团有限公司202...",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100002,
+      "title": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/28 山东省公共资源交易中心 招标公告 [招标计划]山东中烟工业有限责任公...",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://ggzyjyzx.shandong.gov.cn/art/2026/9/28/art_347674_11470850.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草公司 招标公告",
+      "published": "",
+      "region": "山东省",
+      "amount": "",
+      "snippet": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/28 山东省公共资源交易中心 招标公告 [招标计划]山东中烟工业有限责任公...",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100004,
+      "title": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/14 山东省公共资源交易中心 采购公告 [招标公告]山东中烟工业有限责任公...",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://ggzyjyzx.shandong.gov.cn/art/2026/9/14/art_209903_11440744.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草公司 招标公告",
+      "published": "",
+      "region": "山东省",
+      "amount": "",
+      "snippet": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/14 山东省公共资源交易中心 采购公告 [招标公告]山东中烟工业有限责任公...",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100003,
+      "title": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/10/8 山东省公共资源交易中心 招标公告 [招标公告]山东中烟工业有限责任公...",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://ggzyjyzx.shandong.gov.cn/art/2026/10/8/art_347674_11482611.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草公司 招标公告",
+      "published": "",
+      "region": "山东省",
+      "amount": "",
+      "snippet": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/10/8 山东省公共资源交易中心 招标公告 [招标公告]山东中烟工业有限责任公...",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100005,
+      "title": "山东省政府采购网 http://ggzyjyzx.shandong.gov.cn › art › 2026/9/29 山东省公共资源交易中心 采购公告 [招标公告]山东中烟工业有限责任公...",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "http://ggzyjyzx.shandong.gov.cn:6006/art/2026/9/29/art_209903_11474546.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草公司 招标公告",
+      "published": "",
+      "region": "山东省",
+      "amount": "",
+      "snippet": "山东省政府采购网 http://ggzyjyzx.shandong.gov.cn › art › 2026/9/29 山东省公共资源交易中心 采购公告 [招标公告]山东中烟工业有限责任公...",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
       "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
       "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
       "source_name_zh": "Yahoo 公开检索补充源",
