@@ -1,0 +1,473 @@
+{
+  "generated_at": "2026-10-13 07:45 UTC",
+  "generated_at_local": "2026-10-13 15:45",
+  "report_date": "2026-10-13",
+  "lookback_days": 7,
+  "summary": {
+    "page_title": "招标雷达 Tender Radar",
+    "page_subtitle": "烟草吸烟空间与相邻模块化空间公开项目监测 / Public-source feed for smoking-space and adjacent-space projects.",
+    "overview": "本次共采集 7 条公开项目，优先跟进烟草系统与吸烟空间直接机会。 / 7 public notices collected; prioritize tobacco-system and smoking-space direct-fit opportunities first."
+  },
+  "stats": {
+    "total_items": 7,
+    "high_priority": 0,
+    "medium_priority": 3,
+    "direct_opportunities": 3,
+    "source_count": 1
+  },
+  "coverage": {
+    "active_source_count": 2,
+    "seed_source_count": 10,
+    "healthy_source_count": 1,
+    "error_source_count": 3,
+    "official_query_count": 130,
+    "fallback_query_count": 98
+  },
+  "source_counts": {
+    "Yahoo Search Fallback": 7
+  },
+  "source_health": [
+    {
+      "name": "China Government Procurement",
+      "kind": "official",
+      "homepage": "https://www.ccgp.gov.cn/",
+      "status": "error",
+      "success_count": 0,
+      "failure_count": 65,
+      "last_error": "官方检索接口返回服务器异常，疑似站点临时波动或触发访问限制，系统已自动切换补充检索。",
+      "name_zh": "中国政府采购网",
+      "display_error": "站点访问存在异常：官方检索接口返回服务器异常，疑似站点临时波动或触发访问限制，系统已自动切换补充检索。"
+    },
+    {
+      "name": "National Public Resource Trading Platform",
+      "kind": "official",
+      "homepage": "https://deal.ggzy.gov.cn/ds/deal/dealList.jsp",
+      "status": "error",
+      "success_count": 0,
+      "failure_count": 65,
+      "last_error": "站点访问存在异常：HTTPSConnectionPool(host='deal.ggzy.gov.cn', port=443): Max retries exceeded wit",
+      "name_zh": "全国公共资源交易平台",
+      "display_error": "站点访问存在异常：站点访问存在异常：HTTPSConnectionPool(host='deal.ggzy.gov.cn', port=443): Max retries exc"
+    },
+    {
+      "name": "Yahoo Search Fallback",
+      "kind": "search-fallback",
+      "homepage": "https://search.yahoo.com/",
+      "status": "ok",
+      "success_count": 8,
+      "failure_count": 27,
+      "last_error": "官方检索接口返回服务器异常，疑似站点临时波动或触发访问限制，系统已自动切换补充检索。",
+      "name_zh": "Yahoo 公开检索补充源",
+      "display_error": "本轮已成功提取部分结果，个别检索词未返回有效公告，系统已保留可用线索。"
+    },
+    {
+      "name": "Bing Search Fallback",
+      "kind": "search-fallback",
+      "homepage": "https://www.bing.com/",
+      "status": "error",
+      "success_count": 0,
+      "failure_count": 32,
+      "last_error": "该检索词本轮未从补充搜索源提取到有效公告，可继续扩大关键词和站点范围。",
+      "name_zh": "Bing 公开检索补充源",
+      "display_error": "站点访问存在异常：该检索词本轮未从补充搜索源提取到有效公告，可继续扩大关键词和站点范围。"
+    }
+  ],
+  "top_direct_items": [
+    {
+      "id": 100000,
+      "title": "2026年山东德州烟草有限公司平原营销部日常维修定点供应商采购项目-中标候选人公示_交易公开_国家公共资源交易平台",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.ggzy.gov.cn/information/deal/html/a/0067/0104/20261012/0067b0411d292f8247b884674f892a47a368.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Aggzy.gov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:ggzy.gov.cn 烟草公司 招标公告",
+      "published": "2026-09-16",
+      "region": "年山东德州",
+      "amount": "",
+      "snippet": "2026年山东德州烟草有限公司平原营销部日常维修定点供应商采购项目-中标候选人公示_交易公开_国家公共资源交易平台 首页 > 交易公开 > 工程建设 2026年山东德州烟草有限公司平原营销部日常维修定点供应商采购项目-中标候选人公示 招标项目编号：C1100005528011593001 信息来源： 中国烟草总公司采购交易平台 招标/资审公告 开标记录 交易结果公示 招标/资审文件澄清 2026年山东德州烟草有限公司平原营销部日常维修定点供应商采购项目-公开招标公告 2026-09-16 暂无数据 2026年山东德州烟草有限公司平原营销部日常维修定点供应商采购项目-中标候选人公示 2026-10-12 暂无数据",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100001,
+      "title": "秦皇岛烟草机械有限责任公司光伏微电网（二期）项目【重新招标】-中标候选人公示_交易公开_国家公共资源交易平台",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.ggzy.gov.cn/information/deal/html/a/0067/0104/20260923/006789ce3625de944cc482e22047232e3b28.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Aggzy.gov.cn+%E4%B8%AD%E5%9B%BD%E7%83%9F%E8%8D%89+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:ggzy.gov.cn 中国烟草 招标公告",
+      "published": "2026-09-02",
+      "region": "",
+      "amount": "",
+      "snippet": "秦皇岛烟草机械有限责任公司光伏微电网（二期）项目【重新招标】-中标候选人公示_交易公开_国家公共资源交易平台 首页 > 交易公开 > 工程建设 秦皇岛烟草机械有限责任公司光伏微电网（二期）项目【重新招标】-中标候选人公示 招标项目编号：C1100005528010813001 信息来源： 中国烟草总公司采购交易平台 招标/资审公告 开标记录 交易结果公示 招标/资审文件澄清 秦皇岛烟草机械有限责任公司光伏微电网（二期）项目【重新招标】-公开招标公告 2026-09-02 暂无数据 秦皇岛烟草机械有限责任公司光伏微电网（二期）项目【重新招标】-中标候选人公示 2026-09-23 暂无数据",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 中国烟草 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100007,
+      "title": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/30 山东省公共资源交易中心 采购公告 [招标计划]将军烟草集团有限公司202...",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://ggzyjyzx.shandong.gov.cn/art/2026/9/30/art_209903_11476245.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E6%9C%BA%E6%A2%B0+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草机械 招标公告",
+      "published": "",
+      "region": "山东省",
+      "amount": "",
+      "snippet": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/30 山东省公共资源交易中心 采购公告 [招标计划]将军烟草集团有限公司202...",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草机械 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    }
+  ],
+  "watch_items": [
+    {
+      "id": 100003,
+      "title": "叶家公厕提升改造工程中标公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.songjiang.gov.cn/ztzl/005019/005019002/20260916/581e40ce-e54f-404d-b84c-9e8be620e5e4.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
+      "published": "2026-09-16",
+      "region": "上海市松江区",
+      "amount": "374032元",
+      "snippet": "叶家公厕提升改造工程中标公告 当前位置： 专题专栏 / 长者专题 / 政务公告 叶家公厕提升改造工程中标公告 叶家公厕提升改造工程中标公告 信息来源： 发布时间：2026-09-16 由上海元合敏建设工程咨询有限公司组织的叶家公厕提升改造工程招标，于2026年9月16日在上海市松江区乐都路358号云间大厦21楼评标室评审。 一、中标结果情况 根据招标文件定标规则，确认评标委员会评审的第一中标候选人为中标人，中标情况如下： 中标单位：上海荣敞建设工程有限公司 中标价：374032元 评标委员会：詹咏、朱丽静、王翠娥、宋洋、瞿永兴 二、提出异议的渠道和方式 本公示自发布之日起3个工作日内，投标人或者其他利害关系人对本项目评标结果有异议的，应当以书面署名形式在公示期间向招标人或招标代理机构提出。在此期限内若无异议，公",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
+    },
+    {
+      "id": 100006,
+      "title": "崇川区政府 https://www.chongchuan.gov.cn › xccqrmzf › ybgs 福星路西、幸余路南垃圾房建设工程 招标公告（资格后审）",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.chongchuan.gov.cn/xccqrmzf/ybgs/content/aaf97b9e-bfde-4a8b-928a-c84369d96289.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E5%9E%83%E5%9C%BE%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 垃圾房 招标 公告",
+      "published": "",
+      "region": "崇川区",
+      "amount": "",
+      "snippet": "崇川区政府 https://www.chongchuan.gov.cn › xccqrmzf › ybgs 福星路西、幸余路南垃圾房建设工程 招标公告（资格后审）",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 垃圾房 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
+    },
+    {
+      "id": 100005,
+      "title": "东莞市人民政府门户网站 https://www.dg.gov.cn › dongcheng › bmzl 东莞市人民政府门户网站_桑园社区绿化养护及公厕管养服务项目招标公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.dg.gov.cn/dongcheng/bmzl/zbcgggzl/zfcgxmxx/content/post_4591620.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
+      "published": "",
+      "region": "东莞市",
+      "amount": "",
+      "snippet": "东莞市人民政府门户网站 https://www.dg.gov.cn › dongcheng › bmzl 东莞市人民政府门户网站_桑园社区绿化养护及公厕管养服务项目招标公告",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
+    },
+    {
+      "id": 100004,
+      "title": "mencius.gov.cn https://www.mencius.gov.cn › index › cms 2025年香城镇西片区改造公厕工程竞争性磋商公告_工程采购公告_邹城外...",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.mencius.gov.cn/index.php/cms/item-view-id-26622.shtml",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
+      "published": "",
+      "region": "年香城镇西片区",
+      "amount": "",
+      "snippet": "mencius.gov.cn https://www.mencius.gov.cn › index › cms 2025年香城镇西片区改造公厕工程竞争性磋商公告_工程采购公告_邹城外...",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 100007,
+      "title": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/30 山东省公共资源交易中心 采购公告 [招标计划]将军烟草集团有限公司202...",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://ggzyjyzx.shandong.gov.cn/art/2026/9/30/art_209903_11476245.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%83%9F%E8%8D%89%E6%9C%BA%E6%A2%B0+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 烟草机械 招标公告",
+      "published": "",
+      "region": "山东省",
+      "amount": "",
+      "snippet": "山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/30 山东省公共资源交易中心 采购公告 [招标计划]将军烟草集团有限公司202...",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草机械 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100001,
+      "title": "秦皇岛烟草机械有限责任公司光伏微电网（二期）项目【重新招标】-中标候选人公示_交易公开_国家公共资源交易平台",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.ggzy.gov.cn/information/deal/html/a/0067/0104/20260923/006789ce3625de944cc482e22047232e3b28.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Aggzy.gov.cn+%E4%B8%AD%E5%9B%BD%E7%83%9F%E8%8D%89+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:ggzy.gov.cn 中国烟草 招标公告",
+      "published": "2026-09-02",
+      "region": "",
+      "amount": "",
+      "snippet": "秦皇岛烟草机械有限责任公司光伏微电网（二期）项目【重新招标】-中标候选人公示_交易公开_国家公共资源交易平台 首页 > 交易公开 > 工程建设 秦皇岛烟草机械有限责任公司光伏微电网（二期）项目【重新招标】-中标候选人公示 招标项目编号：C1100005528010813001 信息来源： 中国烟草总公司采购交易平台 招标/资审公告 开标记录 交易结果公示 招标/资审文件澄清 秦皇岛烟草机械有限责任公司光伏微电网（二期）项目【重新招标】-公开招标公告 2026-09-02 暂无数据 秦皇岛烟草机械有限责任公司光伏微电网（二期）项目【重新招标】-中标候选人公示 2026-09-23 暂无数据",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 中国烟草 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100000,
+      "title": "2026年山东德州烟草有限公司平原营销部日常维修定点供应商采购项目-中标候选人公示_交易公开_国家公共资源交易平台",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.ggzy.gov.cn/information/deal/html/a/0067/0104/20261012/0067b0411d292f8247b884674f892a47a368.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Aggzy.gov.cn+%E7%83%9F%E8%8D%89%E5%85%AC%E5%8F%B8+%E6%8B%9B%E6%A0%87%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:ggzy.gov.cn 烟草公司 招标公告",
+      "published": "2026-09-16",
+      "region": "年山东德州",
+      "amount": "",
+      "snippet": "2026年山东德州烟草有限公司平原营销部日常维修定点供应商采购项目-中标候选人公示_交易公开_国家公共资源交易平台 首页 > 交易公开 > 工程建设 2026年山东德州烟草有限公司平原营销部日常维修定点供应商采购项目-中标候选人公示 招标项目编号：C1100005528011593001 信息来源： 中国烟草总公司采购交易平台 招标/资审公告 开标记录 交易结果公示 招标/资审文件澄清 2026年山东德州烟草有限公司平原营销部日常维修定点供应商采购项目-公开招标公告 2026-09-16 暂无数据 2026年山东德州烟草有限公司平原营销部日常维修定点供应商采购项目-中标候选人公示 2026-10-12 暂无数据",
+      "tags": [
+        "tobacco"
+      ],
+      "score": 4,
+      "priority": "Medium",
+      "opportunity_type": "Direct",
+      "summary": "该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。",
+      "sales_angle": "建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "中优先",
+      "opportunity_type_zh": "直接匹配",
+      "tags_zh": [
+        "烟草系统"
+      ]
+    },
+    {
+      "id": 100006,
+      "title": "崇川区政府 https://www.chongchuan.gov.cn › xccqrmzf › ybgs 福星路西、幸余路南垃圾房建设工程 招标公告（资格后审）",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.chongchuan.gov.cn/xccqrmzf/ybgs/content/aaf97b9e-bfde-4a8b-928a-c84369d96289.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E5%9E%83%E5%9C%BE%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 垃圾房 招标 公告",
+      "published": "",
+      "region": "崇川区",
+      "amount": "",
+      "snippet": "崇川区政府 https://www.chongchuan.gov.cn › xccqrmzf › ybgs 福星路西、幸余路南垃圾房建设工程 招标公告（资格后审）",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 垃圾房 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
+    },
+    {
+      "id": 100005,
+      "title": "东莞市人民政府门户网站 https://www.dg.gov.cn › dongcheng › bmzl 东莞市人民政府门户网站_桑园社区绿化养护及公厕管养服务项目招标公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.dg.gov.cn/dongcheng/bmzl/zbcgggzl/zfcgxmxx/content/post_4591620.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
+      "published": "",
+      "region": "东莞市",
+      "amount": "",
+      "snippet": "东莞市人民政府门户网站 https://www.dg.gov.cn › dongcheng › bmzl 东莞市人民政府门户网站_桑园社区绿化养护及公厕管养服务项目招标公告",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
+    },
+    {
+      "id": 100003,
+      "title": "叶家公厕提升改造工程中标公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.songjiang.gov.cn/ztzl/005019/005019002/20260916/581e40ce-e54f-404d-b84c-9e8be620e5e4.html",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
+      "published": "2026-09-16",
+      "region": "上海市松江区",
+      "amount": "374032元",
+      "snippet": "叶家公厕提升改造工程中标公告 当前位置： 专题专栏 / 长者专题 / 政务公告 叶家公厕提升改造工程中标公告 叶家公厕提升改造工程中标公告 信息来源： 发布时间：2026-09-16 由上海元合敏建设工程咨询有限公司组织的叶家公厕提升改造工程招标，于2026年9月16日在上海市松江区乐都路358号云间大厦21楼评标室评审。 一、中标结果情况 根据招标文件定标规则，确认评标委员会评审的第一中标候选人为中标人，中标情况如下： 中标单位：上海荣敞建设工程有限公司 中标价：374032元 评标委员会：詹咏、朱丽静、王翠娥、宋洋、瞿永兴 二、提出异议的渠道和方式 本公示自发布之日起3个工作日内，投标人或者其他利害关系人对本项目评标结果有异议的，应当以书面署名形式在公示期间向招标人或招标代理机构提出。在此期限内若无异议，公",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
+    },
+    {
+      "id": 100004,
+      "title": "mencius.gov.cn https://www.mencius.gov.cn › index › cms 2025年香城镇西片区改造公厕工程竞争性磋商公告_工程采购公告_邹城外...",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "https://www.mencius.gov.cn/index.php/cms/item-view-id-26622.shtml",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E7%A7%BB%E5%8A%A8%E5%85%AC%E5%8E%95+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 移动公厕 招标 公告",
+      "published": "",
+      "region": "年香城镇西片区",
+      "amount": "",
+      "snippet": "mencius.gov.cn https://www.mencius.gov.cn › index › cms 2025年香城镇西片区改造公厕工程竞争性磋商公告_工程采购公告_邹城外...",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 移动公厕 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
+    }
+  ]
+}
