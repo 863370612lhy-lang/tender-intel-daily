@@ -1,0 +1,299 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>销售视图 Sales View | 招标雷达 Tender Radar</title>
+    <style>
+      :root { --bg:#f5f7fb; --panel:#ffffff; --line:#e4ebf3; --text:#112031; --muted:#637488; --gold:#f6cd87; --mint:#cffff0; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:linear-gradient(180deg,#eef3f8 0%,#f8fbff 100%); color:var(--text); font-family:"Segoe UI","Noto Sans SC",sans-serif; }
+      .shell { width:min(1180px,calc(100% - 28px)); margin:0 auto; padding:22px 0 42px; }
+      .quick-nav { margin-bottom:16px; display:flex; flex-wrap:wrap; gap:10px; }
+      .quick-link { display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:999px; border:1px solid var(--line); background:#fff; color:var(--text); text-decoration:none; font-size:13px; box-shadow:0 10px 24px rgba(15,24,36,.05); }
+      .hero { padding:28px; border-radius:28px; background:linear-gradient(140deg,#0c1520 0%,#132030 100%); color:#f7fbff; }
+      .hero h1 { margin:10px 0 10px; font-size:42px; }
+      .hero p { margin:0; color:#c8d3df; line-height:1.9; }
+      .grid { display:grid; gap:16px; margin-top:18px; }
+      .sales-card { padding:22px; border-radius:26px; background:var(--panel); border:1px solid var(--line); box-shadow:0 20px 50px rgba(15,24,36,.08); }
+      .sales-top { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+      .badge { display:inline-flex; padding:7px 10px; border-radius:999px; background:var(--gold); color:#08111a; font-size:12px; font-weight:700; }
+      .badge.soft { background:#eef3f8; color:var(--text); }
+      .source { color:var(--muted); font-size:12px; }
+      .sales-card h3 { margin:12px 0 10px; font-size:24px; line-height:1.45; }
+      .info-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; margin-top:12px; }
+      .info-grid div { padding:12px 14px; border-radius:16px; background:#f5f8fc; }
+      .info-grid span { display:block; color:var(--muted); font-size:12px; }
+      .info-grid strong { display:block; margin-top:6px; }
+      .sales-card p { color:var(--muted); line-height:1.85; }
+      .actions { margin-top:14px; }
+      .cta { display:inline-flex; padding:12px 16px; border-radius:999px; background:linear-gradient(135deg,#f6cd87,#fff0ca); color:#08111a; text-decoration:none; font-weight:700; }
+      .empty { padding:24px; border-radius:22px; border:1px dashed var(--line); color:var(--muted); text-align:center; background:#fff; }
+      @media (max-width:900px) { .info-grid { grid-template-columns:1fr 1fr; } }
+      @media (max-width:640px) { .info-grid { grid-template-columns:1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <div class="quick-nav">
+        <a class="quick-link" href="./index.html">总站 Main</a>
+        <a class="quick-link" href="./executive.html">老板页 Executive</a>
+        <a class="quick-link" href="./archive/index.html">历史归档 Archive</a>
+      </div>
+      <section class="hero">
+        <div style="font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#7ff1d1;font-weight:800;">销售视图 Sales View</div>
+        <h1>销售直跟线索板 Direct-Fit Lead Board</h1>
+        <p>本次共采集 13 条公开项目，优先跟进烟草系统与吸烟空间直接机会。 / 13 public notices collected; prioritize tobacco-system and smoking-space direct-fit opportunities first.</p>
+        <p style="margin-top:10px;">生成时间 Generated 2026-10-15 13:58 | 报告日期 Report date 2026-10-15</p>
+      </section>
+      <section class="grid"><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>中国烟草总公司江西省公司2027年度全省烟叶配套物资采购项目（第9标段：烟草有机无机复混肥Ⅰ）-公开招标公告_交易公开_国家公共资源交易平台</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:gov.cn 烟草公司 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>2026-10-12</strong></div>
+            <div><span>地区 Region</span><strong>中国烟草总公司江西省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://www.ggzy.gov.cn/information/deal/html/a/0067/0101/20261012/0067dcb53da06ffe4e57b765c7c429c289b4.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>中国烟草总公司江西省公司2027年度全省烟叶配套物资采购项目（第6标段：烟草枯饼类有机肥）-公开招标公告_交易公开_国家公共资源交易平台</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:ggzy.gov.cn 烟草公司 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>2026-10-12</strong></div>
+            <div><span>地区 Region</span><strong>中国烟草总公司江西省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://www.ggzy.gov.cn/information/deal/html/a/0067/0101/20261012/0067a8adc9a882f2460d815472da008d1a2f.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>中国烟草总公司江西省公司2027年度全省烟叶配套物资采购项目（第5标段：烟草专用肥）-公开招标公告_交易公开_国家公共资源交易平台</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:ggzy.gov.cn 烟草公司 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>2026-10-12</strong></div>
+            <div><span>地区 Region</span><strong>中国烟草总公司江西省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://www.ggzy.gov.cn/information/deal/html/a/0067/0101/20261012/0067474a5c9ec1224bdead5d3fc25880ef29.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>中国烟草总公司江西省公司2027年度全省烟叶配套物资采购项目（第4标段：烟草专用肥）-公开招标公告_交易公开_国家公共资源交易平台</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:ggzy.gov.cn 中国烟草 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>2026-10-12</strong></div>
+            <div><span>地区 Region</span><strong>中国烟草总公司江西省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 中国烟草 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://www.ggzy.gov.cn/information/deal/html/a/0067/0101/20261012/00673d15f4f4ebf04dbe9e32884008daf6ad.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>中国烟草总公司江西省公司2027年度全省烟叶配套物资采购项目（第2标段：磷酸二氢钾）-公开招标公告_交易公开_国家公共资源交易平台</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:ggzy.gov.cn 烟草公司 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>2026-10-12</strong></div>
+            <div><span>地区 Region</span><strong>中国烟草总公司江西省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://www.ggzy.gov.cn/information/deal/html/a/0067/0101/20261012/0067c8deec5007594ee98eea6d7091c2c6dd.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>中国烟草总公司江西省公司2027年度全省烟叶配套物资采购项目（第1标段：磷酸二氢钾）-公开招标公告_交易公开_国家公共资源交易平台</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:ggzy.gov.cn 中国烟草 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>2026-10-12</strong></div>
+            <div><span>地区 Region</span><strong>中国烟草总公司江西省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 中国烟草 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://www.ggzy.gov.cn/information/deal/html/a/0067/0101/20261012/00670cc97c6652924dd2b4978a82edd52c13.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>中国烟草总公司江西省公司2027年度全省烟叶配套物资采购项目（第13标段：育苗基质）-公开招标公告_交易公开_国家公共资源交易平台</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:ggzy.gov.cn 中国烟草 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>2026-10-12</strong></div>
+            <div><span>地区 Region</span><strong>中国烟草总公司江西省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 中国烟草 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://www.ggzy.gov.cn/information/deal/html/a/0067/0101/20261012/0067ccd17045c01f4021a7d85e8b704e60d5.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>中国烟草总公司江西省公司2027年度全省烟叶配套物资采购项目（第12标段：烟草有机无机复混肥III）-公开招标公告_交易公开_国家公共资源交易平台</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:ggzy.gov.cn 中国烟草 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>2026-10-12</strong></div>
+            <div><span>地区 Region</span><strong>中国烟草总公司江西省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 中国烟草 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://www.ggzy.gov.cn/information/deal/html/a/0067/0101/20261012/0067894e136721d046508dad9c38d0c73aa6.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>中国烟草总公司江西省公司2027年度全省烟叶配套物资采购项目（第11标段：烟草有机无机复混肥Ⅱ）-公开招标公告_交易公开_国家公共资源交易平台</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:ggzy.gov.cn 烟草公司 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>2026-10-12</strong></div>
+            <div><span>地区 Region</span><strong>中国烟草总公司江西省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://www.ggzy.gov.cn/information/deal/html/a/0067/0101/20261012/006758710f811cc440368a6f640756758b6e.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>秦皇岛烟草机械有限责任公司光伏微电网（二期）项目【重新招标】-中标候选人公示_交易公开_国家公共资源交易平台</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:ggzy.gov.cn 中国烟草 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>2026-09-02</strong></div>
+            <div><span>地区 Region</span><strong>未标注</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:ggzy.gov.cn 中国烟草 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://www.ggzy.gov.cn/information/deal/html/a/0067/0104/20260923/006789ce3625de944cc482e22047232e3b28.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/30 山东省公共资源交易中心 采购公告 [招标计划]将军烟草集团有限公司202...</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:gov.cn 烟草公司 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>未标注</strong></div>
+            <div><span>地区 Region</span><strong>山东省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://ggzyjyzx.shandong.gov.cn/art/2026/9/30/art_209903_11476245.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/28 山东省公共资源交易中心 招标公告 [招标计划]山东中烟工业有限责任公...</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:gov.cn 烟草公司 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>未标注</strong></div>
+            <div><span>地区 Region</span><strong>山东省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://ggzyjyzx.shandong.gov.cn/art/2026/9/28/art_347674_11470850.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article><article class="sales-card">
+          <div class="sales-top">
+            <span class="badge">中优先</span>
+            <span class="badge soft">直接匹配</span>
+            <span class="source">Yahoo 公开检索补充源</span>
+          </div>
+          <h3>山东省政府采购网 https://ggzyjyzx.shandong.gov.cn › art › 2026/9/28 [招标公告]山东中烟工业有限责任公司信息系统等级保护测评与商用密码...</h3>
+          <div class="info-grid">
+            <div><span>关键词 Keyword</span><strong>site:gov.cn 烟草公司 招标公告</strong></div>
+            <div><span>发布日期 Published</span><strong>未标注</strong></div>
+            <div><span>地区 Region</span><strong>山东省</strong></div>
+            <div><span>金额 Amount</span><strong>未标注</strong></div>
+          </div>
+          <p>该项目与烟草系统采购直接相关，命中检索词“site:gov.cn 烟草公司 招标公告”。建议优先核对采购范围、报名截止时间、标书获取方式和投标资格要求。</p>
+          <p><strong>销售建议 Sales angle:</strong> 建议当天联系采购代理与业主单位，优先判断是否属于烟草系统年度集采或专项建设采购。</p>
+          <p><strong>下一步动作 Next action:</strong> 先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。</p>
+          <div class="actions">
+            <a class="cta" href="https://ggzyjyzx.shandong.gov.cn/art/2026/9/28/art_209903_11470672.html" target="_blank" rel="noreferrer">查看原文 Open notice</a>
+          </div>
+        </article></section>
+    </div>
+  </body>
+</html>
