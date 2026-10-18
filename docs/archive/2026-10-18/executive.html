@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>老板简报 Executive Brief | Daily Tender Radar</title>
+    <style>
+      :root { --bg:#08111a; --panel:#0f1924; --panel-soft:#121f2d; --line:rgba(255,255,255,.08); --text:#f6fbff; --muted:#9db0c1; --gold:#f6cd87; --mint:#7ff1d1; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:linear-gradient(180deg,#08111a 0%,#0d1823 100%); color:var(--text); font-family:"Segoe UI","Noto Sans SC",sans-serif; }
+      .shell { width:min(1280px,calc(100% - 28px)); margin:0 auto; padding:22px 0 42px; }
+      .quick-nav { margin-bottom:16px; display:flex; flex-wrap:wrap; gap:10px; }
+      .quick-link { display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:999px; border:1px solid var(--line); background:rgba(255,255,255,.04); color:var(--text); text-decoration:none; font-size:13px; }
+      .hero { padding:28px; border:1px solid var(--line); border-radius:30px; background:radial-gradient(circle at top right, rgba(127,241,209,.16), transparent 24%), var(--panel); }
+      .hero h1 { margin:8px 0 12px; font-size:44px; line-height:1.06; }
+      .hero p { margin:0; color:var(--muted); line-height:1.9; }
+      .kpis { display:grid; grid-template-columns:repeat(6,minmax(0,1fr)); gap:12px; margin-top:18px; }
+      .kpi { padding:16px; border-radius:20px; background:var(--panel-soft); border:1px solid var(--line); }
+      .kpi span { display:block; color:var(--muted); font-size:12px; }
+      .kpi strong { display:block; margin-top:8px; font-size:28px; }
+      .layout { display:grid; grid-template-columns:1.15fr .85fr; gap:18px; margin-top:20px; }
+      .panel { padding:24px; border-radius:28px; border:1px solid var(--line); background:var(--panel); }
+      .panel h2 { margin:0 0 14px; font-size:18px; letter-spacing:.08em; text-transform:uppercase; }
+      .lead-list, .health-list { display:grid; gap:14px; }
+      .lead-card, .health-card { padding:18px; border-radius:22px; background:var(--panel-soft); border:1px solid var(--line); }
+      .lead-top { display:flex; gap:8px; flex-wrap:wrap; align-items:center; }
+      .pill { display:inline-flex; padding:6px 10px; border-radius:999px; background:#f6cd87; color:#08111a; font-size:12px; font-weight:700; }
+      .pill.soft { background:rgba(255,255,255,.08); color:var(--text); }
+      .source { color:var(--muted); font-size:12px; }
+      .lead-card h3 { margin:12px 0 8px; font-size:20px; line-height:1.45; }
+      .lead-card p, .health-card p { margin:0; color:var(--muted); line-height:1.8; }
+      .meta-row { display:flex; justify-content:space-between; gap:12px; margin-top:12px; color:var(--muted); font-size:12px; }
+      .cta { display:inline-flex; margin-top:14px; padding:10px 14px; border-radius:999px; background:linear-gradient(135deg,var(--gold),#fff0ca); color:#08111a; text-decoration:none; font-weight:700; }
+      table { width:100%; border-collapse:collapse; }
+      th,td { padding:12px 10px; border-bottom:1px solid var(--line); text-align:left; font-size:13px; }
+      th { color:var(--muted); }
+      .empty { padding:20px; border:1px dashed var(--line); border-radius:20px; color:var(--muted); text-align:center; }
+      @media (max-width:1000px) { .layout,.kpis { grid-template-columns:1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <div class="quick-nav">
+        <a class="quick-link" href="./index.html">总站 Main</a>
+        <a class="quick-link" href="./sales.html">销售页 Sales</a>
+        <a class="quick-link" href="./archive/index.html">历史归档 Archive</a>
+      </div>
+      <section class="hero">
+        <div style="font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:var(--mint);font-weight:800;">老板简报 Executive Brief</div>
+        <h1>管理层快照 Management Snapshot</h1>
+        <p>No notices were collected in this run. Review source_health in latest.json to see whether the sources returned no matches or temporarily blocked automated access.</p>
+        <p style="margin-top:10px;">生成时间 Generated 2026-10-18 13:57 | 报告日期 Report date 2026-10-18</p>
+        <div class="kpis">
+          <div class="kpi"><span>项目总数 Total notices</span><strong>0</strong></div>
+          <div class="kpi"><span>直接匹配 Direct fits</span><strong>0</strong></div>
+          <div class="kpi"><span>高优先级 High priority</span><strong>0</strong></div>
+          <div class="kpi"><span>健康来源 Healthy sources</span><strong>0</strong></div>
+          <div class="kpi"><span>种子来源 Seed sources</span><strong>10</strong></div>
+          <div class="kpi"><span>补充检索 Fallback queries</span><strong>98</strong></div>
+        </div>
+      </section>
+      <section class="layout">
+        <div class="panel">
+          <h2>重点线索 Priority Leads</h2>
+          <div class="lead-list"><div class="empty">本轮没有直接优先线索。No direct priority opportunities in this run.</div></div>
+        </div>
+        <div class="panel">
+          <h2>来源健康 Source Health</h2>
+          <div class="health-list"><div class="health-card">
+          <strong>中国政府采购网</strong>
+          <span>状态 Status: error / 65</span>
+          <p>站点访问存在异常：官方检索接口返回服务器异常，疑似站点临时波动或触发访问限制，系统已自动切换补充检索。</p>
+        </div><div class="health-card">
+          <strong>全国公共资源交易平台</strong>
+          <span>状态 Status: error / 65</span>
+          <p>站点访问存在异常：站点访问存在异常：HTTPSConnectionPool(host=&#x27;deal.ggzy.gov.cn&#x27;, port=443): Max retries exc</p>
+        </div><div class="health-card">
+          <strong>Yahoo 公开检索补充源</strong>
+          <span>状态 Status: error / 32</span>
+          <p>站点访问存在异常：官方检索接口返回服务器异常，疑似站点临时波动或触发访问限制，系统已自动切换补充检索。</p>
+        </div><div class="health-card">
+          <strong>Bing 公开检索补充源</strong>
+          <span>状态 Status: error / 32</span>
+          <p>站点访问存在异常：该检索词本轮未从补充搜索源提取到有效公告，可继续扩大关键词和站点范围。</p>
+        </div></div>
+        </div>
+      </section>
+      <section class="panel" style="margin-top:18px;">
+        <h2>关注池 Watchlist</h2>
+        <table>
+          <thead><tr><th>项目 Notice</th><th>发布日期 Published</th><th>类型 Type</th></tr></thead>
+          <tbody><tr><td colspan="3">本轮没有关注池项目。No adjacent watch items in this run.</td></tr></tbody>
+        </table>
+      </section>
+    </div>
+  </body>
+</html>
