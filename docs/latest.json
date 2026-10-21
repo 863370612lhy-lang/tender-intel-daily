@@ -1,7 +1,7 @@
 {
-  "generated_at": "2026-10-20 06:02 UTC",
-  "generated_at_local": "2026-10-20 14:02",
-  "report_date": "2026-10-20",
+  "generated_at": "2026-10-21 06:03 UTC",
+  "generated_at_local": "2026-10-21 14:03",
+  "report_date": "2026-10-21",
   "lookback_days": 7,
   "summary": {
     "page_title": "Daily Tender Radar",
@@ -31,7 +31,7 @@
       "homepage": "https://www.ccgp.gov.cn/",
       "status": "error",
       "success_count": 0,
-      "failure_count": 47,
+      "failure_count": 65,
       "last_error": "官方检索接口返回服务器异常，疑似站点临时波动或触发访问限制，系统已自动切换补充检索。",
       "name_zh": "中国政府采购网",
       "display_error": "站点访问存在异常：官方检索接口返回服务器异常，疑似站点临时波动或触发访问限制，系统已自动切换补充检索。"

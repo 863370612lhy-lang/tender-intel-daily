@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>销售视图 Sales View | Daily Tender Radar</title>
+    <style>
+      :root { --bg:#f5f7fb; --panel:#ffffff; --line:#e4ebf3; --text:#112031; --muted:#637488; --gold:#f6cd87; --mint:#cffff0; }
+      * { box-sizing:border-box; }
+      body { margin:0; background:linear-gradient(180deg,#eef3f8 0%,#f8fbff 100%); color:var(--text); font-family:"Segoe UI","Noto Sans SC",sans-serif; }
+      .shell { width:min(1180px,calc(100% - 28px)); margin:0 auto; padding:22px 0 42px; }
+      .quick-nav { margin-bottom:16px; display:flex; flex-wrap:wrap; gap:10px; }
+      .quick-link { display:inline-flex; align-items:center; gap:8px; padding:10px 14px; border-radius:999px; border:1px solid var(--line); background:#fff; color:var(--text); text-decoration:none; font-size:13px; box-shadow:0 10px 24px rgba(15,24,36,.05); }
+      .hero { padding:28px; border-radius:28px; background:linear-gradient(140deg,#0c1520 0%,#132030 100%); color:#f7fbff; }
+      .hero h1 { margin:10px 0 10px; font-size:42px; }
+      .hero p { margin:0; color:#c8d3df; line-height:1.9; }
+      .grid { display:grid; gap:16px; margin-top:18px; }
+      .sales-card { padding:22px; border-radius:26px; background:var(--panel); border:1px solid var(--line); box-shadow:0 20px 50px rgba(15,24,36,.08); }
+      .sales-top { display:flex; gap:8px; align-items:center; flex-wrap:wrap; }
+      .badge { display:inline-flex; padding:7px 10px; border-radius:999px; background:var(--gold); color:#08111a; font-size:12px; font-weight:700; }
+      .badge.soft { background:#eef3f8; color:var(--text); }
+      .source { color:var(--muted); font-size:12px; }
+      .sales-card h3 { margin:12px 0 10px; font-size:24px; line-height:1.45; }
+      .info-grid { display:grid; grid-template-columns:repeat(4,minmax(0,1fr)); gap:10px; margin-top:12px; }
+      .info-grid div { padding:12px 14px; border-radius:16px; background:#f5f8fc; }
+      .info-grid span { display:block; color:var(--muted); font-size:12px; }
+      .info-grid strong { display:block; margin-top:6px; }
+      .sales-card p { color:var(--muted); line-height:1.85; }
+      .actions { margin-top:14px; }
+      .cta { display:inline-flex; padding:12px 16px; border-radius:999px; background:linear-gradient(135deg,#f6cd87,#fff0ca); color:#08111a; text-decoration:none; font-weight:700; }
+      .empty { padding:24px; border-radius:22px; border:1px dashed var(--line); color:var(--muted); text-align:center; background:#fff; }
+      @media (max-width:900px) { .info-grid { grid-template-columns:1fr 1fr; } }
+      @media (max-width:640px) { .info-grid { grid-template-columns:1fr; } }
+    </style>
+  </head>
+  <body>
+    <div class="shell">
+      <div class="quick-nav">
+        <a class="quick-link" href="./index.html">总站 Main</a>
+        <a class="quick-link" href="./executive.html">老板页 Executive</a>
+        <a class="quick-link" href="./archive/index.html">历史归档 Archive</a>
+      </div>
+      <section class="hero">
+        <div style="font-size:12px;letter-spacing:.18em;text-transform:uppercase;color:#7ff1d1;font-weight:800;">销售视图 Sales View</div>
+        <h1>销售直跟线索板 Direct-Fit Lead Board</h1>
+        <p>No notices were collected in this run. Review source_health in latest.json to see whether the sources returned no matches or temporarily blocked automated access.</p>
+        <p style="margin-top:10px;">生成时间 Generated 2026-10-21 14:03 | 报告日期 Report date 2026-10-21</p>
+      </section>
+      <section class="grid"><div class="empty">本轮暂无可直接跟进的销售线索。No direct sales-ready leads in this run.</div></section>
+    </div>
+  </body>
+</html>
