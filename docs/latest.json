@@ -1,29 +1,31 @@
 {
-  "generated_at": "2026-11-18 08:33 UTC",
-  "generated_at_local": "2026-11-18 16:33",
-  "report_date": "2026-11-18",
+  "generated_at": "2026-11-19 08:50 UTC",
+  "generated_at_local": "2026-11-19 16:50",
+  "report_date": "2026-11-19",
   "lookback_days": 7,
   "summary": {
-    "page_title": "Daily Tender Radar",
-    "page_subtitle": "Public-source tender monitor completed with no collected notices.",
-    "overview": "No notices were collected in this run. Review source_health in latest.json to see whether the sources returned no matches or temporarily blocked automated access."
+    "page_title": "招标雷达 Tender Radar",
+    "page_subtitle": "烟草吸烟空间与相邻模块化空间公开项目监测 / Public-source feed for smoking-space and adjacent-space projects.",
+    "overview": "本次共采集 1 条公开项目，优先跟进烟草系统与吸烟空间直接机会。 / 1 public notices collected; prioritize tobacco-system and smoking-space direct-fit opportunities first."
   },
   "stats": {
-    "total_items": 0,
+    "total_items": 1,
     "high_priority": 0,
     "medium_priority": 0,
     "direct_opportunities": 0,
-    "source_count": 0
+    "source_count": 1
   },
   "coverage": {
     "active_source_count": 2,
     "seed_source_count": 10,
-    "healthy_source_count": 0,
-    "error_source_count": 3,
+    "healthy_source_count": 1,
+    "error_source_count": 2,
     "official_query_count": 130,
     "fallback_query_count": 98
   },
-  "source_counts": {},
+  "source_counts": {
+    "Yahoo Search Fallback": 1
+  },
   "source_health": [
     {
       "name": "China Government Procurement",
@@ -51,12 +53,12 @@
       "name": "Yahoo Search Fallback",
       "kind": "search-fallback",
       "homepage": "https://search.yahoo.com/",
-      "status": "error",
-      "success_count": 0,
-      "failure_count": 32,
+      "status": "ok",
+      "success_count": 1,
+      "failure_count": 31,
       "last_error": "官方检索接口返回服务器异常，疑似站点临时波动或触发访问限制，系统已自动切换补充检索。",
       "name_zh": "Yahoo 公开检索补充源",
-      "display_error": "站点访问存在异常：官方检索接口返回服务器异常，疑似站点临时波动或触发访问限制，系统已自动切换补充检索。"
+      "display_error": "本轮已成功提取部分结果，个别检索词未返回有效公告，系统已保留可用线索。"
     },
     {
       "name": "Bing Search Fallback",
@@ -71,6 +73,64 @@
     }
   ],
   "top_direct_items": [],
-  "watch_items": [],
-  "items": []
+  "watch_items": [
+    {
+      "id": 100000,
+      "title": "攀枝花市东区人民政府 http://www.scdongqu.gov.cn › zfxxgk › fdzdgknr 攀枝花市东区市容环境卫生服务中心17座垃圾房改造工程采购公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "http://www.scdongqu.gov.cn/zfxxgk/fdzdgknr/tzgg/10325292.shtml",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E5%9E%83%E5%9C%BE%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 垃圾房 招标 公告",
+      "published": "",
+      "region": "攀枝花市东区",
+      "amount": "",
+      "snippet": "攀枝花市东区人民政府 http://www.scdongqu.gov.cn › zfxxgk › fdzdgknr 攀枝花市东区市容环境卫生服务中心17座垃圾房改造工程采购公告",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 垃圾房 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
+    }
+  ],
+  "items": [
+    {
+      "id": 100000,
+      "title": "攀枝花市东区人民政府 http://www.scdongqu.gov.cn › zfxxgk › fdzdgknr 攀枝花市东区市容环境卫生服务中心17座垃圾房改造工程采购公告",
+      "source_name": "Yahoo Search Fallback",
+      "source_kind": "search-fallback",
+      "source_url": "http://www.scdongqu.gov.cn/zfxxgk/fdzdgknr/tzgg/10325292.shtml",
+      "search_url": "https://search.yahoo.com/search?p=site%3Agov.cn+%E5%9E%83%E5%9C%BE%E6%88%BF+%E6%8B%9B%E6%A0%87+%E5%85%AC%E5%91%8A&btf=m&nojs=1",
+      "query_keyword": "site:gov.cn 垃圾房 招标 公告",
+      "published": "",
+      "region": "攀枝花市东区",
+      "amount": "",
+      "snippet": "攀枝花市东区人民政府 http://www.scdongqu.gov.cn › zfxxgk › fdzdgknr 攀枝花市东区市容环境卫生服务中心17座垃圾房改造工程采购公告",
+      "tags": [
+        "adjacent-space"
+      ],
+      "score": 1,
+      "priority": "Watch",
+      "opportunity_type": "Adjacent",
+      "summary": "该项目属于公厕、垃圾房、箱房等邻近模块化空间采购，命中检索词“site:gov.cn 垃圾房 招标 公告”。虽然不是直接烟草项目，但对箱体类产品和场景型销售仍有参考价值。",
+      "sales_angle": "建议作为销售补充线索跟进，优先判断是否可延展到吸烟亭、值守岗亭或其他模块化空间需求。",
+      "next_action": "先打开原公告，确认采购单位、项目范围、报名/投标截止时间，以及标书购买或下载路径。",
+      "source_name_zh": "Yahoo 公开检索补充源",
+      "priority_zh": "观察",
+      "opportunity_type_zh": "邻近机会",
+      "tags_zh": [
+        "邻近空间"
+      ]
+    }
+  ]
 }
